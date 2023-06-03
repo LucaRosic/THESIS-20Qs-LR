@@ -1,0 +1,15 @@
+@prefix ex: <http://example.com/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Macaulay_Culkin rdf:type ex:Actor ;
+    ex:name "Macaulay Macaulay Culkin Culkin" ;
+    ex:birthDate "1980-08-26"^^xsd:date ;
+    ex:isKnownFor "Home Alone film series" ;
+    ex:rankedOnVH1 "2" ;
+    ex:nominatedFor "Golden Globe Award for Best Actor – Motion Picture Musical or Comedy" ;
+    ex:appearedIn "My Girl", "The Good Son", "The Nutcracker", "Getting Even with Dad", "The Pagemaster", "Richie Rich", "Party Monster", "American Horror Story: Double Feature" ;
+    ex:coFounded "the Pizza Underground" ;
+    ex:receivedAward "MTV Movie Award", "Young Artist Award" ;
+    ex:owns "Bunny Ears" .
+
