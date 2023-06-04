@@ -1,15 +1,90 @@
 @prefix ex: <http://example.com/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-ex:Macaulay_Culkin rdf:type ex:Actor ;
-    ex:name "Macaulay Macaulay Culkin Culkin" ;
-    ex:birthDate "1980-08-26"^^xsd:date ;
-    ex:isKnownFor "Home Alone film series" ;
-    ex:rankedOnVH1 "2" ;
-    ex:nominatedFor "Golden Globe Award for Best Actor – Motion Picture Musical or Comedy" ;
-    ex:appearedIn "My Girl", "The Good Son", "The Nutcracker", "Getting Even with Dad", "The Pagemaster", "Richie Rich", "Party Monster", "American Horror Story: Double Feature" ;
-    ex:coFounded "the Pizza Underground" ;
-    ex:receivedAward "MTV Movie Award", "Young Artist Award" ;
-    ex:owns "Bunny Ears" .
+ex:David_Bowie rdf:type ex:Person ;
+    ex:birthDate "1947-01-08"^^xsd:date ;
+    ex:deathDate "2016-01-10"^^xsd:date ;
+    ex:profession "singer-songwriter and actor" ;
+    ex:isKnownAs "David Bowie" ;
+    ex:hasInfluenceOn ex:musicians_20th_century ;
+    ex:hasCareer ex:career_musician ;
+    ex:hasEducation ex:education_art ;
+    ex:hasEducation ex:education_music ;
+    ex:hasEducation ex:education_design ;
+    ex:hasTopFiveEntry "Space Oddity" ;
+    ex:hasAlterEgo ex:Ziggy_Stardust ;
+    ex:hasSingle "Starman" ;
+    ex:hasAlbum ex:The_Rise_and_Fall_of_Ziggy_Stardust_and_the_Spiders_from_Mars ;
+    ex:hasStyle "plastic soul" ;
+    ex:hasNumberOneSingle "Fame" ;
+    ex:hasAlbum ex:Young_Americans ;
+    ex:hasFilmAppearance ex:The_Man_Who_Fell_to_Earth ;
+    ex:hasAlbum ex:Station_to_Station ;
+    ex:hasAlbum ex:Low ;
+    ex:hasAlbum ex:Heroes ;
+    ex:hasAlbum ex:Lodger ;
+    ex:hasNumberOneSingle "Ashes to Ashes" ;
+    ex:hasAlbum ex:Scary_Monsters_and_Super_Creeps ;
+    ex:hasCollaboration ex:Under_Pressure ;
+    ex:hasAlbum ex:Let's_Dance ;
+    ex:hasBand ex:Tin_Machine ;
+    ex:hasAlbum ex:The_Next_Day ;
+    ex:hasFinalAlbum ex:Blackstar ;
+    ex:hasRecordSales "100 million"^^xsd:integer ;
+    ex:hasCertification ex:platinum ;
+    ex:hasCertification ex:gold ;
+    ex:hasCertification ex:silver ;
+    ex:hasNumberOneAlbum "11"^^xsd:integer ;
+    ex:hasPlatinumCertification "10"^^xsd:integer ;
+    ex:hasGoldCertification "11"^^xsd:integer ;
+    ex:hasSilverCertification "8"^^xsd:integer ;
+    ex:isInductedInto ex:Rock_and_Roll_Hall_of_Fame ;
+    ex:isRankedAmong ex:greatest_artists_in_history ;
+    ex:isBestSellingVinylArtist "true"^^xsd:boolean . 
 
+ex:musicians_20th_century rdf:type ex:Musicians .
+ex:career_musician rdf:type ex:Career .
+ex:education_art rdf:type ex:Education ;
+    rdfs:label "Art" .
+ex:education_music rdf:type ex:Education ;
+    rdfs:label "Music" .
+ex:education_design rdf:type ex:Education ;
+    rdfs:label "Design" .
+ex:Ziggy_Stardust rdf:type ex:Alter_Ego ;
+    rdfs:label "Ziggy Stardust" .
+ex:The_Rise_and_Fall_of_Ziggy_Stardust_and_the_Spiders_from_Mars rdf:type ex:Album ;
+    rdfs:label "The Rise and Fall of Ziggy Stardust and the Spiders from Mars" .
+ex:Young_Americans rdf:type ex:Album ;
+    rdfs:label "Young Americans" .
+ex:Station_to_Station rdf:type ex:Album ;
+    rdfs:label "Station to Station" .
+ex:Low rdf:type ex:Album ;
+    rdfs:label "Low" .
+ex:Heroes rdf:type ex:Album ;
+    rdfs:label "Heroes" .
+ex:Lodger rdf:type ex:Album ;
+    rdfs:label "Lodger" .
+ex:Scary_Monsters_and_Super_Creeps rdf:type ex:Album ;
+    rdfs:label "Scary Monsters (and Super Creeps)" .
+ex:Let's_Dance rdf:type ex:Album ;
+    rdfs:label "Let's Dance" .
+ex:The_Next_Day rdf:type ex:Album ;
+    rdfs:label "The Next Day" .
+ex:Blackstar rdf:type ex:Album ;
+    rdfs:label "Blackstar" .
+ex:Tin_Machine rdf:type ex:Band ;
+    rdfs:label "Tin Machine" .
+ex:Under_Pressure rdf:type ex:Collaboration ;
+    rdfs:label "Under Pressure" .
+ex:Rock_and_Roll_Hall_of_Fame rdf:type ex:Hall_of_Fame ;
+    rdfs:label "Rock and Roll Hall of Fame" .
+ex:greatest_artists_in_history rdf:type ex:Ranking ;
+    rdfs:label "Greatest Artists in History" .
+ex:platinum rdf:type ex:Certification ;
+    rdfs:label "Platinum" .
+ex:gold rdf:type ex:Certification ;
+    rdfs:label "Gold" .
+ex:silver rdf:type ex:Certification ;
+    rdfs:label "Silver" .
