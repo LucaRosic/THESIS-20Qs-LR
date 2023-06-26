@@ -1,0 +1,3383 @@
+,Subject,1: Temp 0.6,2: Temp 0.6,3: Temp 0.6,4: Temp 0.6,5: Temp 0.6
+0,Myanmar,"@prefix ex: <http://example.com/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Myanmar rdf:type ex:Country ;
+    ex:officialName ""Republic of the Union of Myanmar""^^xsd:string ;
+    ex:formerName ""Burma""^^xsd:string ;
+    ex:locatedIn ex:SoutheastAsia ;
+    ex:hasCapital ex:Naypyidaw ;
+    ex:hasLargestCity ex:Yangon ;
+    ex:hasBorderWith ex:Bangladesh, ex:India, ex:China, ex:Laos, ex:Thailand ;
+    ex:hasCoastlineWith ex:AndamanSea, ex:BayOfBengal ;
+    ex:hasPopulation ""54000000""^^xsd:integer ;
+    ex:hasArea ""676578""^^xsd:integer ;
+    ex:hasLanguage ex:Burmese ;
+    ex:hasReligion ex:TheravadaBuddhism ;
+    ex:hasHistory [
+        ex:included [
+            ex:PyuCityStates ;
+            ex:UpperMyanmar
+        ] ;
+        ex:included [
+            ex:MonKingdoms ;
+            ex:LowerMyanmar
+        ] ;
+        ex:entered ex:UpperIrrawaddyValley ;
+        ex:established ex:PaganKingdom
+    ] ;
+    ex:hasGovernment [
+        ex:ruledBy ex:TaungooDynasty ;
+        ex:ruledOver [
+            ex:included ex:ModernMyanmar ;
+            ex:controlled [
+                ex:included ex:Manipur ;
+                ex:included ex:Assam
+            ]
+        ] ;
+        ex:colonizedBy ex:BritishEmpire ;
+        ex:controlledBy ex:BurmaSocialistProgrammeParty ;
+        ex:transitionedTo ex:NominallyCivilianGovernment
+    ] ;
+    ex:hasEconomy [
+        ex:hasNaturalResources [
+            ex:hasMinerals [
+                ex:included ex:Jade ;
+                ex:included ex:Gems ;
+                ex:included ex:Oil ;
+                ex:included ex:NaturalGas ;
+                ex:included ex:Teak
+            ] ;
+            ex:hasRenewableEnergy ""Yes""^^xsd:boolean ;
+            ex:hasSolarPowerPotential ""Highest in Great Mekong Subregion""^^xsd:string
+        ] ;
+        ex:hasGDP [
+            ex:nominal ""56.7 billion USD""^^xsd:string ;
+            ex:PPP ""221.5 billion USD""^^xsd:string
+        ] ;
+        ex:hasIncomeGap ""Among the widest in the world""^^xsd:string ;
+        ex:controlledByMilitaryJunta ""Yes""^^xsd:boolean
+    ] ;
+    ex:hasHumanDevelopmentIndex ""147""^^xsd:integer .","@prefix ex: <http://example.com/> .
+
+ex:Myanmar ex:officialName ""Republic of the Union of Myanmar"" ;
+    ex:commonName ""Burma"" ;
+    ex:location ""Southeast Asia"" ;
+    ex:largestCountryIn ""Mainland Southeast Asia"" ;
+    ex:population ""54 million"" ;
+    ex:yearOfPopulation ""2017"" ;
+    ex:capitalCity ""Naypyidaw"" ;
+    ex:largestCity ""Yangon"" ;
+    ex:earlyCivilisations ""Tibeto-Burman-speaking Pyu city-states"" ;
+    ex:earlyCivilisations ""Mon kingdoms"" ;
+    ex:dominantCulture ""Burmese"" ;
+    ex:dominantReligion ""Theravada Buddhism"" ;
+    ex:fallOfPaganKingdom ""Mongol invasions"" ;
+    ex:reunifiedBy ""Taungoo dynasty"" ;
+    ex:largestEmpireIn ""Southeast Asia"" ;
+    ex:konbaungDynasty ""ruled over modern Myanmar"" ;
+    ex:konbaungDynasty ""briefly controlled Manipur and Assam"" ;
+    ex:britishColony ""after three Anglo-Burmese Wars"" ;
+    ex:independenceYear ""1948"" ;
+    ex:militaryDictatorship ""under the Burma Socialist Programme Party"" ;
+    ex:humanRightsViolations ""consistent and systemic"" ;
+    ex:disputedElection ""2020 Myanmar general election"" ;
+    ex:winningParty ""Aung San Suu Kyi's party"" ;
+    ex:coup ""seized power in a coup d'état"" ;
+    ex:widespreadProtests ""continuous ongoing widespread protests"" ;
+    ex:politicalRepression ""by the military"" ;
+    ex:arrested ""Aung San Suu Kyi"" ;
+    ex:memberOf ""East Asia Summit"" ;
+    ex:memberOf ""Non-Aligned Movement"" ;
+    ex:memberOf ""ASEAN"" ;
+    ex:memberOf ""BIMSTEC"" ;
+    ex:richIn ""natural resources"" ;
+    ex:richIn ""renewable energy"" ;
+    ex:sufferedFrom ""instability"" ;
+    ex:sufferedFrom ""factional violence"" ;
+    ex:sufferedFrom ""corruption"" ;
+    ex:sufferedFrom ""poor infrastructure"" ;
+    ex:colonialExploitation ""with little regard to human development"" ;
+    ex:GDPnominal ""US$56.7 billion"" ;
+    ex:GDPppp ""US$221.5 billion"" ;
+    ex:incomeGap ""among the widest in the world"" ;
+    ex:controlledBy ""cronies of the military junta"" ;
+    ex:humanDevelopmentIndexRank ""147"" ;
+    ex:humanDevelopmentIndexOutOf ""189 countries"" ;
+    ex:displacedPeople ""more than 600,000 people"" ;
+    ex:surgeInViolence ""post-coup"" ;
+    ex:peopleInNeedOf ""humanitarian assistance"" ;
+    ex:numberOfPeopleInNeedOf ""more than 3 million people"" ;
+    ex:isBorderedBy ""Bangladesh"" ;
+    ex:isBorderedBy ""India"" ;
+    ex:isBorderedBy ""China"" ;
+    ex:isBorderedBy ""Laos"" ;
+    ex:isBorderedBy ""Thailand"" ;
+    ex:isBorderedBy ""Andaman Sea"" ;
+    ex:isBorderedBy ""Bay of Bengal"" ;
+    ex:hasHighestSolarPowerPotential ""compared to other countries of the Great Mekong Subregion"" .","@prefix ex: <http://example.com/> .
+
+ex:Myanmar a ex:Country ;
+    ex:officialName ""Republic of the Union of Myanmar"" ;
+    ex:formerName ""Burma"" ;
+    ex:locatedIn ex:SoutheastAsia ;
+    ex:hasArea ""676,578 km2"" ;
+    ex:hasPopulation ""54 million"" ;
+    ex:hasCapital ex:Naypyidaw ;
+    ex:largestCity ex:Yangon ;
+    ex:hasBorderWith ex:Bangladesh, ex:India, ex:China, ex:Laos, ex:Thailand ;
+    ex:hasCoastlineWith ex:AndamanSea, ex:BayOfBengal ;
+    ex:hasLanguage ""Burmese"" ;
+    ex:hasReligion ex:TheravadaBuddhism ;
+    ex:hasHistoricalEvent ex:PaganKingdom, ex:BritishColonization, ex:JapaneseOccupation, ex:Independence, ex:MilitaryDictatorship, ex:NLDWin, ex:Coup ;
+    ex:hasResource ex:Jade, ex:Gems, ex:Oil, ex:NaturalGas, ex:Teak, ex:RenewableEnergy ;
+    ex:hasGDP ""US$56.7 billion"" ;
+    ex:hasGDPPPP ""US$221.5 billion"" ;
+    ex:hasHDI ""147 out of 189 countries"" ;
+    ex:hasDisplacedPopulation ""600,000"" ;
+    ex:hasPopulationInNeed ""3 million"" .
+
+ex:SoutheastAsia a ex:Region .
+
+ex:Naypyidaw a ex:CapitalCity .
+
+ex:Yangon a ex:City .
+
+ex:Bangladesh a ex:Country .
+
+ex:India a ex:Country .
+
+ex:China a ex:Country .
+
+ex:Laos a ex:Country .
+
+ex:Thailand a ex:Country .
+
+ex:AndamanSea a ex:Sea .
+
+ex:BayOfBengal a ex:Sea .
+
+ex:TheravadaBuddhism a ex:Religion .
+
+ex:PaganKingdom a ex:HistoricalEvent .
+
+ex:BritishColonization a ex:HistoricalEvent .
+
+ex:JapaneseOccupation a ex:HistoricalEvent .
+
+ex:Independence a ex:HistoricalEvent .
+
+ex:MilitaryDictatorship a ex:HistoricalEvent .
+
+ex:NLDWin a ex:HistoricalEvent .
+
+ex:Coup a ex:HistoricalEvent .
+
+ex:Jade a ex:NaturalResource .
+
+ex:Gems a ex:NaturalResource .
+
+ex:Oil a ex:NaturalResource .
+
+ex:NaturalGas a ex:NaturalResource .
+
+ex:Teak a ex:NaturalResource .
+
+ex:RenewableEnergy a ex:NaturalResource .
+
+ex:Country a rdfs:Class .
+
+ex:Region a rdfs:Class .
+
+ex:City a rdfs:Class .
+
+ex:CapitalCity a rdfs:Class .
+
+ex:Sea a rdfs:Class .
+
+ex:Religion a rdfs:Class .
+
+ex:HistoricalEvent a rdfs:Class .
+
+ex:NaturalResource a rdfs:Class .","@prefix ex: <http://example.com/> .
+
+ex:Myanmar ex:officialName ""Republic of the Union of Myanmar"" ;
+    ex:alsoKnownAs ""Burma"" ;
+    ex:area ""676578"" ;
+    ex:population ""54000000"" ;
+    ex:capital ex:Naypyidaw ;
+    ex:largestCity ex:Yangon ;
+    ex:language ""Burmese"" ;
+    ex:religion ""Theravada Buddhism"" ;
+    ex:historicalEvent ""British colonization"" ;
+    ex:historicalEvent ""Independence from British Empire in 1948"" ;
+    ex:historicalEvent ""Military dictatorship under the Burma Socialist Programme Party"" ;
+    ex:historicalEvent ""Dissolution of military junta in 2011"" ;
+    ex:historicalEvent ""2020 Myanmar general election"" ;
+    ex:memberOf ex:EastAsiaSummit ;
+    ex:memberOf ex:NonAlignedMovement ;
+    ex:memberOf ex:ASEAN ;
+    ex:memberOf ex:BIMSTEC ;
+    ex:richIn ""jade"" ;
+    ex:richIn ""gems"" ;
+    ex:richIn ""oil"" ;
+    ex:richIn ""natural gas"" ;
+    ex:richIn ""teak"" ;
+    ex:richIn ""renewable energy"" ;
+    ex:solarPowerPotential ""highest"" ;
+    ex:GDPnominal ""56.7 billion USD"" ;
+    ex:GDPppp ""221.5 billion USD"" ;
+    ex:humanDevelopmentIndex ""147"" .
+
+ex:Myanmar ex:isBorderedBy ex:Bangladesh ;
+    ex:isBorderedBy ex:India ;
+    ex:isBorderedBy ex:China ;
+    ex:isBorderedBy ex:Laos ;
+    ex:isBorderedBy ex:Thailand ;
+    ex:isBorderedBy ex:AndamanSea ;
+    ex:isBorderedBy ex:BayOfBengal .
+
+ex:UpperMyanmar ex:wasInhabitedBy ex:PyuCityStates .
+ex:LowerMyanmar ex:wasInhabitedBy ex:MonKingdoms .
+ex:UpperIrrawaddyValley ex:wasInhabitedBy ex:BamarPeople .
+ex:PaganKingdom ex:wasEstablishedIn ""1050s"" ;
+    ex:wasLocatedIn ex:UpperMyanmar ;
+    ex:wasInfluencedBy ex:BurmeseCulture ;
+    ex:wasInfluencedBy ex:TheravadaBuddhism .
+ex:MongolEmpire ex:invaded ex:PaganKingdom .
+ex:TaungooDynasty ex:reunified ex:Myanmar .
+ex:KonbaungDynasty ex:ruledOver ex:Myanmar ;
+    ex:controlled ex:Manipur ;
+    ex:controlled ex:Assam .
+ex:BritishEastIndiaCompany ex:seizedControlOf ex:Myanmar .
+ex:JapaneseEmpire ex:occupied ex:Myanmar .
+ex:Allies ex:reconquered ex:Myanmar .
+ex:AungSanSuuKyi ex:wasArrested .
+ex:RohingyaConflict ex:condemnedBy ""international organizations and many nations"" .","@prefix ex: <http://example.com/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Myanmar a ex:Country ;
+    ex:officialName ""Republic of the Union of Myanmar"" ;
+    ex:commonName ""Burma"" ;
+    ex:area ""676578""^^xsd:integer ;
+    ex:population ""54000000""^^xsd:integer ;
+    ex:capital ex:Naypyidaw ;
+    ex:largestCity ex:Yangon ;
+    ex:locatedIn ex:SoutheastAsia ;
+    ex:sharesBorderWith ex:Bangladesh, ex:India, ex:China, ex:Laos, ex:Thailand ;
+    ex:bodyOfWater ex:AndamanSea, ex:BayOfBengal ;
+    ex:language ""Burmese"" ;
+    ex:religion ""Theravada Buddhism"" ;
+    ex:historicalEvent ex:PaganKingdom, ex:BritishColonization, ex:Independence, ex:MilitaryDictatorship, ex:2010Election, ex:2020Coup ;
+    ex:humanRightsViolations true ;
+    ex:richIn ""jade, gems, oil, natural gas, teak and other minerals"" ;
+    ex:solarPowerPotential true ;
+    ex:GDP_nominal ""56.7 billion""^^xsd:float ;
+    ex:GDP_PPP ""221.5 billion""^^xsd:float ;
+    ex:incomeGap ""wide"" ;
+    ex:humanDevelopmentIndex ""147""^^xsd:integer ;
+    ex:displacedPopulation ""600000""^^xsd:integer ;
+    ex:inNeedOfHumanitarianAssistance ""3000000""^^xsd:integer .
+
+ex:Naypyidaw a ex:City ;
+    ex:isCapitalOf ex:Myanmar .
+
+ex:Yangon a ex:City ;
+    ex:isLargestCityOf ex:Myanmar .
+
+ex:PaganKingdom a ex:HistoricalEvent ;
+    ex:establishedIn ""1050s""^^xsd:integer ;
+    ex:fallenTo ""Mongol invasions"" .
+
+ex:BritishColonization a ex:HistoricalEvent ;
+    ex:seizedControlOf ""Myanmar"" ;
+    ex:duration ""1824-1948"" .
+
+ex:Independence a ex:HistoricalEvent ;
+    ex:gainedIndependenceFrom ""British Empire"" ;
+    ex:date ""1948""^^xsd:integer .
+
+ex:MilitaryDictatorship a ex:HistoricalEvent ;
+    ex:establishedBy ""Burma Socialist Programme Party"" ;
+    ex:duration ""1962-2011"" .
+
+ex:2010Election a ex:HistoricalEvent ;
+    ex:dissolvedMilitaryJunta true .
+
+ex:2020Coup a ex:HistoricalEvent ;
+    ex:seizedPower true ;
+    ex:condemnedBy ""international community"" .
+
+ex:RohingyaConflict a ex:Conflict ;
+    ex:condemnedBy ""international organizations and many nations"" ."
+1,Germany,"@prefix ex: <http://example.com/> .
+
+ex:Germany ex:name ""Germany"" .
+ex:Germany ex:officialName ""Federal Republic of Germany"" .
+ex:Germany ex:population ""84000000"" .
+ex:Germany ex:area ""357022"" .
+ex:Germany ex:capital ""Berlin"" .
+ex:Germany ex:largestCity ""Ruhr"" .
+ex:Germany ex:location ""Central Europe"" .
+ex:Germany ex:language ""German"" .
+ex:Germany ex:governmentType ""Federal parliamentary republic"" .
+ex:Germany ex:leaderTitle ""Chancellor"" .
+ex:Germany ex:leaderName ""Angela Merkel"" .
+ex:Germany ex:currency ""Euro"" .
+ex:Germany ex:economicRank ""4"" .
+ex:Germany ex:peaceIndexRank ""16"" .
+ex:Germany ex:UNMember true .
+ex:Germany ex:EUMember true .
+ex:Germany ex:NATOMember true .
+ex:Germany ex:G7Member true .
+ex:Germany ex:G20Member true .
+ex:Germany ex:OECDMember true .
+ex:Germany ex:UNESCOHeritageSiteCount ""3"" .
+ex:Germany ex:hasBorderWith ex:Denmark, ex:Poland, ex:Czech_Republic, ex:Austria, ex:Switzerland, ex:France, ex:Luxembourg, ex:Belgium, ex:Netherlands .
+ex:Germany ex:historicalPeriod ""Holy Roman Empire"" .
+ex:Germany ex:historicalPeriod ""Protestant Reformation"" .
+ex:Germany ex:historicalPeriod ""German Confederation"" .
+ex:Germany ex:historicalPeriod ""Weimar Republic"" .
+ex:Germany ex:historicalPeriod ""Nazi Germany"" .
+ex:Germany ex:historicalPeriod ""Allied occupation"" .
+ex:Germany ex:historicalPeriod ""German reunification"" .","@prefix ex: <http://example.com/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Germany rdf:type ex:Country ;
+    ex:name ""Germany""@en ;
+    ex:officialName ""Federal Republic of Germany""@en ;
+    ex:population ""84000000""^^xsd:integer ;
+    ex:area ""357022""^^xsd:integer ;
+    ex:capital ex:Berlin ;
+    ex:financialCentre ex:Frankfurt ;
+    ex:largestUrbanArea ""Ruhr""@en ;
+    ex:location [
+        ex:cardinalDirection ""north"" ;
+        ex:sea ex:BalticSea, ex:NorthSea ;
+        ex:mountain ex:Alps
+    ] ;
+    ex:hasNeighbour ex:Denmark, ex:Poland, ex:CzechRepublic, ex:Austria, ex:Switzerland, ex:France, ex:Luxembourg, ex:Belgium, ex:Netherlands ;
+    ex:historicalPeriod [
+        ex:name ""Holy Roman Empire"" ;
+        ex:startDate ""962-01-01""^^xsd:date ;
+        ex:endDate ""1806-08-06""^^xsd:date
+    ], [
+        ex:name ""German Confederation"" ;
+        ex:startDate ""1815-06-08""^^xsd:date ;
+        ex:endDate ""1866-08-18""^^xsd:date
+    ], [
+        ex:name ""North German Confederation"" ;
+        ex:startDate ""1866-08-18""^^xsd:date ;
+        ex:endDate ""1871-01-18""^^xsd:date
+    ], [
+        ex:name ""German Empire"" ;
+        ex:startDate ""1871-01-18""^^xsd:date ;
+        ex:endDate ""1918-11-09""^^xsd:date
+    ], [
+        ex:name ""Weimar Republic"" ;
+        ex:startDate ""1918-11-09""^^xsd:date ;
+        ex:endDate ""1933-01-30""^^xsd:date
+    ], [
+        ex:name ""Nazi Germany"" ;
+        ex:startDate ""1933-01-30""^^xsd:date ;
+        ex:endDate ""1945-05-08""^^xsd:date
+    ], [
+        ex:name ""Allied-occupied Germany"" ;
+        ex:startDate ""1945-05-08""^^xsd:date ;
+        ex:endDate ""1949-10-07""^^xsd:date
+    ], [
+        ex:name ""Federal Republic of Germany"" ;
+        ex:startDate ""1949-10-07""^^xsd:date
+    ] ;
+    ex:membership [
+        ex:organization ex:EuropeanEconomicCommunity ;
+        ex:status ""founding member""
+    ], [
+        ex:organization ex:EuropeanUnion ;
+        ex:status ""member""
+    ], [
+        ex:organization ex:NATO ;
+        ex:status ""member""
+    ], [
+        ex:organization ex:CouncilOfEurope ;
+        ex:status ""member""
+    ], [
+        ex:organization ex:G7 ;
+        ex:status ""member""
+    ], [
+        ex:organization ex:G20 ;
+        ex:status ""member""
+    ], [
+        ex:organization ex:OECD ;
+        ex:status ""member""
+    ] ;
+    ex:economy [
+        ex:gdpNominal ""4.2 trillion""^^xsd:float ;
+        ex:gdpPPP ""4.2 trillion""^^xsd:float ;
+        ex:rank ""4""^^xsd:integer ;
+        ex:sector ""industrial, scientific and technological sectors""
+    ] ;
+    ex:humanDevelopment [
+        ex:index ""0.947""^^xsd:float ;
+        ex:rank ""9""^^xsd:integer
+    ] ;
+    ex:peace [
+        ex:index ""1.524""^^xsd:float ;
+        ex:rank ""16""^^xsd:integer
+    ] ;
+    ex:heritageSite [
+        ex:number ""46""^^xsd:integer ;
+        ex:organization ex:UNESCO
+    ] . 
+
+ex:Berlin rdf:type ex:City ;
+    ex:name ""Berlin""@en .
+
+ex:Frankfurt rdf:type ex:City ;
+    ex:name ""Frankfurt""@en .
+
+ex:Ruhr rdf:type ex:UrbanArea ;
+    ex:name ""Ruhr""@en .
+
+ex:BalticSea rdf:type ex:Sea ;
+    ex:name ""Baltic Sea""@en .
+
+ex:NorthSea rdf:type ex:Sea ;
+    ex:name ""North Sea""@en .
+
+ex:Alps rdf:type ex:MountainRange ;
+    ex:name ""Alps""@en .
+
+ex:Denmark rdf:type ex:Country ;
+    ex:name ""Denmark""@en .
+
+ex:Poland rdf:type ex:Country ;
+    ex:name ""Poland""@en .
+
+ex:CzechRepublic rdf:type ex:Country ;
+    ex:name ""Czech Republic""@en .
+
+ex:Austria rdf:type ex:Country ;
+    ex:name ""Austria""@en .
+
+ex:Switzerland rdf:type ex:Country ;
+    ex:name ""Switzerland""@en .
+
+ex:France rdf:type ex:Country ;
+    ex:name ""France""@en .
+
+ex:Luxembourg rdf:type ex:Country ;
+    ex:name ""Luxembourg""@en .
+
+ex:Belgium rdf:type ex:Country ;
+    ex:name ""Belgium""@en .
+
+ex:Netherlands rdf:type ex:Country ;
+    ex:name ""Netherlands""@en .
+
+ex:EuropeanEconomicCommunity rdf:type ex:Organization ;
+    ex:name ""European Economic Community""@en .
+
+ex:EuropeanUnion rdf:type ex:Organization ;
+    ex:name ""European Union""@en .
+
+ex:NATO rdf:type ex:Organization ;
+    ex:name ""NATO""@en .
+
+ex:CouncilOfEurope rdf:type ex:Organization ;
+    ex:name ""Council of Europe""@en .
+
+ex:G7 rdf:type ex:Organization ;
+    ex:name ""G7""@en .
+
+ex:G20 rdf:type ex:Organization ;
+    ex:name ""G20""@en .
+
+ex:OECD rdf:type ex:Organization ;
+    ex:name ""OECD""@en .
+
+ex:UNESCO rdf:type ex:Organization ;
+    ex:name ""UNESCO""@en .","@prefix ex: <http://example.org/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Germany rdf:type ex:Country ;
+    ex:officialName ""Federal Republic of Germany"" ;
+    ex:capital ex:Berlin ;
+    ex:largestCity ex:Ruhr ;
+    ex:area ""357022""^^xsd:integer ;
+    ex:areaUnit ""sq km"" ;
+    ex:population ""84000000""^^xsd:integer ;
+    ex:region ex:CentralEurope ;
+    ex:neighbor ex:Denmark ;
+    ex:neighbor ex:Poland ;
+    ex:neighbor ex:CzechRepublic ;
+    ex:neighbor ex:Austria ;
+    ex:neighbor ex:Switzerland ;
+    ex:neighbor ex:France ;
+    ex:neighbor ex:Luxembourg ;
+    ex:neighbor ex:Belgium ;
+    ex:neighbor ex:Netherlands ;
+    ex:foundedBy ex:GermanicTribes ;
+    ex:foundedYear ""100""^^xsd:integer ;
+    ex:foundedIn ex:Germania ;
+    ex:foundedDate ""before AD 100"" ;
+    ex:unificationStarted ""18 August 1866"" ;
+    ex:unificationTreaty ex:NorthGermanConfederationTreaty ;
+    ex:unificationCompleted ""1871"" ;
+    ex:republicType ex:FederalParliamentaryRepublic ;
+    ex:constitution ex:WeimarRepublic ;
+    ex:totalitarianRegime ex:Nazi ;
+    ex:totalitarianYear ""1933""^^xsd:integer ;
+    ex:totalitarianEnd ""1945"" ;
+    ex:occupation ex:AlliedPowers ;
+    ex:division ex:EastGermany ;
+    ex:reunificationDate ""3 October 1990"" ;
+    ex:economicSystem ex:Capitalism ;
+    ex:grossDomesticProduct ""3.9 trillion""^^xsd:decimal ;
+    ex:gdpRank ""4""^^xsd:integer ;
+    ex:gdpRankType ""nominal"" ;
+    ex:gdpRankPPP ""5""^^xsd:integer ;
+    ex:gdpRankPPPType ""PPP"" ;
+    ex:exportRank ""3""^^xsd:integer ;
+    ex:importRank ""3""^^xsd:integer ;
+    ex:humanDevelopmentIndexRank ""9""^^xsd:integer ;
+    ex:socialSecurity ""true""^^xsd:boolean ;
+    ex:healthCareSystem ""universal"" ;
+    ex:environmentalProtection ""true""^^xsd:boolean ;
+    ex:educationSystem ""tuition-free"" ;
+    ex:peaceIndexRank ""16""^^xsd:integer ;
+    ex:memberOf ex:UnitedNations ;
+    ex:memberOf ex:EuropeanUnion ;
+    ex:memberOf ex:NATO ;
+    ex:memberOf ex:CouncilOfEurope ;
+    ex:memberOf ex:G7 ;
+    ex:memberOf ex:G20 ;
+    ex:memberOf ex:OECD ;
+    ex:numberOfHeritageSites ""3""^^xsd:integer ;
+    ex:heritageSites ex:UNESCO .","@prefix ex: <http://example.com/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+ex:Germany rdf:type ex:Country .
+ex:Germany rdfs:label ""Germany""@en .
+ex:Germany rdfs:comment ""Germany is a country in Central Europe.""@en .
+ex:Germany ex:officialName ""Federal Republic of Germany""@en .
+ex:Germany ex:populationSize ""84000000""^^xsd:integer .
+ex:Germany ex:areaSize ""357022""^^xsd:integer .
+ex:Germany ex:hasCapital ex:Berlin .
+ex:Germany ex:hasLargestCity ex:Ruhr .
+ex:Germany ex:hasBorderWith ex:Denmark , ex:Poland , ex:Czech_Republic , ex:Austria , ex:Switzerland , ex:France , ex:Luxembourg , ex:Belgium , ex:Netherlands .
+ex:Germany ex:hasHistoricalPeriod ex:Holy_Roman_Empire , ex:Protestant_Reformation , ex:German_Confederation , ex:Weimar_Republic , ex:World_War_II , ex:Cold_War , ex:German_reunification .
+ex:Germany ex:hasEconomicIndicator ex:Largest_economy_in_Europe , ex:Fourth_largest_economy_by_nominal_GDP , ex:Fifth_largest_economy_by_PPP , ex:Third_largest_exporter , ex:Third_largest_importer .
+ex:Germany ex:hasSocialIndicator ex:Universal_health_care_system , ex:Environmental_protections , ex:Tuition-free_university_education , ex:Ranked_sixteenth_most_peaceful_country_in_the_world .
+ex:Germany ex:hasMembership ex:United_Nations , ex:European_Union , ex:NATO , ex:Council_of_Europe , ex:G7 , ex:G20 , ex:OECD .
+ex:Germany ex:hasNumberOfUNESCOWorldHeritageSites ""46""^^xsd:integer .","@prefix ex: <http://example.com/> .
+
+ex:Germany a ex:Country ;
+    ex:name ""Germany"" ;
+    ex:officialName ""Federal Republic of Germany"" ;
+    ex:population ""84000000""^^xsd:integer ;
+    ex:area ""357022""^^xsd:integer ;
+    ex:capital ex:Berlin ;
+    ex:financialCentre ex:Frankfurt ;
+    ex:largestUrbanArea ""Ruhr"" ;
+    ex:hasBorderWith ex:Denmark, ex:Poland, ex:Czech_Republic, ex:Austria, ex:Switzerland, ex:France, ex:Luxembourg, ex:Belgium, ex:Netherlands ;
+    ex:historicalPeriod ""Classical Antiquity"" ;
+    ex:historicalRegion ""Germania"" ;
+    ex:historicalPeriod ""16th Century"" ;
+    ex:event ""Protestant Reformation"" ;
+    ex:historicalPeriod ""Napoleonic Wars"" ;
+    ex:historicalPeriod ""1806"" ;
+    ex:hasFormed ex:German_Confederation ;
+    ex:historicalPeriod ""1815"" ;
+    ex:hasFormed ex:North_German_Confederation ;
+    ex:historicalPeriod ""1866"" ;
+    ex:hasFormed ex:German_Empire ;
+    ex:historicalPeriod ""1918-1919"" ;
+    ex:hasFormed ex:Weimar_Republic ;
+    ex:historicalPeriod ""1933"" ;
+    ex:event ""Nazi seizure of power"" ;
+    ex:historicalPeriod ""World War II"" ;
+    ex:event ""Holocaust"" ;
+    ex:hasFormed ex:Federal_Republic_of_Germany ;
+    ex:historicalPeriod ""1990"" ;
+    ex:hasFormed ex:German_reunification ;
+    ex:economicStatus ""Great power"" ;
+    ex:hasEconomy ex:Largest_economy_in_Europe ;
+    ex:hasEconomy ex:Fourth_largest_economy_by_nominal_GDP ;
+    ex:hasEconomy ex:Fifth_largest_economy_by_PPP ;
+    ex:hasIndustry ex:Industrial_sector ;
+    ex:hasIndustry ex:Scientific_sector ;
+    ex:hasIndustry ex:Technological_sector ;
+    ex:exporterRank ""Third"" ;
+    ex:importerRank ""Third"" ;
+    ex:hasSocialSecurity ""Yes"" ;
+    ex:hasHealthCareSystem ""Universal"" ;
+    ex:hasEnvironmentalProtection ""Yes"" ;
+    ex:hasFreeEducation ""Yes"" ;
+    ex:peaceIndexRank ""16"" ;
+    ex:isMemberOf ex:United_Nations ;
+    ex:isMemberOf ex:European_Union ;
+    ex:isMemberOf ex:NATO ;
+    ex:isMemberOf ex:Council_of_Europe ;
+    ex:isMemberOf ex:G7 ;
+    ex:isMemberOf ex:G20 ;
+    ex:isMemberOf ex:OECD ;
+    ex:hasWorldHeritageSites ""Yes"" ."
+2,Russia,"@prefix ex: <http://example.com/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Russia rdf:type ex:Country ;
+    ex:name ""Russia""@en ;
+    ex:officialName ""Russian Federation""@en ;
+    ex:capital ex:Moscow ;
+    ex:largestCity ex:Saint_Petersburg ;
+    ex:population ""146000000""^^xsd:integer ;
+    ex:area ""17098246""^^xsd:integer ;
+    ex:timeZone ""UTC+2 to +12"" ;
+    ex:landBoundaryWith ex:China, ex:Norway, ex:Finland, ex:Estonia, ex:Latvia, ex:Lithuania, ex:Poland, ex:Belarus, ex:Ukraine, ex:Georgia, ex:Azerbaijan, ex:Kazakhstan, ex:Mongolia, ex:North_Korea ;
+    ex:rankInPopulation ""9""^^xsd:integer ;
+    ex:rankInArea ""1""^^xsd:integer ;
+    ex:rankInGDPNominal ""9""^^xsd:integer ;
+    ex:rankInGDPPP ""6""^^xsd:integer ;
+    ex:hasWorldHeritageSite ex:Kremlin_and_Red_Square, ex:Historic_Monuments_of_Novgorod_and_Surroundings, ex:Kizhi_Pogost, ex:Historic_and_Architectural_Complex_of_the_Kremlin_of_Kazan, ex:White_Monuments_of_Vladimir_and_Suzdal, ex:Church_of_the_Ascension, ex:Suzdal, ex:Trinity-Sergius_Monastery, ex:Church_of_the_Savior_on_Blood, ex:Saint_Petersburg, ex:Historic_Centre_of_Saint_Petersburg_and_Related_Groups_of_Monuments, ex:Kamchatka_Volcanoes, ex:Golden_Mountains_of_Altai, ex:Western_Caucasus, ex:Uvs_Nuur_Basin, ex:Central_Sikhote-Alin, ex:Volcanoes_of_Kamchatka, ex:Wrangel_Island, ex:Curonian_Spit, ex:Historic_Monuments_of_Novgorod_and_Surroundings, ex:Uvs_Nuur_Basin, ex:Bolgar_Historical_and_Archaeological_Complex, ex:Ensemble_of_the_Ferrapontov_Monastery ;
+    ex:hasOfficialLanguage ex:Russian ;
+    ex:hasReligion ex:Russian_Orthodox_Church ;
+    ex:hasGovernmentType ex:Semi-presidential_federal_republic ;
+    ex:hasLeader ex:Vladimir_Putin ;
+    ex:hasCurrency ex:Russian_ruble ;
+    ex:hasNationalAnimal ex:Brown_bear ;
+    ex:hasNationalBird ex:Double-headed_eagle ;
+    ex:hasNationalFlower ex:Chamomile ;
+    ex:hasNationalTree ex:Oak .
+
+ex:Moscow rdf:type ex:City ;
+    ex:name ""Moscow""@en ;
+    ex:isCapitalOf ex:Russia .
+
+ex:Saint_Petersburg rdf:type ex:City ;
+    ex:name ""Saint Petersburg""@en ;
+    ex:isLargestCityOf ex:Russia .
+
+ex:Kremlin_and_Red_Square rdf:type ex:WorldHeritageSite ;
+    ex:name ""Kremlin and Red Square, Moscow""@en .
+
+ex:Historic_Monuments_of_Novgorod_and_Surroundings rdf:type ex:WorldHeritageSite ;
+    ex:name ""Historic Monuments of Novgorod and Surroundings""@en .
+
+ex:Kizhi_Pogost rdf:type ex:WorldHeritageSite ;
+    ex:name ""Kizhi Pogost""@en .
+
+ex:Historic_and_Architectural_Complex_of_the_Kremlin_of_Kazan rdf:type ex:WorldHeritageSite ;
+    ex:name ""Historic and Architectural Complex of the Kremlin of Kazan""@en .
+
+ex:White_Monuments_of_Vladimir_and_Suzdal rdf:type ex:WorldHeritageSite ;
+    ex:name ""White Monuments of Vladimir and Suzdal""@en .
+
+ex:Church_of_the_Ascension rdf:type ex:WorldHeritageSite ;
+    ex:name ""Church of the Ascension""@en .
+
+ex:Suzdal rdf:type ex:WorldHeritageSite ;
+    ex:name ""Suzdal""@en .
+
+ex:Trinity-Sergius_Monastery rdf:type ex:WorldHeritageSite ;
+    ex:name ""Trinity-Sergius Monastery""@en .
+
+ex:Church_of_the_Savior_on_Blood rdf:type ex:WorldHeritageSite ;
+    ex:name ""Church of the Savior on Blood""@en .
+
+ex:Historic_Centre_of_Saint_Petersburg_and_Related_Groups_of_Monuments rdf:type ex:WorldHeritageSite ;
+    ex:name ""Historic Centre of Saint Petersburg and Related Groups of Monuments""@en .
+
+ex:Kamchatka_Volcanoes rdf:type ex:WorldHeritageSite ;
+    ex:name ""Volcanoes of Kamchatka""@en .
+
+ex:Golden_Mountains_of_Altai rdf:type ex:WorldHeritageSite ;
+    ex:name ""Golden Mountains of Altai""@en .
+
+ex:Western_Caucasus rdf:type ex:WorldHeritageSite ;
+    ex:name ""Western Caucasus""@en .
+
+ex:Uvs_Nuur_Basin rdf:type ex:WorldHeritageSite ;
+    ex:name ""Uvs Nuur Basin""@en .
+
+ex:Central_Sikhote-Alin rdf:type ex:WorldHeritageSite ;
+    ex:name ""Central Sikhote-Alin""@en .
+
+ex:Wrangel_Island rdf:type ex:WorldHeritageSite ;
+    ex:name ""Wrangel Island""@en .
+
+ex:Curonian_Spit rdf:type ex:WorldHeritageSite ;
+    ex:name ""Curonian Spit""@en .
+
+ex:Bolgar_Historical_and_Archaeological_Complex rdf:type ex:WorldHeritageSite ;
+    ex:name ""Bolgar Historical and Archaeological Complex""@en .
+
+ex:Ensemble_of_the_Ferrapontov_Monastery rdf:type ex:WorldHeritageSite ;
+    ex:name ""Ensemble of the Ferrapontov Monastery""@en .
+
+ex:Russian rdf:type ex:Language ;
+    ex:name ""Russian""@en .
+
+ex:Russian_Orthodox_Church rdf:type ex:Religion ;
+    ex:name ""Russian Orthodox Church""@en .
+
+ex:Semi-presidential_federal_republic rdf:type ex:GovernmentType ;
+    ex:name ""Semi-presidential federal republic""@en .
+
+ex:Vladimir_Putin rdf:type ex:Leader ;
+    ex:name ""Vladimir Putin""@en ;
+    ex:title ""President"" .
+
+ex:Russian_ruble rdf:type ex:Currency ;
+    ex:name ""Russian ruble""@en .
+
+ex:Brown_bear rdf:type ex:Animal ;
+    ex:name ""Brown bear""@en .
+
+ex:Double-headed_eagle rdf:type ex:Bird ;
+    ex:name ""Double-headed eagle""@en .
+
+ex:Chamomile rdf:type ex:Flower ;
+    ex:name ""Chamomile""@en .
+
+ex:Oak rdf:type ex:Tree ;
+    ex:name ""Oak""@en .","prefix ex: <http://example.com/>
+
+ex:Russia ex:name ""Russia"" .
+ex:Russia ex:officialName ""Russian Federation"" .
+ex:Russia ex:location ""Eastern Europe and Northern Asia"" .
+ex:Russia ex:area ""17,098,246 square kilometres"" .
+ex:Russia ex:population ""146 million people"" .
+ex:Russia ex:capital ""Moscow"" .
+ex:Russia ex:largestCity ""Moscow"" .
+ex:Russia ex:culturalCenter ""Saint Petersburg"" .
+ex:Russia ex:otherMajorCities ""Novosibirsk, Yekaterinburg, Nizhny Novgorod, and Kazan"" .
+ex:Russia ex:timeZones ""eleven"" .
+ex:Russia ex:landBoundaries ""fourteen"" .
+ex:Russia ex:inhabitableLandmass ""one-eighth of Earth's"" .
+ex:Russia ex:emergedAs ""East Slavs"" .
+ex:Russia ex:state ""Kievan Rus'"" .
+ex:Russia ex:adoptedReligion ""Orthodox Christianity"" .
+ex:Russia ex:disintegrated ""Rus'"" .
+ex:Russia ex:grewInto ""Grand Duchy of Moscow"" .
+ex:Russia ex:expandedThrough ""conquest, annexation, and the efforts of Russian explorers"" .
+ex:Russia ex:developedInto ""Russian Empire"" .
+ex:Russia ex:abolishedMonarchicRule ""Russian Revolution in 1917"" .
+ex:Russia ex:replacedBy ""Russian SFSR"" .
+ex:Russia ex:constitutionallySocialistState ""world's first"" .
+ex:Russia ex:establishedSovietUnion ""with three other Soviet republics"" .
+ex:Russia ex:largestConstituent ""Soviet Union"" .
+ex:Russia ex:rapidIndustrialization ""Soviet Union underwent rapid industrialization in the 1930s"" .
+ex:Russia ex:playedDecisiveRole ""Allies of World War II by leading large-scale efforts on the Eastern Front"" .
+ex:Russia ex:competedWith ""United States for global ideological influence"" .
+ex:Russia ex:technologicalAchievements ""first human-made satellite and the first human expedition into outer space"" .
+ex:Russia ex:independent ""Russian SFSR emerged from the dissolution of the Soviet Union as the independent Russian Federation"" .
+ex:Russia ex:governedAs ""federal semi-presidential republic"" .
+ex:Russia ex:dominatedBy ""Vladimir Putin"" .
+ex:Russia ex:politicalSystem ""dominated by Vladimir Putin, under whom the country has experienced democratic backsliding and a shift towards authoritarianism"" .
+ex:Russia ex:militaryInvolvement ""a number of post-Soviet states"" .
+ex:Russia ex:annexations ""internationally unrecognised annexations of Crimea in 2014 from neighbouring Ukraine and four other regions in 2022 during an ongoing invasion"" .
+ex:Russia ex:lowRanking ""human rights and freedom of the press"" .
+ex:Russia ex:highLevelOf ""perceived corruption"" .
+ex:Russia ex:ranked ""ninth-largest by nominal GDP and the sixth-largest by GDP (PPP)"" .
+ex:Russia ex:possesses ""largest stockpile of nuclear weapons"" .
+ex:Russia ex:militaryExpenditure ""fifth-highest"" .
+ex:Russia ex:mineralSources ""world's largest"" .
+ex:Russia ex:energySources ""world's largest"" .
+ex:Russia ex:oilProduction ""rank high globally"" .
+ex:Russia ex:naturalGasProduction ""rank high globally"" .
+ex:Russia ex:UNSCMember ""permanent member of the United Nations Security Council"" .
+ex:Russia ex:G20Member ""member state of the G20"" .
+ex:Russia ex:SCOMember ""member state of the SCO"" .
+ex:Russia ex:BRICSMember ""member state of the BRICS"" .
+ex:Russia ex:APECMember ""member state of the APEC"" .
+ex:Russia ex:OSCEMember ""member state of the OSCE"" .
+ex:Russia ex:WTOMember ""member state of the WTO"" .
+ex:Russia ex:CISMember ""leading member state of the CIS"" .
+ex:Russia ex:CSTOMember ""leading member state of the CSTO"" .
+ex:Russia ex:EAEUMember ""leading member state of the EAEU"" .
+ex:Russia ex:UNESCOHeritageSites ""30"" .","@prefix ex: <http://example.com/> .
+
+ex:Russia a ex:Country ;
+    ex:officialName ""Russian Federation"" ;
+    ex:capital ex:Moscow ;
+    ex:largestCity ex:Saint_Petersburg ;
+    ex:totalArea ""17098246""^^xsd:integer ;
+    ex:inhabitableLandmass ""1/8"" ;
+    ex:numberOfTimeZones ""11"" ;
+    ex:sharesLandBoundaryWith ex:China, ex:Kazakhstan, ex:Mongolia, ex:North_Korea, ex:Norway, ex:Poland, ex:Latvia, ex:Estonia, ex:Finland, ex:Lithuania, ex:Belarus, ex:Georgia, ex:Azerbaijan, ex:Ukraine ;
+    ex:population ""146000000""^^xsd:integer ;
+    ex:largestStockpileOfNuclearWeapons ""true"" ;
+    ex:militaryExpenditureRank ""5"" ;
+    ex:rankInNominalGDP ""9"" ;
+    ex:rankInGDP_PPP ""6"" ;
+    ex:hasMineralAndEnergySources ""true"" ;
+    ex:rankInOilProduction ""2"" ;
+    ex:rankInNaturalGasProduction ""1"" ;
+    ex:UNSCPermanentMember ""true"" ;
+    ex:memberOfG20 ""true"" ;
+    ex:memberOfSCO ""true"" ;
+    ex:memberOfBRICS ""true"" ;
+    ex:memberOfAPEC ""true"" ;
+    ex:memberOfOSCE ""true"" ;
+    ex:memberOfWTO ""true"" ;
+    ex:leadingMemberOfCIS ""true"" ;
+    ex:leadingMemberOfCSTO ""true"" ;
+    ex:leadingMemberOfEAEU ""true"" ;
+    ex:hasUNESCOHeritageSite ex:Kremlin_and_Red_Square, ex:Suzdal, ex:Novgorod, ex:Kizhi, ex:Solovetsky_Islands, ex:Valley_of_Geysers, ex:Curonian_Spit, ex:Golden_Mountains_of_Altai, ex:Uvs_Nuur_Basin, ex:Western_Caucasus, ex:Volcanoes_of_Kamchatka, ex:Lena_Pillars, ex:Lake_Baikal, ex:Cultural_and_Historic_Ensemble_of_the_Kremlin_of_Kazan, ex:Church_of_the_Ascension, ex:Trinity-Sergius_Lavra, ex:Historic_Monuments_of_Novgorod_and_Surroundings, ex:Central_Sikhote-Alin. 
+
+ex:Moscow a ex:City ;
+    ex:isCapitalOf ex:Russia ;
+    ex:isLargestCityOf ex:Russia ;
+    ex:isLocatedIn ex:Russia.
+
+ex:Saint_Petersburg a ex:City ;
+    ex:isLocatedIn ex:Russia ;
+    ex:isLargestCityOf ex:Russia ;
+    ex:isCulturalCentreOf ex:Russia.
+
+ex:Kremlin_and_Red_Square a ex:UNESCOHeritageSite ;
+    ex:locatedIn ex:Moscow.
+
+ex:Suzdal a ex:UNESCOHeritageSite ;
+    ex:locatedIn ex:Vladimir_Oblast.
+
+ex:Novgorod a ex:UNESCOHeritageSite ;
+    ex:locatedIn ex:Novgorod_Oblast.
+
+ex:Kizhi a ex:UNESCOHeritageSite ;
+    ex:locatedIn ex:Karelia_Republic.
+
+ex:Solovetsky_Islands a ex:UNESCOHeritageSite ;
+    ex:locatedIn ex:Arkhangelsk_Oblast.
+
+ex:Valley_of_Geysers a ex:UNESCOHeritageSite ;
+    ex:locatedIn ex:Kamchatka_Krai.
+
+ex:Curonian_Spit a ex:UNESCOHeritageSite ;
+    ex:locatedIn ex:Kaliningrad_Oblast.
+
+ex:Golden_Mountains_of_Altai a ex:UNESCOHeritageSite ;
+    ex:locatedIn ex:Altai_Republic.
+
+ex:Uvs_Nuur_Basin a ex:UNESCOHeritageSite ;
+    ex:locatedIn ex:Tuva_Republic.
+
+ex:Western_Caucasus a ex:UNESCOHeritageSite ;
+    ex:locatedIn ex:Krasnodar_Krai.
+
+ex:Volcanoes_of_Kamchatka a ex:UNESCOHeritageSite ;
+    ex:locatedIn ex:Kamchatka_Krai.
+
+ex:Lena_Pillars a ex:UNESCOHeritageSite ;
+    ex:locatedIn ex:Sakha_Republic.
+
+ex:Lake_Baikal a ex:UNESCOHeritageSite ;
+    ex:locatedIn ex:Irkutsk_Oblast.
+
+ex:Cultural_and_Historic_Ensemble_of_the_Kremlin_of_Kazan a ex:UNESCOHeritageSite ;
+    ex:locatedIn ex:Tatarstan_Republic.
+
+ex:Church_of_the_Ascension a ex:UNESCOHeritageSite ;
+    ex:locatedIn ex:Pskov_Oblast.
+
+ex:Trinity-Sergius_Lavra a ex:UNESCOHeritageSite ;
+    ex:locatedIn ex:Moscow_Oblast.
+
+ex:Historic_Monuments_of_Novgorod_and_Surroundings a ex:UNESCOHeritageSite ;
+    ex:locatedIn ex:Novgorod_Oblast.
+
+ex:Central_Sikhote-Alin a ex:UNESCOHeritageSite ;
+    ex:locatedIn ex:Primorsky_Krai.","@prefix ex: <http://example.org/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Russia a ex:Country ;
+    ex:officialName ""Russian Federation"" ;
+    ex:capital ex:Moscow ;
+    ex:largestCity ex:Moscow ;
+    ex:population ""146000000""^^xsd:integer ;
+    ex:totalArea ""17098246""^^xsd:integer ;
+    ex:landArea ""16376870""^^xsd:integer ;
+    ex:waterArea ""821376""^^xsd:integer ;
+    geo:lat ""61.5240""^^xsd:float ;
+    geo:long ""105.3188""^^xsd:float ;
+    ex:timeZone ""UTC+2 to +12"" ;
+    ex:sharesBoundaryWith ex:China ,
+                          ex:Finland ,
+                          ex:Estonia ,
+                          ex:Latvia ,
+                          ex:Lithuania ,
+                          ex:Poland ,
+                          ex:Belarus ,
+                          ex:Ukraine ,
+                          ex:Georgia ,
+                          ex:Azerbaijan ,
+                          ex:Kazakhstan ,
+                          ex:Mongolia ,
+                          ex:NorthKorea ,
+                          ex:Norway ;
+    ex:rankedByPopulation ""9th"" ;
+    ex:rankedByGDPNominal ""9th"" ;
+    ex:rankedByGDPPP ""6th"" ;
+    ex:hasUNESCOHeritageSite ex:KremlinMoscow ,
+                             ex:RedSquare ,
+                             ex:ChurchOnSpilledBlood ,
+                             ex:KizhiPogost ,
+                             ex:SolovetskyIslands ,
+                             ex:CuronianSpit ,
+                             ex:StruveGeodeticArc ,
+                             ex:VolcanoesKamchatka ,
+                             ex:UvsNuurBasin ,
+                             ex:WesternCaucasus ,
+                             ex:LenaPillars ,
+                             ex:UvsNuurBasin ,
+                             ex:GoldenMountainsAltai ,
+                             ex:VirginKomiForests ,
+                             ex:UvsNuurBasin ,
+                             ex:CaucasusMountains ,
+                             ex:CentralSikhoteAlin ,
+                             ex:RussianWhiteSeaCoast ,
+                             ex:WrangelIsland ,
+                             ex:LakeBaikal ,
+                             ex:UvsNuurBasin .","@prefix ex: <http://example.com/> .
+
+ex:Russia a ex:Country ;
+    ex:name ""Russia""@en ;
+    ex:officialName ""Russian Federation""@en ;
+    ex:capital ex:Moscow ;
+    ex:largestCity ex:Saint_Petersburg ;
+    ex:population ""146000000""^^xsd:integer ;
+    ex:totalArea ""17098242""^^xsd:integer ;
+    ex:inhabitableLandmass ""6601670""^^xsd:integer ;
+    ex:timeZone ""UTC+2 to UTC+12"" ;
+    ex:landBoundaryWith ex:Azerbaijan , ex:Belarus , ex:China , ex:Estonia , ex:Finland , ex:Georgia , ex:Kazakhstan , ex:Latvia , ex:Lithuania , ex:Mongolia , ex:North_Korea , ex:Norway , ex:Poland , ex:Ukraine ;
+    ex:rankInPopulation ""9""^^xsd:integer ;
+    ex:rankInGDP ""6""^^xsd:integer ;
+    ex:rankInNominalGDP ""9""^^xsd:integer ;
+    ex:rankInMilitaryExpenditure ""5""^^xsd:integer ;
+    ex:largestStockpileOfNuclearWeapons ""true""^^xsd:boolean ;
+    ex:worldHeritageSite ex:Kremlin , ex:Historic_Monuments_of_Novgorod_and_Surroundings , ex:Kizhi_Pogost , ex:Curonian_Spit , ex:Western_Caucasus , ex:Volcanoes_of_Kamchatka , ex:Golden_Mountains_of_Altai , ex:Lena_Pillars_Nature_Park , ex:Uvs_Nuur_Basin , ex:Central_Sikhote-Alin , ex:Putorana_Plateau , ex:Wrangel_Island , ex:Uvs_Nuur_Basin_Lake_System , ex:Bolgar_Historical_and_Archaeological_Complex , ex:Ensemble_of_the_Ferrapontov_Monastery , ex:Cultural_and_Historic_Ensemble_of_the_Solovetsky_Islands , ex:Virgin_Komi_Forests , ex:Historic_Monuments_of_Novgorod_and_Surroundings , ex:Church_of_the_Ascension , ex:Suzdal , ex:Ferapontov_Monastery , ex:Trinity-Sergius_Lavra , ex:Church_of_the_Savior_on_Blood , ex:Petrodvorets , ex:Novodevichy_Convent , ex:White_Monuments_of_Vladimir_and_Suzdal ;
+    ex:dominantParty ""United Russia Party"" ;
+    ex:governingBody ex:Federal_Assembly_of_Russia ;
+    ex:president ""Vladimir Putin"" ;
+    ex:gdpPPP ""$4.218 trillion"" ;
+    ex:gdpNominal ""$1.709 trillion"" ;
+    ex:currency ""Russian ruble"" ;
+    ex:language ""Russian"" ;
+    ex:religion ""Russian Orthodox Christianity"" ;
+    ex:history ""East Slavs emerged as a recognisable group in Europe between the 3rd and 8th centuries CE. Kievan Rus' arose as a state in the 9th century, and in 988, it adopted Orthodox Christianity from the Byzantine Empire. Rus' ultimately disintegrated, with the Grand Duchy of Moscow growing to become the Tsardom of Russia. By the early 18th century, Russia had vastly expanded through conquest, annexation, and the efforts of Russian explorers, developing into the Russian Empire, which remains the third-largest empire in history. However, with the Russian Revolution in 1917, Russia's monarchic rule was abolished and replaced by the Russian SFSR—the world's first constitutionally socialist state. Following the Russian Civil War, the Russian SFSR established the Soviet Union (with three other Soviet republics), within which it was the largest and principal constituent. In 1991, the Russian SFSR emerged from the dissolution of the Soviet Union as the independent Russian Federation.""@en ;
+    ex:involvedInWar ""2014 annexation of Crimea"" , ""2022 invasion of Ukraine"" ;
+    ex:politicalIssues ""Democratic backsliding and a shift towards authoritarianism"" , ""Human rights issues"" , ""Freedom of the press issues"" , ""Perceived corruption"" ;
+    ex:organizationMembership ""United Nations Security Council"" , ""G20"" , ""SCO"" , ""BRICS"" , ""APEC"" , ""OSCE"" , ""WTO"" , ""CIS"" , ""CSTO"" , ""EAEU"" ;
+    ex:energySources ""Oil"" , ""Natural gas"" ;
+    ex:technologicalAchievements ""First human-made satellite"" , ""First human expedition into outer space"" . 
+
+ex:Moscow a ex:City ;
+    ex:name ""Moscow""@en ;
+    ex:locatedIn ex:Russia .
+
+ex:Saint_Petersburg a ex:City ;
+    ex:name ""Saint Petersburg""@en ;
+    ex:locatedIn ex:Russia . 
+
+ex:Azerbaijan a ex:Country ;
+    ex:name ""Azerbaijan""@en .
+
+ex:Belarus a ex:Country ;
+    ex:name ""Belarus""@en .
+
+ex:China a ex:Country ;
+    ex:name ""China""@en .
+
+ex:Estonia a ex:Country ;
+    ex:name ""Estonia""@en .
+
+ex:Finland a ex:Country ;
+    ex:name ""Finland""@en .
+
+ex:Georgia a ex:Country ;
+    ex:name ""Georgia""@en .
+
+ex:Kazakhstan a ex:Country ;
+    ex:name ""Kazakhstan""@en .
+
+ex:Latvia a ex:Country ;
+    ex:name ""Latvia""@en .
+
+ex:Lithuania a ex:Country ;
+    ex:name ""Lithuania""@en .
+
+ex:Mongolia a ex:Country ;
+    ex:name ""Mongolia""@en .
+
+ex:North_Korea a ex:Country ;
+    ex:name ""North Korea""@en .
+
+ex:Norway a ex:Country ;
+    ex:name ""Norway""@en .
+
+ex:Poland a ex:Country ;
+    ex:name ""Poland""@en .
+
+ex:Ukraine a ex:Country ;
+    ex:name ""Ukraine""@en . 
+
+ex:Kremlin a ex:WorldHeritageSite ;
+    ex:name ""Kremlin and Red Square, Moscow""@en .
+
+ex:Historic_Monuments_of_Novgorod_and_Surroundings a ex:WorldHeritageSite ;
+    ex:name ""Historic Monuments of Novgorod and Surroundings""@en .
+
+ex:Kizhi_Pogost a ex:WorldHeritageSite ;
+    ex:name ""Kizhi Pogost""@en .
+
+ex:Curonian_Spit a ex:WorldHeritageSite ;
+    ex:name ""Curonian Spit""@en .
+
+ex:Western_Caucasus a ex:WorldHeritageSite ;
+    ex:name ""Western Caucasus""@en .
+
+ex:Volcanoes_of_Kamchatka a ex:WorldHeritageSite ;
+    ex:name ""Volcanoes of Kamchatka""@en .
+
+ex:Golden_Mountains_of_Altai a ex:WorldHeritageSite ;
+    ex:name ""Golden Mountains of Altai""@en .
+
+ex:Lena_Pillars_Nature_Park a ex:WorldHeritageSite ;
+    ex:name ""Lena Pillars Nature Park""@en .
+
+ex:Uvs_Nuur_Basin a ex:WorldHeritageSite ;
+    ex:name ""Uvs Nuur Basin""@en .
+
+ex:Central_Sikhote-Alin a ex:WorldHeritageSite ;
+    ex:name ""Central Sikhote-Alin""@en .
+
+ex:Putorana_Plateau a ex:WorldHeritageSite ;
+    ex:name ""Putorana Plateau""@en .
+
+ex:Wrangel_Island a ex:WorldHeritageSite ;
+    ex:name ""Wrangel Island""@en .
+
+ex:Uvs_Nuur_Basin_Lake_System a ex:WorldHeritageSite ;
+    ex:name ""Uvs Nuur Basin Lake System""@en .
+
+ex:Bolgar_Historical_and_Archaeological_Complex a ex:WorldHeritageSite ;
+    ex:name ""Bolgar Historical and Archaeological Complex""@en .
+
+ex:Ensemble_of_the_Ferrapontov_Monastery a ex:WorldHeritageSite ;
+    ex:name ""Ensemble of the Ferrapontov Monastery""@en .
+
+ex:Cultural_and_Historic_Ensemble_of_the_Solovetsky_Islands a ex:WorldHeritageSite ;
+    ex:name ""Cultural and Historic Ensemble of the Solovetsky Islands""@en .
+
+ex:Virgin_Komi_Forests a ex:WorldHeritageSite ;
+    ex:name ""Virgin Komi Forests""@en .
+
+ex:Church_of_the_Ascension a ex:WorldHeritageSite ;
+    ex:name ""Church of the Ascension, Kolomenskoye""@en .
+
+ex:Suzdal a ex:WorldHeritageSite ;
+    ex:name ""Suzdal""@en .
+
+ex:Ferapontov_Monastery a ex:WorldHeritageSite ;
+    ex:name ""Ferapontov Monastery""@en .
+
+ex:Trinity-Sergius_Lavra a ex:WorldHeritageSite ;
+    ex:name ""Trinity-Sergius Lavra""@en .
+
+ex:Church_of_the_Savior_on_Blood a ex:WorldHeritageSite ;
+    ex:name ""Church of the Savior on Blood""@en .
+
+ex:Petrodvorets a ex:WorldHeritageSite ;
+    ex:name ""Petrodvorets""@en .
+
+ex:Novodevichy_Convent a ex:WorldHeritageSite ;
+    ex:name ""Novodevichy Convent""@en .
+
+ex:White_Monuments_of_Vladimir_and_Suzdal a ex:WorldHeritageSite ;
+    ex:name ""White Monuments of Vladimir and Suzdal""@en ."
+3,Philippines,"@prefix ex: <http://example.com/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+ex:Philippines rdf:type ex:Country ;
+    rdfs:label ""Philippines""@en ;
+    rdfs:comment ""The Philippines is an archipelagic country in Southeast Asia.""@en ;
+    ex:officialName ""Republic of the Philippines""@en ;
+    ex:consistsOf ex:Luzon, ex:Visayas, ex:Mindanao ;
+    ex:isBoundedBy ex:SouthChinaSea, ex:PhilippineSea, ex:CelebesSea ;
+    ex:sharesMaritimeBordersWith ex:Taiwan, ex:Japan, ex:Palau, ex:Indonesia, ex:Malaysia, ex:Vietnam, ex:China ;
+    ex:hasCapital ex:Manila ;
+    ex:largestCity ex:QuezonCity ;
+    ex:hasPopulation ""109000000""^^xsd:integer ;
+    ex:hasArea ""300000""^^xsd:integer ;
+    ex:hasEthnicities ""Negritos, Austronesian peoples""@en ;
+    ex:hasReligions ""Catholicism, Animism, Hinduism, Islam""@en ;
+    ex:hasHistoricalEvent ex:SpanishColonization, ex:PhilippineRevolution, ex:PhilippineAmericanWar, ex:JapaneseInvasion, ex:Independence ;
+    ex:hasEconomicStatus ""Emerging market, Newly industrialized country""@en ;
+    ex:hasMembership ex:UnitedNations, ex:WorldTradeOrganization, ex:ASEAN, ex:AsiaPacificEconomicCooperation, ex:EastAsiaSummit ;
+    ex:isLocatedOn ex:PacificRingOfFire, ex:Equator ;
+    ex:hasNaturalResources ""Biodiversity""@en . 
+
+ex:Luzon rdf:type ex:GeographicalDivision ;
+    rdfs:label ""Luzon""@en .
+
+ex:Visayas rdf:type ex:GeographicalDivision ;
+    rdfs:label ""Visayas""@en .
+
+ex:Mindanao rdf:type ex:GeographicalDivision ;
+    rdfs:label ""Mindanao""@en .
+
+ex:SouthChinaSea rdf:type ex:BodyOfWater ;
+    rdfs:label ""South China Sea""@en .
+
+ex:PhilippineSea rdf:type ex:BodyOfWater ;
+    rdfs:label ""Philippine Sea""@en .
+
+ex:CelebesSea rdf:type ex:BodyOfWater ;
+    rdfs:label ""Celebes Sea""@en .
+
+ex:Taiwan rdf:type ex:Country ;
+    rdfs:label ""Taiwan""@en .
+
+ex:Japan rdf:type ex:Country ;
+    rdfs:label ""Japan""@en .
+
+ex:Palau rdf:type ex:Country ;
+    rdfs:label ""Palau""@en .
+
+ex:Indonesia rdf:type ex:Country ;
+    rdfs:label ""Indonesia""@en .
+
+ex:Malaysia rdf:type ex:Country ;
+    rdfs:label ""Malaysia""@en .
+
+ex:Vietnam rdf:type ex:Country ;
+    rdfs:label ""Vietnam""@en .
+
+ex:China rdf:type ex:Country ;
+    rdfs:label ""China""@en .
+
+ex:Manila rdf:type ex:City ;
+    rdfs:label ""Manila""@en .
+
+ex:QuezonCity rdf:type ex:City ;
+    rdfs:label ""Quezon City""@en .
+
+ex:SpanishColonization rdf:type ex:HistoricalEvent ;
+    rdfs:label ""Spanish colonization""@en .
+
+ex:PhilippineRevolution rdf:type ex:HistoricalEvent ;
+    rdfs:label ""Philippine Revolution""@en .
+
+ex:PhilippineAmericanWar rdf:type ex:HistoricalEvent ;
+    rdfs:label ""Philippine-American War""@en .
+
+ex:JapaneseInvasion rdf:type ex:HistoricalEvent ;
+    rdfs:label ""Japanese invasion of the Philippines""@en .
+
+ex:Independence rdf:type ex:HistoricalEvent ;
+    rdfs:label ""Independence of the Philippines""@en .
+
+ex:UnitedNations rdf:type ex:Organization ;
+    rdfs:label ""United Nations""@en .
+
+ex:WorldTradeOrganization rdf:type ex:Organization ;
+    rdfs:label ""World Trade Organization""@en .
+
+ex:ASEAN rdf:type ex:Organization ;
+    rdfs:label ""Association of Southeast Asian Nations""@en .
+
+ex:AsiaPacificEconomicCooperation rdf:type ex:Organization ;
+    rdfs:label ""Asia-Pacific Economic Cooperation""@en .
+
+ex:EastAsiaSummit rdf:type ex:Organization ;
+    rdfs:label ""East Asia Summit""@en .
+
+ex:PacificRingOfFire rdf:type ex:GeographicFeature ;
+    rdfs:label ""Pacific Ring of Fire""@en .
+
+ex:Equator rdf:type ex:GeographicFeature ;
+    rdfs:label ""Equator""@en .","@prefix ex: <http://example.com/> .
+
+ex:Philippines ex:name ""Philippines"" .
+ex:Philippines ex:officialName ""Republic of the Philippines"" .
+ex:Philippines ex:locatedIn ex:SoutheastAsia .
+ex:Philippines ex:consistsOf ex:Luzon .
+ex:Philippines ex:consistsOf ex:Visayas .
+ex:Philippines ex:consistsOf ex:Mindanao .
+ex:Philippines ex:boundedBy ex:SouthChinaSea .
+ex:Philippines ex:boundedBy ex:PhilippineSea .
+ex:Philippines ex:boundedBy ex:CelebesSea .
+ex:Philippines ex:sharesMaritimeBordersWith ex:Taiwan .
+ex:Philippines ex:sharesMaritimeBordersWith ex:Japan .
+ex:Philippines ex:sharesMaritimeBordersWith ex:Palau .
+ex:Philippines ex:sharesMaritimeBordersWith ex:Indonesia .
+ex:Philippines ex:sharesMaritimeBordersWith ex:Malaysia .
+ex:Philippines ex:sharesMaritimeBordersWith ex:Vietnam .
+ex:Philippines ex:sharesMaritimeBordersWith ex:China .
+ex:Philippines ex:area ""300000""^^xsd:integer .
+ex:Philippines ex:population ""109000000""^^xsd:integer .
+ex:Philippines ex:ethnicity ""diverse"" .
+ex:Philippines ex:capital ex:Manila .
+ex:Philippines ex:largestCity ex:QuezonCity .
+ex:Philippines ex:inhabitedBy ex:Negritos .
+ex:Philippines ex:inhabitedBy ex:AustronesianPeoples .
+ex:Philippines ex:foundedBy ex:FerdinandMagellan .
+ex:Philippines ex:colonizedBy ex:Spain .
+ex:Philippines ex:dominantReligion ""Catholicism"" .
+ex:Philippines ex:westernHubOfTrade ex:Manila .
+ex:Philippines ex:independenceYear ""1946""^^xsd:integer .
+ex:Philippines ex:memberOf ex:UnitedNations .
+ex:Philippines ex:memberOf ex:WorldTradeOrganization .
+ex:Philippines ex:memberOf ex:ASEAN .
+ex:Philippines ex:memberOf ex:AsiaPacificEconomicCooperation .
+ex:Philippines ex:memberOf ex:EastAsiaSummit .
+ex:Philippines ex:hasNaturalResources ""yes"" .
+ex:Philippines ex:hasBiodiversity ""globally significant"" .","@prefix ex: <http://example.com/> .
+
+ex:Philippines a ex:Country ;
+    ex:officialName ""Republic of the Philippines"" ;
+    ex:commonName ""Philippines"" ;
+    ex:location ""Southeast Asia"" ;
+    ex:consistsOf ""Luzon"", ""Visayas"", ""Mindanao"" ;
+    ex:boundedBy ""South China Sea"", ""Philippine Sea"", ""Celebes Sea"" ;
+    ex:sharesBorderWith ""Taiwan"", ""Japan"", ""Palau"", ""Indonesia"", ""Malaysia"", ""Vietnam"", ""China"" ;
+    ex:area ""300000""^^ex:squareKilometer ;
+    ex:population ""109000000"" ;
+    ex:ethnicity ""Negritos"", ""Austronesian peoples"" ;
+    ex:religion ""animism"", ""Hinduism"", ""Islam"", ""Catholicism"" ;
+    ex:historicEvent ""Spanish colonization"", ""Philippine Revolution"", ""Philippine–American War"", ""World War II"", ""independence in 1946"", ""overthrow of a decades-long dictatorship"" ;
+    ex:economy ""emerging market"", ""newly industrialized country"" ;
+    ex:organizationMember ""United Nations"", ""World Trade Organization"", ""ASEAN"", ""Asia-Pacific Economic Cooperation"", ""East Asia Summit"" ;
+    ex:naturalDisaster ""earthquakes"", ""typhoons"" ;
+    ex:naturalResource ""biodiversity"" ;
+    ex:capital ex:Manila ;
+    ex:largestCity ""Quezon City"" .
+
+ex:Manila a ex:City .","@prefix ex: <http://example.com/> .
+
+ex:Philippines ex:name ""Philippines"" .
+ex:Philippines ex:officialName ""Republic of the Philippines"" .
+ex:Philippines ex:location ""Southeast Asia"" .
+ex:Philippines ex:consistsOf ""7,641 islands"" .
+ex:Philippines ex:geographicalDivisions ""Luzon"", ""Visayas"", ""Mindanao"" .
+ex:Philippines ex:boundedBy ""South China Sea"", ""Philippine Sea"", ""Celebes Sea"" .
+ex:Philippines ex:maritimeBorders ""Taiwan"", ""Japan"", ""Palau"", ""Indonesia"", ""Malaysia"", ""Vietnam"", ""China"" .
+ex:Philippines ex:area ""300,000 km2"" .
+ex:Philippines ex:population ""109 million people"" .
+ex:Philippines ex:ethnicities ""diverse"" .
+ex:Philippines ex:capital ""Manila"" .
+ex:Philippines ex:largestCity ""Quezon City"" .
+ex:Philippines ex:inhabitants ""Negritos"", ""Austronesian peoples"" .
+ex:Philippines ex:religion ""Catholicism"" .
+ex:Philippines ex:colonizedBy ""Spain"" .
+ex:Philippines ex:colonizationDuration ""more than 300 years"" .
+ex:Philippines ex:transPacificTradeHub ""Manila"" .
+ex:Philippines ex:independenceYear ""1946"" .
+ex:Philippines ex:organizations ""United Nations"", ""World Trade Organization"", ""ASEAN"", ""Asia-Pacific Economic Cooperation forum"", ""East Asia Summit"" .
+ex:Philippines ex:resources ""natural resources"" .
+ex:Philippines ex:biodiversityLevel ""globally significant"" .","@prefix ex: <http://example.com/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Philippines rdf:type ex:Country ;
+              ex:officialName ""Republic of the Philippines""@en ;
+              ex:commonName ""Philippines""@en ;
+              ex:capital ex:Manila ;
+              ex:largestCity ex:QuezonCity ;
+              ex:locatedIn ex:SoutheastAsia ;
+              ex:hasPopulation ""109000000""^^xsd:integer ;
+              ex:hasArea ""300000""^^xsd:integer ;
+              ex:hasEthnicity ""Negritos, Austronesian peoples""@en ;
+              ex:hasReligion ""Catholicism, animism, Hinduism, Islam""@en ;
+              ex:hasLanguage ""Filipino, English""@en ;
+              ex:hasCurrency ""Philippine peso (PHP)""@en ;
+              ex:foundingMemberOf ex:UnitedNations, ex:WTO, ex:ASEAN, ex:APEC, ex:EastAsiaSummit ;
+              ex:hasNaturalResource ""biodiversity""@en ;
+              ex:hasGeographicalDivision ex:Luzon, ex:Visayas, ex:Mindanao ;
+              ex:boundedBy ex:SouthChinaSea, ex:PhilippineSea, ex:CelebesSea ;
+              ex:sharesMaritimeBorderWith ex:Taiwan, ex:Japan, ex:Palau, ex:Indonesia, ex:Malaysia, ex:Vietnam, ex:China ;
+              ex:hasExperienceWithDemocracy ""tumultuous""^^xsd:string ;
+              ex:economyTransitioningFrom ""agriculture centered to services and manufacturing centered""^^xsd:string ;
+              ex:proneTo ""earthquakes and typhoons""^^xsd:string .
+              
+ex:Manila rdf:type ex:City .
+ex:QuezonCity rdf:type ex:City .
+
+ex:SoutheastAsia rdf:type ex:Region .
+
+ex:Luzon rdf:type ex:GeographicalDivision .
+ex:Visayas rdf:type ex:GeographicalDivision .
+ex:Mindanao rdf:type ex:GeographicalDivision .
+
+ex:SouthChinaSea rdf:type ex:Sea .
+ex:PhilippineSea rdf:type ex:Sea .
+ex:CelebesSea rdf:type ex:Sea .
+
+ex:Taiwan rdf:type ex:Country .
+ex:Japan rdf:type ex:Country .
+ex:Palau rdf:type ex:Country .
+ex:Indonesia rdf:type ex:Country .
+ex:Malaysia rdf:type ex:Country .
+ex:Vietnam rdf:type ex:Country .
+ex:China rdf:type ex:Country .
+
+ex:UnitedNations rdf:type ex:Organization .
+ex:WTO rdf:type ex:Organization .
+ex:ASEAN rdf:type ex:Organization .
+ex:APEC rdf:type ex:Organization .
+ex:EastAsiaSummit rdf:type ex:Organization ."
+4,Emma_Watson,"@prefix ex: <http://example.com/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Emma_Watson rdf:type ex:Person ;
+    ex:hasName ""Emma Charlotte Duerre Watson"" ;
+    ex:hasBirthDate ""1990-04-15""^^xsd:date ;
+    ex:hasOccupation ""Actress"" ;
+    ex:hasOccupation ""Activist"" ;
+    ex:hasAward ""Young Artist Award"" ;
+    ex:hasAward ""MTV Movie Awards"" ;
+    ex:hasRanking ""Forbes Highest-Paid Actresses"" ;
+    ex:hasRanking ""Vanity Fair Highest-Paid Actresses"" ;
+    ex:hasRanking ""Time 100 Most Influential People"" ;
+    ex:attended ex:Dragon_School ;
+    ex:trainedAt ex:Oxford_Stagecoach_Theatre_Arts ;
+    ex:actedIn ex:Hermione_Granger_Film_Series ;
+    ex:actedIn ex:Ballet_Shoes_TV_Adaptation ;
+    ex:voicedIn ex:The_Tale_of_Despereaux ;
+    ex:actedIn ex:My_Week_with_Marilyn ;
+    ex:actedIn ex:The_Perks_of_Being_a_Wallflower ;
+    ex:actedIn ex:The_Bling_Ring ;
+    ex:actedIn ex:Noah ;
+    ex:actedIn ex:Beauty_and_the_Beast ;
+    ex:actedIn ex:Little_Women ;
+    ex:graduatedFrom ex:Brown_University ;
+    ex:hasDegree ""Bachelor's Degree in English Literature"" ;
+    ex:appointedAs ex:UN_Women_Goodwill_Ambassador ;
+    ex:helpedLaunch ex:HeForShe_Campaign ;
+    ex:helpedLaunch ex:Time's_Up_UK ;
+    ex:appointedTo ex:G7_Advisory_Body ;
+    ex:consultsWith ex:Foreign_Policy_Leaders ;
+    ex:modelledFor ex:Burberry ;
+    ex:modelledFor ex:Lancôme ;
+    ex:lentNameTo ex:People_Tree_Clothing_Line ;
+    ex:joined ex:Kering_Board_of_Directors . 
+
+ex:Dragon_School rdf:type ex:School ;
+    ex:isLocatedIn ""Oxford"" ;
+    ex:isLocatedIn ""England"" .
+
+ex:Oxford_Stagecoach_Theatre_Arts rdf:type ex:TrainingInstitute ;
+    ex:isLocatedIn ""Oxford"" ;
+    ex:isLocatedIn ""England"" .
+
+ex:Hermione_Granger_Film_Series rdf:type ex:FilmSeries ;
+    ex:isPartOf ex:Harry_Potter_Film_Series .
+
+ex:Harry_Potter_Film_Series rdf:type ex:FilmSeries .
+
+ex:Ballet_Shoes_TV_Adaptation rdf:type ex:TVSeries .
+
+ex:The_Tale_of_Despereaux rdf:type ex:Film .
+
+ex:My_Week_with_Marilyn rdf:type ex:Film .
+
+ex:The_Perks_of_Being_a_Wallflower rdf:type ex:Film .
+
+ex:The_Bling_Ring rdf:type ex:Film .
+
+ex:Noah rdf:type ex:Film .
+
+ex:Beauty_and_the_Beast rdf:type ex:Film .
+
+ex:Little_Women rdf:type ex:Film .
+
+ex:Brown_University rdf:type ex:University ;
+    ex:isLocatedIn ""Providence"" ;
+    ex:isLocatedIn ""Rhode Island"" .
+
+ex:UN_Women_Goodwill_Ambassador rdf:type ex:Position .
+
+ex:HeForShe_Campaign rdf:type ex:Campaign .
+
+ex:Time's_Up_UK rdf:type ex:Organization .
+
+ex:G7_Advisory_Body rdf:type ex:AdvisoryBody ;
+    ex:isPartOf ex:G7 .
+
+ex:G7 rdf:type ex:Organization .
+
+ex:Foreign_Policy_Leaders rdf:type ex:LeadershipGroup .
+
+ex:Burberry rdf:type ex:Brand .
+
+ex:Lancôme rdf:type ex:Brand .
+
+ex:People_Tree_Clothing_Line rdf:type ex:ClothingLine .
+
+ex:Kering_Board_of_Directors rdf:type ex:BoardOfDirectors ;
+    ex:isPartOf ex:Kering .
+
+ex:Kering rdf:type ex:BrandGroup .","@prefix ex: <http://example.org/> .
+
+ex:Emma_Watson a ex:Actress ;
+    ex:name ""Emma Charlotte Duerre Watson"" ;
+    ex:birthDate ""1990-04-15"" ;
+    ex:nationality ""English"" ;
+    ex:occupation ""Actress and activist"" ;
+    ex:hasAward ex:Young_Artist_Award ;
+    ex:hasAward ex:MTV_Movie_Award ;
+    ex:rankedBy ""Forbes"" ;
+    ex:rankedBy ""Vanity Fair"" ;
+    ex:hasRanking ""World's highest-paid actresses"" ;
+    ex:hasRanking ""100 most influential people in the world"" ;
+    ex:attended ex:Dragon_School ;
+    ex:trainedAt ex:Stagecoach_Theatre_Arts_Oxford ;
+    ex:hasRole ex:Hermione_Granger ;
+    ex:hasRole ex:Sam ;
+    ex:hasRole ex:Alexis_Neiers ;
+    ex:hasRole ex:Meg_March ;
+    ex:hasDegree ex:Bachelor_of_English_Literature ;
+    ex:hasCampaign ex:HeForShe ;
+    ex:hasCampaign ex:Time's_Up_UK ;
+    ex:hasConsultancy ex:G7_advisory_body ;
+    ex:hasEndorsement ex:Burberry ;
+    ex:hasEndorsement ex:Lancôme ;
+    ex:hasEndorsement ex:People_Tree ;
+    ex:hasBoardMembership ex:Kering .
+
+ex:Young_Artist_Award a ex:Award ;
+    ex:name ""Young Artist Award"" .
+
+ex:MTV_Movie_Award a ex:Award ;
+    ex:name ""MTV Movie Award"" .
+
+ex:Hermione_Granger a ex:Character ;
+    ex:name ""Hermione Granger"" ;
+    ex:movieSeries ex:Harry_Potter_Film_Series .
+
+ex:Sam a ex:Character ;
+    ex:name ""Sam"" ;
+    ex:movieTitle ""The Perks of Being a Wallflower"" .
+
+ex:Alexis_Neiers a ex:Character ;
+    ex:name ""Alexis Neiers"" ;
+    ex:movieTitle ""The Bling Ring"" .
+
+ex:Meg_March a ex:Character ;
+    ex:name ""Meg March"" ;
+    ex:movieTitle ""Little Women"" .
+
+ex:Bachelor_of_English_Literature a ex:Degree ;
+    ex:name ""Bachelor of English Literature"" .
+
+ex:HeForShe a ex:Campaign ;
+    ex:name ""HeForShe"" .
+
+ex:Time's_Up_UK a ex:Campaign ;
+    ex:name ""Time's Up UK"" .
+
+ex:G7_advisory_body a ex:Consultancy ;
+    ex:name ""G7 advisory body for women's rights"" .
+
+ex:Burberry a ex:Endorsement ;
+    ex:name ""Burberry"" .
+
+ex:Lancôme a ex:Endorsement ;
+    ex:name ""Lancôme"" .
+
+ex:People_Tree a ex:Endorsement ;
+    ex:name ""People Tree"" .
+
+ex:Harry_Potter_Film_Series a ex:MovieSeries ;
+    ex:name ""Harry Potter Film Series"" .
+
+ex:The_Perk_of_Being_a_Wallflower a ex:Movie ;
+    ex:name ""The Perks of Being a Wallflower"" .
+
+ex:The_Bling_Ring a ex:Movie ;
+    ex:name ""The Bling Ring"" .
+
+ex:Little_Women a ex:Movie ;
+    ex:name ""Little Women"" .","@prefix ex: <http://example.com/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Emma_Watson a ex:Person ;
+  ex:hasName ""Emma Charlotte Duerre Watson"" ;
+  ex:hasBirthDate ""1990-04-15""^^xsd:date ;
+  ex:hasNationality ""English"" ;
+  ex:hasOccupation ex:Actress, ex:Activist ;
+  ex:hasAward ""Young Artist Award"" ;
+  ex:hasAward ""MTV Movie Awards"" ;
+  ex:hasRanking ""Forbes highest-paid actresses"" ;
+  ex:hasRanking ""Vanity Fair highest-paid actresses"" ;
+  ex:hasRanking ""Time magazine's 100 most influential people"" ;
+  ex:attended ex:Dragon_School ;
+  ex:trainedAt ex:Stagecoach_Theatre_Arts ;
+  ex:actedIn ex:Hermione_Granger ;
+  ex:actedIn ex:Ballet_Shoes ;
+  ex:lentVoiceTo ex:The_Tale_of_Despereaux ;
+  ex:actedIn ex:My_Week_with_Marilyn ;
+  ex:actedIn ex:The_Perks_of_Being_a_Wallflower ;
+  ex:actedIn ex:The_Bling_Ring ;
+  ex:actedIn ex:Noah ;
+  ex:hasHonour ""British Artist of the Year"" ;
+  ex:actedIn ex:Beauty_and_the_Beast ;
+  ex:actedIn ex:Little_Women ;
+  ex:hasDegree ""Bachelor's degree in English literature"" ;
+  ex:graduatedFrom ex:Brown_University ;
+  ex:appointedAs ex:UN_Women_Goodwill_Ambassador ;
+  ex:launchedCampaign ex:HeForShe ;
+  ex:launchedCampaign ex:Time's_Up_UK ;
+  ex:consultedFor ex:G7_advisory_body ;
+  ex:modelledFor ex:Burberry ;
+  ex:modelledFor ex:Lancôme ;
+  ex:endorsed ex:People_Tree ;
+  ex:joinedBoardOfDirectors ex:Kering .","@prefix ex: <http://example.org/> .
+
+ex:Emma_Watson ex:hasName ""Emma Charlotte Duerre Watson"" .
+ex:Emma_Watson ex:hasBirthDate ""1990-04-15""^^xsd:date .
+ex:Emma_Watson ex:hasOccupation ""Actress"" .
+ex:Emma_Watson ex:hasOccupation ""Activist"" .
+ex:Emma_Watson ex:hasReceivedAward ""Young Artist Award"" .
+ex:Emma_Watson ex:hasReceivedAward ""MTV Movie Award"" .
+ex:Emma_Watson ex:hasRanking ""Forbes highest-paid actresses"" .
+ex:Emma_Watson ex:hasRanking ""Vanity Fair highest-paid actresses"" .
+ex:Emma_Watson ex:hasRanking ""Time magazine 100 most influential people in the world"" .
+ex:Emma_Watson ex:hasEducation ""Dragon School"" .
+ex:Emma_Watson ex:hasEducation ""Oxford branch of Stagecoach Theatre Arts"" .
+ex:Emma_Watson ex:hasRole ""Hermione Granger"" .
+ex:Emma_Watson ex:hasRole ""Sam"" .
+ex:Emma_Watson ex:hasRole ""Alexis Neiers"" .
+ex:Emma_Watson ex:hasRole ""Adoptive daughter of Noah"" .
+ex:Emma_Watson ex:hasRole ""Belle"" .
+ex:Emma_Watson ex:hasRole ""Meg March"" .
+ex:Emma_Watson ex:hasDegree ""Bachelor's degree in English literature"" .
+ex:Emma_Watson ex:hasOrganization ""UN Women"" .
+ex:Emma_Watson ex:hasOrganization ""HeForShe"" .
+ex:Emma_Watson ex:hasOrganization ""Time's Up UK"" .
+ex:Emma_Watson ex:hasOrganization ""Kering"" .
+ex:Emma_Watson ex:hasBrand ""Burberry"" .
+ex:Emma_Watson ex:hasBrand ""Lancôme"" .
+ex:Emma_Watson ex:hasBrand ""People Tree"" .
+ex:Emma_Watson ex:hasCampaign ""UN Women campaign HeForShe"" .
+ex:Emma_Watson ex:hasPosition ""Board of directors of Kering"" .
+ex:Emma_Watson ex:hasPositionDescription ""Advocate for sustainable fashion"" .","```
+@prefix ex: <http://example.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Emma_Watson a ex:Person ;
+    ex:birthDate ""1990-04-15""^^xsd:date ;
+    ex:hasOccupation ex:Actress, ex:Activist ;
+    ex:hasAward ""Young Artist Award"" ;
+    ex:hasAward ""MTV Movie Award"" ;
+    ex:hasRank ""highest-paid actresses"" ;
+    ex:hasRank ""most influential people"" ;
+    ex:attended ex:Dragon_School ;
+    ex:trainedAt ex:Stagecoach_Theatre_Arts_Oxford ;
+    ex:actedIn ex:Hermione_Granger, ex:Ballet_Shoes, ex:The_Tale_of_Despereaux, ex:My_Week_with_Marilyn, ex:The_Perks_of_Being_a_Wallflower, ex:The_Bling_Ring, ex:Noah, ex:Beauty_and_the_Beast, ex:Little_Women ;
+    ex:graduatedFrom ex:Brown_University ;
+    ex:hasDegree ""English literature"" ;
+    ex:isAmbassadorOf ex:UN_Women ;
+    ex:hasCampaign ex:HeForShe ;
+    ex:hasMembership ex:Time's_Up_UK, ex:Kering ;
+    ex:hasConsultancy ex:G7 ;
+    ex:hasWork ex:Burberry, ex:Lancôme, ex:People_Tree .
+
+ex:Hermione_Granger a ex:Character .
+
+ex:Ballet_Shoes a ex:Novel .
+ex:The_Tale_of_Despereaux a ex:Novel .
+ex:My_Week_with_Marilyn a ex:Film .
+ex:The_Perks_of_Being_a_Wallflower a ex:Film .
+ex:The_Bling_Ring a ex:Film .
+ex:Noah a ex:Film .
+ex:Beauty_and_the_Beast a ex:Film .
+ex:Little_Women a ex:Film .
+
+ex:Dragon_School a ex:School .
+ex:Stagecoach_Theatre_Arts_Oxford a ex:School .
+ex:Brown_University a ex:University .
+
+ex:UN_Women a ex:Organization .
+ex:HeForShe a ex:Campaign .
+ex:Time's_Up_UK a ex:Organization .
+ex:Kering a ex:Brand .
+ex:G7 a ex:AdvisoryBody .
+
+ex:Actress a ex:Occupation .
+ex:Activist a ex:Occupation .
+ex:English_literature a ex:Degree .
+```
+Note: This is just an example of how the rdf triples could be generated from the given text. There could be other valid ways to represent the same information."
+5,Leonardo_DiCaprio,"@prefix ex: <http://example.com/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+ex:Leonardo_DiCaprio rdf:type foaf:Person ;
+    foaf:name ""Leonardo Wilhelm DiCaprio"" ;
+    dbp:birthDate ""1974-11-11""^^xsd:date ;
+    dbp:birthPlace ""Los Angeles"" ;
+    dbp:occupation ""Actor, film producer"" ;
+    foaf:isPrimaryTopicOf ex:Leonardo_DiCaprio ;
+    foaf:made ex:Appian_Way_Productions ;
+    foaf:made ex:Greensburg ;
+    foaf:made ex:Leonardo_DiCaprio_Foundation ;
+    foaf:depiction ex:Leonardo_DiCaprio.jpg .
+
+ex:Leonardo_DiCaprio dbo:hasOccupation dbp:occupation .
+
+ex:Leonardo_DiCaprio dbp:networth ""7.2 billion""^^xsd:decimal .
+
+ex:Leonardo_DiCaprio dbp:hasAcademicAdvisor ex:Martin_Scorsese .
+
+ex:Leonardo_DiCaprio dbo:award ex:Academy_Award ;
+    dbo:award ex:BAFTA_Award ;
+    dbo:award ex:Golden_Globe_Award ;
+    dbo:hasReceivedAward ex:Academy_Award ;
+    dbo:hasReceivedAward ex:BAFTA_Award ;
+    dbo:hasReceivedAward ex:Golden_Globe_Award .
+
+ex:Leonardo_DiCaprio dbp:hasCollaboratedWith ex:Martin_Scorsese .
+
+ex:Leonardo_DiCaprio dbp:hasCriticalAcclaim ex:What's_Eating_Gilbert_Grape ;
+    dbp:hasCriticalAcclaim ex:The_Revenant ;
+    dbp:hasCriticalAcclaim ex:The_Departed ;
+    dbp:hasCriticalAcclaim ex:Blood_Diamond ;
+    dbp:hasCriticalAcclaim ex:Revolutionary_Road .
+
+ex:Leonardo_DiCaprio dbp:hasFilm ex:This_Boy's_Life ;
+    dbp:hasFilm ex:Romeo_+_Juliet ;
+    dbp:hasFilm ex:Titanic ;
+    dbp:hasFilm ex:Catch_Me_If_You_Can ;
+    dbp:hasFilm ex:Gangs_of_New_York ;
+    dbp:hasFilm ex:The_Aviator ;
+    dbp:hasFilm ex:Django_Unchained ;
+    dbp:hasFilm ex:The_Great_Gatsby ;
+    dbp:hasFilm ex:The_Wolf_of_Wall_Street ;
+    dbp:hasFilm ex:Once_Upon_a_Time_in_Hollywood .
+
+ex:Appian_Way_Productions rdf:type foaf:Organization ;
+    foaf:name ""Appian Way Productions"" ;
+    foaf:homepage <http://appianway.biz> .
+
+ex:Greensburg rdf:type foaf:Documentary ;
+    foaf:name ""Greensburg"" ;
+    foaf:homepage <http://www.greensburgproject.com> .
+
+ex:Leonardo_DiCaprio_Foundation rdf:type foaf:Organization ;
+    foaf:name ""Leonardo DiCaprio Foundation"" ;
+    foaf:homepage <http://leonardodicaprio.org> .
+
+ex:Academy_Award rdf:type dbo:Award ;
+    rdfs:label ""Academy Award"" .
+
+ex:BAFTA_Award rdf:type dbo:Award ;
+    rdfs:label ""BAFTA Award"" .
+
+ex:Golden_Globe_Award rdf:type dbo:Award ;
+    rdfs:label ""Golden Globe Award"" .
+
+ex:Martin_Scorsese rdf:type foaf:Person ;
+    foaf:name ""Martin Scorsese"" . 
+
+ex:What's_Eating_Gilbert_Grape rdf:type dbo:Film ;
+    rdfs:label ""What's Eating Gilbert Grape"" .
+
+ex:The_Revenant rdf:type dbo:Film ;
+    rdfs:label ""The Revenant"" .
+
+ex:The_Departed rdf:type dbo:Film ;
+    rdfs:label ""The Departed"" .
+
+ex:Blood_Diamond rdf:type dbo:Film ;
+    rdfs:label ""Blood Diamond"" .
+
+ex:Revolutionary_Road rdf:type dbo:Film ;
+    rdfs:label ""Revolutionary Road"" .
+
+ex:This_Boy's_Life rdf:type dbo:Film ;
+    rdfs:label ""This Boy's Life"" .
+
+ex:Romeo_+_Juliet rdf:type dbo:Film ;
+    rdfs:label ""Romeo + Juliet"" .
+
+ex:Titanic rdf:type dbo:Film ;
+    rdfs:label ""Titanic"" .
+
+ex:Catch_Me_If_You_Can rdf:type dbo:Film ;
+    rdfs:label ""Catch Me If You Can"" .
+
+ex:Gangs_of_New_York rdf:type dbo:Film ;
+    rdfs:label ""Gangs of New York"" .
+
+ex:The_Aviator rdf:type dbo:Film ;
+    rdfs:label ""The Aviator"" .
+
+ex:Django_Unchained rdf:type dbo:Film ;
+    rdfs:label ""Django Unchained"" .
+
+ex:The_Great_Gatsby rdf:type dbo:Film ;
+    rdfs:label ""The Great Gatsby"" .
+
+ex:The_Wolf_of_Wall_Street rdf:type dbo:Film ;
+    rdfs:label ""The Wolf of Wall Street"" .
+
+ex:Once_Upon_a_Time_in_Hollywood rdf:type dbo:Film ;
+    rdfs:label ""Once Upon a Time in Hollywood"" .","@prefix ex: <http://example.com/> .
+
+ex:Leonardo_DiCaprio ex:hasName ""Leonardo Wilhelm DiCaprio"" .
+ex:Leonardo_DiCaprio ex:hasBirthDate ""1974-11-11""^^xsd:date .
+ex:Leonardo_DiCaprio ex:hasNationality ""American"" .
+ex:Leonardo_DiCaprio ex:hasOccupation ""Actor"" .
+ex:Leonardo_DiCaprio ex:hasOccupation ""Film producer"" .
+
+ex:Leonardo_DiCaprio ex:hasWork ""This Boy's Life"" .
+ex:Leonardo_DiCaprio ex:hasWork ""What's Eating Gilbert Grape"" .
+
+ex:Leonardo_DiCaprio ex:hasAward ""Academy Award"" .
+ex:Leonardo_DiCaprio ex:hasAward ""British Academy Film Award"" .
+ex:Leonardo_DiCaprio ex:hasAward ""Golden Globe Award"" .
+
+ex:Leonardo_DiCaprio ex:hasGrossEarnings ""$7.2 billion"" .
+
+ex:Los_Angeles ex:isBirthPlaceOf ex:Leonardo_DiCaprio .
+
+ex:Martin_Scorsese ex:hasCollaborationWith ex:Leonardo_DiCaprio .
+
+ex:Appian_Way_Productions ex:hasProduced ex:Leonardo_DiCaprio 's films.
+
+ex:Greensburg ex:isDocumentarySeriesProducedBy ex:Appian_Way_Productions .
+
+ex:Leonardo_DiCaprio_Foundation ex:isNonprofitOrganizationDevotedTo ""promoting environmental awareness"" .
+
+ex:Leonardo_DiCaprio ex:hasCommanderOfTheOrdreDesArtsEtDesLettres ""2005""^^xsd:gYear .
+
+ex:Time_Magazine ex:hasListed ex:Leonardo_DiCaprio ""100 most influential people in the world""^^xsd:string ""2016""^^xsd:gYear .
+
+ex:Leonardo_DiCaprio ex:hasMessengerOfPeaceTitle ""United Nations Messengers of Peace"" .
+
+ex:Leonardo_DiCaprio ex:hasCharitableCausesSupport ""environmental awareness"" .
+
+ex:Leonardo_DiCaprio ex:hasWork ""Catch Me If You Can"" .
+ex:Leonardo_DiCaprio ex:hasWork ""Gangs of New York"" .
+ex:Leonardo_DiCaprio ex:hasWork ""The Aviator"" .
+ex:Leonardo_DiCaprio ex:hasWork ""Blood Diamond"" .
+ex:Leonardo_DiCaprio ex:hasWork ""The Departed"" .
+ex:Leonardo_DiCaprio ex:hasWork ""Revolutionary Road"" .
+ex:Leonardo_DiCaprio ex:hasWork ""Inception"" .
+ex:Leonardo_DiCaprio ex:hasWork ""Django Unchained"" .
+ex:Leonardo_DiCaprio ex:hasWork ""The Great Gatsby"" .
+ex:Leonardo_DiCaprio ex:hasWork ""The Wolf of Wall Street"" .
+ex:Leonardo_DiCaprio ex:hasWork ""The Revenant"" .
+ex:Leonardo_DiCaprio ex:hasWork ""Once Upon a Time in Hollywood"" .","@prefix ex: <http://example.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Leonardo_DiCaprio a ex:Actor ;
+    ex:hasName ""Leonardo Wilhelm DiCaprio"" ;
+    ex:hasBirthDate ""1974-11-11""^^xsd:date ;
+    ex:hasBirthPlace ""Los Angeles"" ;
+    ex:hasProfession ""Actor"" ;
+    ex:hasProfession ""Film producer"" ;
+    ex:hasTotalGrossEarnings ""$7.2 billion"" ;
+    ex:hasAward ""Academy Award"" ;
+    ex:hasAward ""British Academy Film Award"" ;
+    ex:hasAward ""Golden Globe Awards"" ;
+    ex:hasNumberOfRankings ""8"" ;
+    ex:hasRanking ""Annual rankings of the world's highest-paid actors"" ;
+    ex:hasCareerTimeline ""1980s"" ;
+    ex:hasCareerTimeline ""1990s"" ;
+    ex:hasCareerTimeline ""2000s"" ;
+    ex:hasCareerTimeline ""2010s"" ;
+    ex:hasRole ""Tobias Wolff"" ;
+    ex:hasRole ""Developmentally disabled boy"" ;
+    ex:hasRole ""Howard Hughes"" ;
+    ex:hasProductionCompany ""Appian Way Productions"" ;
+    ex:hasDocumentarySeries ""Greensburg"" ;
+    ex:hasNonProfitOrganization ""Leonardo DiCaprio Foundation"" ;
+    ex:supportsCause ""Environmental awareness"" ;
+    ex:servesAs ""United Nations Messengers of Peace"" ;
+    ex:hasTitle ""Commander of the Ordre des Arts et des Lettres"" ;
+    ex:hasTitleYear ""2005""^^xsd:gYear ;
+    ex:hasTitle ""Time magazine's 100 most influential people in the world"" ;
+    ex:hasTitleYear ""2016""^^xsd:gYear .
+
+ex:Leonardo_DiCaprio ex:hasWork ""Romeo + Juliet"" ;
+    ex:hasWork ""Titanic"" ;
+    ex:hasWork ""Catch Me If You Can"" ;
+    ex:hasWork ""Gangs of New York"" ;
+    ex:hasWork ""The Aviator"" ;
+    ex:hasWork ""Blood Diamond"" ;
+    ex:hasWork ""The Departed"" ;
+    ex:hasWork ""Revolutionary Road"" ;
+    ex:hasWork ""Inception"" ;
+    ex:hasWork ""Django Unchained"" ;
+    ex:hasWork ""The Great Gatsby"" ;
+    ex:hasWork ""The Wolf of Wall Street"" ;
+    ex:hasWork ""The Revenant"" ;
+    ex:hasWork ""Once Upon a Time in Hollywood"" .","@prefix ex: <http://example.com/> .
+
+ex:Leonardo_DiCaprio ex:hasName ""Leonardo Wilhelm DiCaprio"" .
+ex:Leonardo_DiCaprio ex:hasBirthDate ""1974-11-11"" .
+ex:Leonardo_DiCaprio ex:hasNationality ""American"" .
+ex:Leonardo_DiCaprio ex:hasOccupation ""Actor"" .
+ex:Leonardo_DiCaprio ex:hasOccupation ""Film producer"" .
+ex:Leonardo_DiCaprio ex:hasAchievement ""Academy Award"" .
+ex:Leonardo_DiCaprio ex:hasAchievement ""British Academy Film Award"" .
+ex:Leonardo_DiCaprio ex:hasAchievement ""Golden Globe Awards"" .
+ex:Leonardo_DiCaprio ex:hasGrossed ""$7.2 billion"" .
+ex:Leonardo_DiCaprio ex:hasRanking ""Eight"" .
+ex:Leonardo_DiCaprio ex:isBornIn ""Los Angeles"" .
+ex:Leonardo_DiCaprio ex:hasCareer ""Television commercials"" .
+ex:Leonardo_DiCaprio ex:hasCareer ""Sitcom Parenthood"" .
+ex:Leonardo_DiCaprio ex:hasFirstMajorFilm ""This Boy's Life"" .
+ex:Leonardo_DiCaprio ex:hasCriticalAcclaim ""What's Eating Gilbert Grape"" .
+ex:Leonardo_DiCaprio ex:hasFilm ""Romeo + Juliet"" .
+ex:Leonardo_DiCaprio ex:hasFilm ""Titanic"" .
+ex:Leonardo_DiCaprio ex:hasGenre ""Crime drama"" .
+ex:Leonardo_DiCaprio ex:hasFilm ""Catch Me If You Can"" .
+ex:Leonardo_DiCaprio ex:hasFilm ""Gangs of New York"" .
+ex:Leonardo_DiCaprio ex:hasCharacter ""Howard Hughes"" .
+ex:Leonardo_DiCaprio ex:hasFilm ""Blood Diamond"" .
+ex:Leonardo_DiCaprio ex:hasFilm ""The Departed"" .
+ex:Leonardo_DiCaprio ex:hasFilm ""Revolutionary Road"" .
+ex:Leonardo_DiCaprio ex:hasFilm ""Inception"" .
+ex:Leonardo_DiCaprio ex:hasFilm ""Django Unchained"" .
+ex:Leonardo_DiCaprio ex:hasFilm ""The Great Gatsby"" .
+ex:Leonardo_DiCaprio ex:hasFilm ""The Wolf of Wall Street"" .
+ex:Leonardo_DiCaprio ex:hasFilm ""The Revenant"" .
+ex:Leonardo_DiCaprio ex:hasAward ""BAFTA Award for Best Actor"" .
+ex:Leonardo_DiCaprio ex:hasFilm ""Once Upon a Time in Hollywood"" .
+ex:Leonardo_DiCaprio ex:hasProductionCompany ""Appian Way Productions"" .
+ex:Leonardo_DiCaprio ex:hasProduced ""Greensburg"" .
+ex:Leonardo_DiCaprio ex:hasNonProfit ""Leonardo DiCaprio Foundation"" .
+ex:Leonardo_DiCaprio ex:hasInterest ""Environmental awareness"" .
+ex:Leonardo_DiCaprio ex:isMessengerOfPeace ""United Nations"" .
+ex:Leonardo_DiCaprio ex:hasReceived ""Commander of the Ordre des Arts et des Lettres"" .
+ex:Leonardo_DiCaprio ex:hasInfluence ""Time magazine's 100 most influential people in the world"" .","@prefix ex: <http://example.com/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Leonardo_DiCaprio ex:hasName ""Leonardo Wilhelm DiCaprio"" .
+ex:Leonardo_DiCaprio ex:hasBirthDate ""1974-11-11""^^xsd:date .
+ex:Leonardo_DiCaprio ex:hasNationality ""American"" .
+ex:Leonardo_DiCaprio ex:hasOccupation ""Actor"" .
+ex:Leonardo_DiCaprio ex:hasOccupation ""Film Producer"" .
+ex:Leonardo_DiCaprio ex:hasAccolades ""Academy Award"" .
+ex:Leonardo_DiCaprio ex:hasAccolades ""British Academy Film Award"" .
+ex:Leonardo_DiCaprio ex:hasAccolades ""Golden Globe Awards"" .
+ex:Leonardo_DiCaprio ex:hasGrossEarnings ""$7.2 billion"" .
+ex:Leonardo_DiCaprio ex:hasWorkIn ""Los Angeles"" .
+
+ex:Leonardo_DiCaprio ex:hasCareerStartYear ""1980s"" .
+ex:Leonardo_DiCaprio ex:hasCareerStartBy ""Appearing in television commercials"" .
+ex:Leonardo_DiCaprio ex:hasRecurringRolesIn ""Parenthood"" .
+
+ex:Leonardo_DiCaprio ex:hasFirstMajorFilm ""This Boy's Life"" .
+ex:Leonardo_DiCaprio ex:hasFirstMajorFilmYear ""1993"" .
+ex:Leonardo_DiCaprio ex:hasFirstMajorFilmCharacter ""Tobias Wolff"" .
+
+ex:Leonardo_DiCaprio ex:hasCriticalAcclaimIn ""What's Eating Gilbert Grape"" .
+ex:Leonardo_DiCaprio ex:hasCriticalAcclaimYear ""1993"" .
+ex:Leonardo_DiCaprio ex:hasCriticalAcclaimFor ""Performance as a developmentally disabled boy"" .
+
+ex:Leonardo_DiCaprio ex:hasInternationalStardomIn ""Romeo + Juliet"" .
+ex:Leonardo_DiCaprio ex:hasInternationalStardomIn ""Titanic"" .
+ex:Leonardo_DiCaprio ex:hasReductionOfWorkload ""After Titanic"" .
+
+ex:Leonardo_DiCaprio ex:hasRolesIn ""Catch Me If You Can"" .
+ex:Leonardo_DiCaprio ex:hasRolesIn ""Gangs of New York"" .
+ex:Leonardo_DiCaprio ex:hasSuccessfulCollaborationWith ""Martin Scorsese"" .
+
+ex:Leonardo_DiCaprio ex:hasPortrayed ""Howard Hughes"" .
+ex:Leonardo_DiCaprio ex:hasReceivedAcclaimIn ""Blood Diamond"" .
+ex:Leonardo_DiCaprio ex:hasReceivedAcclaimIn ""The Departed"" .
+ex:Leonardo_DiCaprio ex:hasReceivedAcclaimIn ""Revolutionary Road"" .
+
+ex:Leonardo_DiCaprio ex:hasStarredIn ""Inception"" .
+ex:Leonardo_DiCaprio ex:hasStarredIn ""Django Unchained"" .
+ex:Leonardo_DiCaprio ex:hasStarredIn ""The Great Gatsby"" .
+ex:Leonardo_DiCaprio ex:hasStarredIn ""The Wolf of Wall Street"" .
+ex:Leonardo_DiCaprio ex:hasStarredIn ""The Revenant"" .
+ex:Leonardo_DiCaprio ex:hasStarredIn ""Once Upon a Time in Hollywood"" .
+
+ex:Leonardo_DiCaprio ex:hasProductionCompany ""Appian Way Productions"" .
+ex:Leonardo_DiCaprio ex:hasProduced ""Greensburg"" .
+ex:Leonardo_DiCaprio ex:hasProducedYear ""2008-2010"" .
+ex:Leonardo_DiCaprio ex:hasEnvironmentalAwareness ""Leonardo DiCaprio Foundation"" .
+ex:Leonardo_DiCaprio ex:hasSupportFor ""Charitable causes"" .
+ex:Leonardo_DiCaprio ex:hasProducedDocumentaries ""On the environment"" .
+
+ex:Leonardo_DiCaprio ex:hasRoleAs ""United Nations Messengers of Peace"" .
+
+ex:Leonardo_DiCaprio ex:hasReceivedHonour ""Commander of the Ordre des Arts et des Lettres"" .
+ex:Leonardo_DiCaprio ex:hasReceivedHonourYear ""2005"" .
+
+ex:Leonardo_DiCaprio ex:hasBeenNamedIn ""Time magazine's 100 most influential people in the world"" .
+ex:Leonardo_DiCaprio ex:hasBeenNamedInYear ""2016"" ."
+6,Chris_Evans_(actor),"```
+@prefix ex: <http://example.com/> .
+
+ex:Chris_Evans_(actor) a ex:Actor ;
+    ex:hasName ""Christopher Robert Evans"" ;
+    ex:hasBirthDate ""1981-06-13""^^xsd:date ;
+    ex:hasCareer ex:Opposite_Sex ;
+    ex:hasCareer ex:Not_Another_Teen_Movie ;
+    ex:hasCareer ex:Fantastic_Four ;
+    ex:hasCareer ex:Fantastic_Four_Rise_of_the_Silver_Surfer ;
+    ex:hasCareer ex:TMNT ;
+    ex:hasCareer ex:Scott_Pilgrim_vs_the_World ;
+    ex:hasCareer ex:Snowpiercer ;
+    ex:hasCareer ex:Captain_America_The_First_Avenger ;
+    ex:hasCareer ex:Avengers_Endgame ;
+    ex:hasCareer ex:Gifted ;
+    ex:hasCareer ex:Knives_Out ;
+    ex:hasCareer ex:Defending_Jacob ;
+    ex:hasCareer ex:Before_We_Go ;
+    ex:hasCareer ex:Lobby_Hero ;
+    ex:hasRole ex:Human_Torch ;
+    ex:hasRole ex:Steve_Rogers_Captain_America ;
+    ex:hasAward ""Drama League Award nomination"" ;
+    ex:hasOccupation ex:Actor ;
+    ex:hasOccupation ex:Director ;
+    ex:hasOccupation ex:Producer ;
+    ex:hasOccupation ex:Broadway_Actor .
+
+ex:Opposite_Sex a ex:Television_Series ;
+    ex:hasName ""Opposite Sex"" ;
+    ex:hasYear ""2000""^^xsd:gYear .
+
+ex:Not_Another_Teen_Movie a ex:Film ;
+    ex:hasName ""Not Another Teen Movie"" ;
+    ex:hasYear ""2001""^^xsd:gYear .
+
+ex:Fantastic_Four a ex:Film ;
+    ex:hasName ""Fantastic Four"" ;
+    ex:hasYear ""2005""^^xsd:gYear .
+
+ex:Fantastic_Four_Rise_of_the_Silver_Surfer a ex:Film ;
+    ex:hasName ""Fantastic Four: Rise of the Silver Surfer"" ;
+    ex:hasYear ""2007""^^xsd:gYear .
+
+ex:TMNT a ex:Film ;
+    ex:hasName ""TMNT"" ;
+    ex:hasYear ""2007""^^xsd:gYear .
+
+ex:Scott_Pilgrim_vs_the_World a ex:Film ;
+    ex:hasName ""Scott Pilgrim vs. the World"" ;
+    ex:hasYear ""2010""^^xsd:gYear .
+
+ex:Snowpiercer a ex:Film ;
+    ex:hasName ""Snowpiercer"" ;
+    ex:hasYear ""2013""^^xsd:gYear .
+
+ex:Captain_America_The_First_Avenger a ex:Film ;
+    ex:hasName ""Captain America: The First Avenger"" ;
+    ex:hasYear ""2011""^^xsd:gYear .
+
+ex:Avengers_Endgame a ex:Film ;
+    ex:hasName ""Avengers: Endgame"" ;
+    ex:hasYear ""2019""^^xsd:gYear .
+
+ex:Gifted a ex:Film ;
+    ex:hasName ""Gifted"" ;
+    ex:hasYear ""2017""^^xsd:gYear .
+
+ex:Knives_Out a ex:Film ;
+    ex:hasName ""Knives Out"" ;
+    ex:hasYear ""2019""^^xsd:gYear .
+
+ex:Defending_Jacob a ex:Television_Miniseries ;
+    ex:hasName ""Defending Jacob"" ;
+    ex:hasYear ""2020""^^xsd:gYear .
+
+ex:Before_We_Go a ex:Film ;
+    ex:hasName ""Before We Go"" ;
+    ex:hasYear ""2014""^^xsd:gYear .
+
+ex:Lobby_Hero a ex:Play ;
+    ex:hasName ""Lobby Hero"" ;
+    ex:hasYear ""2018""^^xsd:gYear ;
+    ex:hasWriter ""Kenneth Lonergan"" .
+```","```
+@prefix ex: <http://example.com/> .
+
+ex:Chris_Evans_(actor) a ex:Actor ;
+    ex:name ""Christopher Robert Evans"" ;
+    ex:birthDate ""1981-06-13""^^<http://www.w3.org/2001/XMLSchema#date> ;
+    ex:hasCareer ex:Opposite_Sex ;
+    ex:hasCareer ex:Not_Another_Teen_Movie ;
+    ex:hasCareer ex:Fantastic_Four ;
+    ex:hasCareer ex:Fantastic_Four_Rise_of_the_Silver_Surfer ;
+    ex:hasCareer ex:TMNT ;
+    ex:hasCareer ex:Scott_Pilgrim_vs_the_World ;
+    ex:hasCareer ex:Snowpiercer ;
+    ex:hasCareer ex:Captain_America_The_First_Avenger ;
+    ex:hasCareer ex:The_Avengers ;
+    ex:hasCareer ex:Captain_America_The_Winter_Soldier ;
+    ex:hasCareer ex:Avengers_Age_of_Ultron ;
+    ex:hasCareer ex:Captain_America_Civil_War ;
+    ex:hasCareer ex:Spider_Man_Homecoming ;
+    ex:hasCareer ex:Avengers_Infinity_War ;
+    ex:hasCareer ex:Avengers_Endgame ;
+    ex:hasCareer ex:Gifted ;
+    ex:hasCareer ex:Knives_Out ;
+    ex:hasCareer ex:Defending_Jacob ;
+    ex:hasCareer ex:Before_We_Go ;
+    ex:hasCareer ex:Lobby_Hero ;
+    ex:hasAward ex:Drama_League_Award .
+
+ex:Opposite_Sex a ex:TelevisionSeries ;
+    ex:name ""Opposite Sex"" ;
+    ex:releaseYear ""2000""^^<http://www.w3.org/2001/XMLSchema#gYear> .
+
+ex:Not_Another_Teen_Movie a ex:Film ;
+    ex:name ""Not Another Teen Movie"" ;
+    ex:releaseYear ""2001""^^<http://www.w3.org/2001/XMLSchema#gYear> .
+
+ex:Fantastic_Four a ex:Film ;
+    ex:name ""Fantastic Four"" ;
+    ex:releaseYear ""2005""^^<http://www.w3.org/2001/XMLSchema#gYear> .
+
+ex:Fantastic_Four_Rise_of_the_Silver_Surfer a ex:Film ;
+    ex:name ""Fantastic Four: Rise of the Silver Surfer"" ;
+    ex:releaseYear ""2007""^^<http://www.w3.org/2001/XMLSchema#gYear> .
+
+ex:TMNT a ex:Film ;
+    ex:name ""TMNT"" ;
+    ex:releaseYear ""2007""^^<http://www.w3.org/2001/XMLSchema#gYear> .
+
+ex:Scott_Pilgrim_vs_the_World a ex:Film ;
+    ex:name ""Scott Pilgrim vs. the World"" ;
+    ex:releaseYear ""2010""^^<http://www.w3.org/2001/XMLSchema#gYear> .
+
+ex:Snowpiercer a ex:Film ;
+    ex:name ""Snowpiercer"" ;
+    ex:releaseYear ""2013""^^<http://www.w3.org/2001/XMLSchema#gYear> .
+
+ex:Captain_America_The_First_Avenger a ex:Film ;
+    ex:name ""Captain America: The First Avenger"" ;
+    ex:releaseYear ""2011""^^<http://www.w3.org/2001/XMLSchema#gYear> .
+
+ex:The_Avengers a ex:Film ;
+    ex:name ""The Avengers"" ;
+    ex:releaseYear ""2012""^^<http://www.w3.org/2001/XMLSchema#gYear> .
+
+ex:Captain_America_The_Winter_Soldier a ex:Film ;
+    ex:name ""Captain America: The Winter Soldier"" ;
+    ex:releaseYear ""2014""^^<http://www.w3.org/2001/XMLSchema#gYear> .
+
+ex:Avengers_Age_of_Ultron a ex:Film ;
+    ex:name ""Avengers: Age of Ultron"" ;
+    ex:releaseYear ""2015""^^<http://www.w3.org/2001/XMLSchema#gYear> .
+
+ex:Captain_America_Civil_War a ex:Film ;
+    ex:name ""Captain America: Civil War"" ;
+    ex:releaseYear ""2016""^^<http://www.w3.org/2001/XMLSchema#gYear> .
+
+ex:Spider_Man_Homecoming a ex:Film ;
+    ex:name ""Spider-Man: Homecoming"" ;
+    ex:releaseYear ""2017""^^<http://www.w3.org/2001/XMLSchema#gYear> .
+
+ex:Avengers_Infinity_War a ex:Film ;
+    ex:name ""Avengers: Infinity War"" ;
+    ex:releaseYear ""2018""^^<http://www.w3.org/2001/XMLSchema#gYear> .
+
+ex:Avengers_Endgame a ex:Film ;
+    ex:name ""Avengers: Endgame"" ;
+    ex:releaseYear ""2019""^^<http://www.w3.org/2001/XMLSchema#gYear> .
+
+ex:Gifted a ex:Film ;
+    ex:name ""Gifted"" ;
+    ex:releaseYear ""2017""^^<http://www.w3.org/2001/XMLSchema#gYear> .
+
+ex:Knives_Out a ex:Film ;
+    ex:name ""Knives Out"" ;
+    ex:releaseYear ""2019""^^<http://www.w3.org/2001/XMLSchema#gYear> .
+
+ex:Defending_Jacob a ex:TelevisionMiniseries ;
+    ex:name ""Defending Jacob"" ;
+    ex:releaseYear ""2020""^^<http://www.w3.org/2001/XMLSchema#gYear> .
+
+ex:Before_We_Go a ex:Film ;
+    ex:name ""Before We Go"" ;
+    ex:releaseYear ""2014""^^<http://www.w3.org/2001/XMLSchema#gYear> .
+
+ex:Lobby_Hero a ex:Play ;
+    ex:name ""Lobby Hero"" ;
+    ex:author ""Kenneth Lonergan"" .
+    
+ex:Drama_League_Award a ex:Award ;
+    ex:name ""Drama League Award"" .
+```","```
+@prefix ex: <http://example.com/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Chris_Evans_actor rdf:type ex:Actor ;
+                     ex:hasName ""Christopher Robert Evans"" ;
+                     ex:hasBirthdate ""1981-06-13""^^xsd:date .
+
+ex:Opposite_Sex rdf:type ex:TelevisionSeries ;
+                rdfs:label ""Opposite Sex"" .
+
+ex:Not_Another_Teen_Movie rdf:type ex:Film ;
+                          rdfs:label ""Not Another Teen Movie"" ;
+                          ex:hasYear ""2001""^^xsd:gYear .
+
+ex:Fantastic_Four rdf:type ex:Film ;
+                  rdfs:label ""Fantastic Four"" ;
+                  ex:hasYear ""2005""^^xsd:gYear .
+
+ex:Fantastic_Four_Rise_of_the_Silver_Surfer rdf:type ex:Film ;
+                                            rdfs:label ""Fantastic Four: Rise of the Silver Surfer"" ;
+                                            ex:hasYear ""2007""^^xsd:gYear .
+
+ex:Human_Torch rdf:type ex:MarvelCharacter ;
+               rdfs:label ""the Human Torch"" .
+
+ex:TMNT rdf:type ex:Film ;
+        rdfs:label ""TMNT"" ;
+        ex:hasYear ""2007""^^xsd:gYear .
+
+ex:Scott_Pilgrim_vs_the_World rdf:type ex:Film ;
+                              rdfs:label ""Scott Pilgrim vs. the World"" ;
+                              ex:hasYear ""2010""^^xsd:gYear .
+
+ex:Snowpiercer rdf:type ex:Film ;
+               rdfs:label ""Snowpiercer"" ;
+               ex:hasYear ""2013""^^xsd:gYear .
+
+ex:Steve_Rogers_Captain_America rdf:type ex:MarvelCharacter ;
+                                rdfs:label ""Steve Rogers / Captain America"" .
+
+ex:Marvel_Cinematic_Universe rdf:type ex:FilmSeries ;
+                             rdfs:label ""Marvel Cinematic Universe"" .
+
+ex:Captain_America_The_First_Avenger rdf:type ex:Film ;
+                                      rdfs:label ""Captain America: The First Avenger"" ;
+                                      ex:hasYear ""2011""^^xsd:gYear .
+
+ex:Avengers_Endgame rdf:type ex:Film ;
+                    rdfs:label ""Avengers: Endgame"" ;
+                    ex:hasYear ""2019""^^xsd:gYear .
+
+ex:Gifted rdf:type ex:Film ;
+           rdfs:label ""Gifted"" ;
+           ex:hasYear ""2017""^^xsd:gYear .
+
+ex:Knives_Out rdf:type ex:Film ;
+              rdfs:label ""Knives Out"" ;
+              ex:hasYear ""2019""^^xsd:gYear .
+
+ex:Defending_Jacob rdf:type ex:TelevisionMiniseries ;
+                    rdfs:label ""Defending Jacob"" ;
+                    ex:hasYear ""2020""^^xsd:gYear .
+
+ex:Before_We_Go rdf:type ex:Film ;
+                 rdfs:label ""Before We Go"" ;
+                 ex:hasYear ""2014""^^xsd:gYear .
+
+ex:Kenneth_Lonergans_Play_Lobby_Hero rdf:type ex:Play ;
+                                     rdfs:label ""Kenneth Lonergan's play Lobby Hero"" .
+
+ex:Drama_League_Award rdf:type ex:Award ;
+                      rdfs:label ""Drama League Award"" .
+
+ex:Chris_Evans_actor ex:hasCareer ex:Opposite_Sex ,
+                                    ex:Not_Another_Teen_Movie ,
+                                    ex:Fantastic_Four ,
+                                    ex:Fantastic_Four_Rise_of_the_Silver_Surfer ,
+                                    ex:TMNT ,
+                                    ex:Scott_Pilgrim_vs_the_World ,
+                                    ex:Snowpiercer ,
+                                    ex:Captain_America_The_First_Avenger ,
+                                    ex:Avengers_Endgame ,
+                                    ex:Gifted ,
+                                    ex:Knives_Out ,
+                                    ex:Defending_Jacob ,
+                                    ex:Before_We_Go ;
+                     ex:hasMarvelCharacter ex:Human_Torch ,
+                                           ex:Steve_Rogers_Captain_America ;
+                     ex:hasWorkedIn ex:Marvel_Cinematic_Universe ;
+                     ex:hasDirected ex:Before_We_Go ;
+                     ex:hasProduced ex:Before_We_Go ;
+                     ex:hasStarredIn ex:Before_We_Go ,
+                                    ex:Lobby_Hero ;
+                     ex:hasBeenNominatedFor ex:Drama_League_Award .
+```","```
+@prefix ex: <http://example.com/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Chris_Evans rdf:type ex:Actor ;
+    ex:name ""Christopher Robert Evans"" ;
+    ex:birthDate ""1981-06-13""^^xsd:date ;
+    ex:hasCareer ex:Opposite_Sex ;
+    ex:hasCareer ex:Not_Another_Teen_Movie ;
+    ex:hasCareer ex:Fantastic_Four ;
+    ex:hasCareer ex:Fantastic_Four_Rise_of_the_Silver_Surfer ;
+    ex:hasCareer ex:TMNT ;
+    ex:hasCareer ex:Scott_Pilgrim_vs_the_World ;
+    ex:hasCareer ex:Snowpiercer ;
+    ex:hasCareer ex:Captain_America_The_First_Avenger ;
+    ex:hasCareer ex:Avengers_Endgame ;
+    ex:hasCareer ex:Gifted ;
+    ex:hasCareer ex:Knives_Out ;
+    ex:hasCareer ex:Defending_Jacob ;
+    ex:hasCareer ex:Before_We_Go ;
+    ex:hasCareer ex:Lobby_Hero ;
+    ex:directorialDebut ex:Before_We_Go ;
+    ex:hasAward ex:Drama_League_Award ;
+    ex:hasPay ""highest-paid actor"" ;
+    ex:hasWork ex:Captain_America_The_First_Avenger ;
+    ex:hasWork ex:Avengers_Endgame ;
+    ex:hasWork ex:Gifted ;
+    ex:hasWork ex:Knives_Out ;
+    ex:hasWork ex:Defending_Jacob ;
+    ex:hasWork ex:Before_We_Go ;
+    ex:hasWork ex:Lobby_Hero .
+
+ex:Opposite_Sex rdf:type ex:TelevisionSeries ;
+    ex:name ""Opposite Sex"" ;
+    ex:releaseYear ""2000""^^xsd:gYear .
+
+ex:Not_Another_Teen_Movie rdf:type ex:Film ;
+    ex:name ""Not Another Teen Movie"" ;
+    ex:releaseYear ""2001""^^xsd:gYear .
+
+ex:Fantastic_Four rdf:type ex:Film ;
+    ex:name ""Fantastic Four"" ;
+    ex:releaseYear ""2005""^^xsd:gYear .
+
+ex:Fantastic_Four_Rise_of_the_Silver_Surfer rdf:type ex:Film ;
+    ex:name ""Fantastic Four: Rise of the Silver Surfer"" ;
+    ex:releaseYear ""2007""^^xsd:gYear .
+
+ex:TMNT rdf:type ex:Film ;
+    ex:name ""TMNT"" ;
+    ex:releaseYear ""2007""^^xsd:gYear .
+
+ex:Scott_Pilgrim_vs_the_World rdf:type ex:Film ;
+    ex:name ""Scott Pilgrim vs. the World"" ;
+    ex:releaseYear ""2010""^^xsd:gYear .
+
+ex:Snowpiercer rdf:type ex:Film ;
+    ex:name ""Snowpiercer"" ;
+    ex:releaseYear ""2013""^^xsd:gYear .
+
+ex:Captain_America_The_First_Avenger rdf:type ex:Film ;
+    ex:name ""Captain America: The First Avenger"" ;
+    ex:releaseYear ""2011""^^xsd:gYear .
+
+ex:Avengers_Endgame rdf:type ex:Film ;
+    ex:name ""Avengers: Endgame"" ;
+    ex:releaseYear ""2019""^^xsd:gYear .
+
+ex:Gifted rdf:type ex:Film ;
+    ex:name ""Gifted"" ;
+    ex:releaseYear ""2017""^^xsd:gYear .
+
+ex:Knives_Out rdf:type ex:Film ;
+    ex:name ""Knives Out"" ;
+    ex:releaseYear ""2019""^^xsd:gYear .
+
+ex:Defending_Jacob rdf:type ex:TelevisionMiniseries ;
+    ex:name ""Defending Jacob"" ;
+    ex:releaseYear ""2020""^^xsd:gYear .
+
+ex:Before_We_Go rdf:type ex:Film ;
+    ex:name ""Before We Go"" ;
+    ex:releaseYear ""2014""^^xsd:gYear .
+
+ex:Lobby_Hero rdf:type ex:Play ;
+    ex:name ""Lobby Hero"" ;
+    ex:releaseYear ""2018""^^xsd:gYear .
+
+ex:Drama_League_Award rdf:type ex:Award ;
+    ex:name ""Drama League Award"" .
+```","```
+@prefix ex: <http://example.com/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+ex:Chris_Evans_(actor) rdf:type foaf:Person ;
+    foaf:name ""Christopher Robert Evans"" ;
+    foaf:givenName ""Christopher Robert"" ;
+    foaf:familyName ""Evans"" ;
+    ex:hasBirthdate ""1981-06-13""^^xsd:date ;
+    ex:hasOccupation ""Actor"" ;
+    ex:hasCareer ""Opposite Sex (2000), Not Another Teen Movie (2001), Fantastic Four (2005),\
+    Fantastic Four: Rise of the Silver Surfer (2007), TMNT (2007), Scott Pilgrim vs. the World (2010),\
+    Snowpiercer (2013), Captain America: The First Avenger (2011), Avengers: Endgame (2019), Gifted (2017),\
+    Knives Out (2019), Defending Jacob (2020), Before We Go (2014)"" ;
+    ex:hasAward ""Drama League Award nomination"" ;
+    ex:hasWork ex:Lobby_Hero_(play) .
+
+ex:Lobby_Hero_(play) rdf:type ex:Play ;
+    foaf:name ""Lobby Hero"" ;
+    ex:hasAuthor ""Kenneth Lonergan"" .
+```"
+7,Serena_Williams,"@prefix ex: <http://example.com/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Serena_Williams rdf:type ex:TennisPlayer ;
+    ex:hasName ""Serena Jameka Williams"" ;
+    ex:hasBirthDate ""1981-09-26""^^xsd:date ;
+    ex:hasNationality ""American"" ;
+    ex:hasCareerLength ""1995-2022""^^xsd:gYear ;
+    ex:hasSinglesRanking ""1"" ;
+    ex:hasSinglesRankingWeeks ""319"" ;
+    ex:hasSinglesRankingConsecutiveWeeks ""186"" ;
+    ex:hasYearEndSinglesRanking ""1"" ;
+    ex:hasYearEndSinglesRankingTimes ""5"" ;
+    ex:hasSinglesTitles ""23"" ;
+    ex:hasSinglesTitlesOpenEra ""23"" ;
+    ex:hasSinglesTitlesAllTime ""23"" ;
+    ex:hasDoublesTitles ""14"" ;
+    ex:hasMixedDoublesTitles ""2"" ;
+    ex:hasTotalMajorTitles ""39"" ;
+    ex:hasSinglesMajorTitles ""23"" ;
+    ex:hasDoublesMajorTitles ""14"" ;
+    ex:hasMixedDoublesMajorTitles ""2"" ;
+    ex:hasSurfaceSlam ""true"" ;
+    ex:hasGoldenSlam ""true"" ;
+    ex:hasCareerGrandSlam ""true"" ;
+    ex:hasRetiredStatus ""inactive"" ;
+    ex:hasRetirementDate ""2022-08""^^xsd:gYearMonth ;
+    ex:hasHighestPaidAthleteStatus ""true"" ;
+    ex:hasHighestPaidAthleteYear ""2016""^^xsd:gYear ;
+    ex:hasHighestPaidAthleteEarnings ""29000000""^^xsd:integer ;
+    ex:hasSportswomanOfTheYearStatus ""true"" ;
+    ex:hasSportswomanOfTheYearYears ""2003, 2010, 2016, 2018"" ;
+    ex:hasSportspersonOfTheYearStatus ""true"" ;
+    ex:hasSportspersonOfTheYearYear ""2015""^^xsd:gYear ;
+    ex:hasUnbeatenGrandSlamDoublesFinalsRecord ""true"" ;
+    ex:hasJointRecordWithVenus ""true"" ;
+    ex:hasUnbeatenGrandSlamDoublesFinals ""2009-2010""^^xsd:gYear ;
+    ex:hasOlympicGoldMedals ""4"" ;
+    ex:hasOlympicGoldMedalsWomenDoubles ""3"" ;
+    ex:hasOlympicGoldMedalsMixedDoubles ""1"" ;
+    ex:hasNewEraOfPowerAndAthleticism ""true"" ;
+    ex:hasMostRecentSurfaceSlam ""2015""^^xsd:gYear ;
+    ex:hasMostRecentSinglesTitlesInARow ""4"" ;
+    ex:hasMostRecentSinglesTitlesInARowYears ""2014-2015""^^xsd:gYear ;
+    ex:hasMostRecentDoublesTitlesInARow ""4"" ;
+    ex:hasMostRecentDoublesTitlesInARowYears ""2009-2010""^^xsd:gYear ;
+    ex:hasAllTimeMajorTitlesRanking ""3"" ;
+    ex:hasOpenEraMajorTitlesRanking ""2"" ;
+    ex:hasAllTimeMajorTitles ""24"" ;
+    ex:hasOpenEraMajorTitles ""23"" ;
+    ex:hasCoach ""Oracene Price, Richard Williams"" .
+
+ex:TennisPlayer rdf:type rdfs:Class ;
+    rdfs:subClassOf ex:Person .
+
+ex:Person rdf:type rdfs:Class .","@prefix ex: <http://example.com/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Serena_Williams rdf:type ex:TennisPlayer ;
+    ex:name ""Serena Jameka Williams"" ;
+    ex:birthDate ""1981-09-26""^^xsd:date ;
+    ex:citizenship ""American"" ;
+    ex:hasCoachedBy ex:Oracene_Price, ex:Richard_Williams ;
+    ex:hasWonOlympicGold ""4""^^xsd:int ;
+    ex:hasWonGrandSlamSinglesTitles ""23""^^xsd:int ;
+    ex:hasWonGrandSlamDoublesTitles ""14""^^xsd:int ;
+    ex:hasWonMajorMixedDoublesTitles ""2""^^xsd:int ;
+    ex:hasTotalMajorTitles ""39""^^xsd:int ;
+    ex:hasBeenRankedWorldNo1Singles ""319""^^xsd:int ;
+    ex:hasBeenRankedWorldNo1Doubles ""8""^^xsd:int ;
+    ex:hasBeenRankedWorldNo1MixedDoubles ""1""^^xsd:int ;
+    ex:hasBeenRankedYearEndNo1Singles ""5""^^xsd:int ;
+    ex:hasAchievedSerenaSlam ;
+    ex:hasAchievedCareerGrandSlam ;
+    ex:hasAchievedSurfaceSlam ;
+    ex:isRetired ""true""^^xsd:boolean ;
+    ex:hasAnnouncedRetirement ""true""^^xsd:boolean ;
+    ex:hasFinalMatch ""2022 US Open"" ;
+    ex:hasHighestAnnualEarnings ""29000000""^^xsd:decimal ;
+    ex:hasLaureusSportswomanOfTheYearAward ""4""^^xsd:int ;
+    ex:hasSportspersonOfTheYearAward ""1""^^xsd:int ;
+    ex:hasRankingOnForbesList ""28""^^xsd:int .
+
+ex:Serena_Williams ex:hasWonMajorSinglesTitle ex:US_Open_1999, ex:French_Open_2002, ex:Wimbledon_2002, ex:US_Open_2002, ex:Australian_Open_2003, ex:Wimbledon_2003, ex:Australian_Open_2005, ex:Wimbledon_2005, ex:Australian_Open_2007, ex:Wimbledon_2007, ex:US_Open_2008, ex:Australian_Open_2009, ex:Wimbledon_2009, ex:Australian_Open_2010, ex:Wimbledon_2010, ex:US_Open_2012, ex:French_Open_2013, ex:US_Open_2013, ex:US_Open_2014, ex:Australian_Open_2015, ex:French_Open_2015, ex:Wimbledon_2015, ex:Australian_Open_2017.
+
+ex:Serena_Williams ex:hasWonMajorWomenDoublesTitle ex:French_Open_1999, ex:US_Open_1999, ex:Wimbledon_2000, ex:US_Open_2001, ex:French_Open_2002, ex:Wimbledon_2002, ex:Australian_Open_2003, ex:Wimbledon_2003, ex:US_Open_2005, ex:Australian_Open_2009, ex:Wimbledon_2009, ex:US_Open_2009, ex:Wimbledon_2010.
+
+ex:Serena_Williams ex:hasWonMajorMixedDoublesTitle ex:Wimbledon_1998, ex:US_Open_1998.
+
+ex:Serena_Williams ex:hasWonOlympicGoldInWomenDoubles ex:Sydney_2000, ex:Beijing_2008, ex:London_2012.
+
+ex:Serena_Williams ex:hasWonOlympicGoldInMixedDoubles ex:Sydney_2000, ex:Beijing_2008. 
+
+ex:Serena_Williams ex:hasWonGrandSlamSinglesTitles ""23""^^xsd:int .
+ex:Serena_Williams ex:hasWonGrandSlamDoublesTitles ""14""^^xsd:int .
+ex:Serena_Williams ex:hasTotalMajorTitles ""39""^^xsd:int .
+ex:Serena_Williams ex:hasBeenRankedWorldNo1Singles ""319""^^xsd:int .
+ex:Serena_Williams ex:hasBeenRankedWorldNo1Doubles ""8""^^xsd:int .
+ex:Serena_Williams ex:hasBeenRankedWorldNo1MixedDoubles ""1""^^xsd:int .
+ex:Serena_Williams ex:hasBeenRankedYearEndNo1Singles ""5""^^xsd:int .
+
+ex:Oracene_Price rdf:type ex:TennisCoach ;
+    ex:name ""Oracene Price"" .
+
+ex:Richard_Williams rdf:type ex:TennisCoach ;
+    ex:name ""Richard Williams"" .
+
+ex:US_Open_1999 rdf:type ex:TennisTournament ;
+    ex:name ""US Open 1999"" .
+
+ex:French_Open_2002 rdf:type ex:TennisTournament ;
+    ex:name ""French Open 2002"" .
+
+ex:Wimbledon_2002 rdf:type ex:TennisTournament ;
+    ex:name ""Wimbledon 2002"" .
+
+ex:US_Open_2002 rdf:type ex:TennisTournament ;
+    ex:name ""US Open 2002"" .
+
+ex:Australian_Open_2003 rdf:type ex:TennisTournament ;
+    ex:name ""Australian Open 2003"" .
+
+ex:Wimbledon_2003 rdf:type ex:TennisTournament ;
+    ex:name ""Wimbledon 2003"" .
+
+ex:Australian_Open_2005 rdf:type ex:TennisTournament ;
+    ex:name ""Australian Open 2005"" .
+
+ex:Wimbledon_2005 rdf:type ex:TennisTournament ;
+    ex:name ""Wimbledon 2005"" .
+
+ex:Australian_Open_2007 rdf:type ex:TennisTournament ;
+    ex:name ""Australian Open 2007"" .
+
+ex:Wimbledon_2007 rdf:type ex:TennisTournament ;
+    ex:name ""Wimbledon 2007"" .
+
+ex:US_Open_2008 rdf:type ex:TennisTournament ;
+    ex:name ""US Open 2008"" .
+
+ex:Australian_Open_2009 rdf:type ex:TennisTournament ;
+    ex:name ""Australian Open 2009"" .
+
+ex:Wimbledon_2009 rdf:type ex:TennisTournament ;
+    ex:name ""Wimbledon 2009"" .
+
+ex:US_Open_2009 rdf:type ex:TennisTournament ;
+    ex:name ""US Open 2009"" .
+
+ex:French_Open_2013 rdf:type ex:TennisTournament ;
+    ex:name ""French Open 2013"" .
+
+ex:US_Open_2013 rdf:type ex:TennisTournament ;
+    ex:name ""US Open 2013"" .
+
+ex:US_Open_2014 rdf:type ex:TennisTournament ;
+    ex:name ""US Open 2014"" .
+
+ex:Australian_Open_2015 rdf:type ex:TennisTournament ;
+    ex:name ""Australian Open 2015"" .
+
+ex:French_Open_2015 rdf:type ex:TennisTournament ;
+    ex:name ""French Open 2015"" .
+
+ex:Wimbledon_2015 rdf:type ex:TennisTournament ;
+    ex:name ""Wimbledon 2015"" .
+
+ex:Sydney_2000 rdf:type ex:OlympicGames ;
+    ex:year ""2000""^^xsd:gYear ;
+    ex:hostCity ""Sydney"" .
+
+ex:Beijing_2008 rdf:type ex:OlympicGames ;
+    ex:year ""2008""^^xsd:gYear ;
+    ex:hostCity ""Beijing"" .
+
+ex:London_2012 rdf:type ex:OlympicGames ;
+    ex:year ""2012""^^xsd:gYear ;
+    ex:hostCity ""London"" .","```
+@prefix ex: <http://example.com/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Serena_Williams rdf:type ex:TennisPlayer ;
+    ex:name ""Serena Jameka Williams"" ;
+    ex:birthDate ""1981-09-26""^^xsd:date ;
+    ex:hasCareerTotalEarnings ""290000000""^^xsd:integer ;
+    ex:hasHighestAnnualEarnings ""29000000""^^xsd:integer ;
+    ex:hasLaureusSportswomanOfYearAward ""2003""^^xsd:integer, ""2010""^^xsd:integer, ""2016""^^xsd:integer, ""2018""^^xsd:integer ;
+    ex:hasMostCombinedMajorTitles ""39""^^xsd:integer ;
+    ex:hasMostMajorSinglesTitles ""23""^^xsd:integer ;
+    ex:hasMostRecentSurfaceSlam ""2015""^^xsd:integer ;
+    ex:hasMostRecentSimultaneousMajorSinglesTitles ""2015""^^xsd:integer, ""2003""^^xsd:integer ;
+    ex:hasMostRecentSimultaneousMajorWomensDoublesTitles ""2010""^^xsd:integer, ""2009""^^xsd:integer ;
+    ex:hasMostOlympicGoldMedals ""4""^^xsd:integer ;
+    ex:hasMostTotalMajorTitles ""39""^^xsd:integer ;
+    ex:hasMostWomensDoublesTitles ""14""^^xsd:integer ;
+    ex:hasRetiredStatus ""inactive"" ;
+    ex:hasWonSportsIllustratedSportspersonOfYear ""2015""^^xsd:integer ;
+    ex:hasWorldNo1Ranking ""319""^^xsd:integer ;
+    ex:hasWorldNo1RankingWeeks ""186""^^xsd:integer ;
+    ex:playedFinalMatch ""2022-09-05""^^xsd:date ;
+    ex:playedFirstMajorSinglesTitle ""1999 US Open"" ;
+    ex:playedForCountry ex:UnitedStates ;
+    ex:playedInTournament ex:WimbledonChampionships, ex:AustralianOpen, ex:FrenchOpen, ex:USOpen, ex:OlympicGames ;
+    ex:wasCoachedBy ex:OracenePrice, ex:RichardWilliams .
+
+ex:Serena_Williams ex:hasWonMajorSinglesTitle ex:USOpen_1999, ex:FrenchOpen_2002, ex:AustralianOpen_2003, ex:WimbledonChampionships_2002, ex:WimbledonChampionships_2003, ex:USOpen_2002, ex:AustralianOpen_2005, ex:WimbledonChampionships_2009, ex:AustralianOpen_2010, ex:WimbledonChampionships_2010, ex:USOpen_2012, ex:FrenchOpen_2013, ex:USOpen_2013, ex:USOpen_2014, ex:AustralianOpen_2015, ex:FrenchOpen_2015, ex:WimbledonChampionships_2015, ex:AustralianOpen_2017 ;
+    ex:hasWonMajorWomensDoublesTitle ex:FrenchOpen_1999, ex:USOpen_1999, ex:WimbledonChampionships_2000, ex:USOpen_2001, ex:FrenchOpen_2003, ex:WimbledonChampionships_2003, ex:AustralianOpen_2009, ex:WimbledonChampionships_2009, ex:USOpen_2009, ex:AustralianOpen_2010, ex:FrenchOpen_2010, ex:WimbledonChampionships_2010, ex:USOpen_2010, ex:WimbledonChampionships_2012, ex:OlympicGames_2012, ex:FrenchOpen_2013, ex:USOpen_2013, ex:AustralianOpen_2015, ex:WimbledonChampionships_2016, ex:AustralianOpen_2017 ;
+    ex:hasWonMajorMixedDoublesTitle ex:WimbledonChampionships_1998, ex:USOpen_1998 .
+
+ex:UnitedStates rdf:type ex:Country ;
+    ex:name ""United States"" .
+
+ex:WimbledonChampionships rdf:type ex:TennisTournament ;
+    ex:name ""Wimbledon Championships"" .
+
+ex:AustralianOpen rdf:type ex:TennisTournament ;
+    ex:name ""Australian Open"" .
+
+ex:FrenchOpen rdf:type ex:TennisTournament ;
+    ex:name ""French Open"" .
+
+ex:USOpen rdf:type ex:TennisTournament ;
+    ex:name ""US Open"" .
+
+ex:OlympicGames rdf:type ex:MultiSportEvent ;
+    ex:name ""Olympic Games"" .
+```","@prefix ex: <http://example.com/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+ex:Serena_Williams rdf:type ex:TennisPlayer ;
+    ex:name ""Serena Jameka Williams"" ;
+    ex:birthDate ""1981-09-26""^^xsd:date ;
+    ex:hasParent ex:Oracene_Price,
+        ex:Richard_Williams ;
+    ex:hasSibling ex:Venus_Williams ;
+    ex:hasWon ex:Grand_Slam_Singles_1999_US_Open,
+        ex:Grand_Slam_Singles_2002_French_Open,
+        ex:Grand_Slam_Singles_2002_Wimbledon,
+        ex:Grand_Slam_Singles_2002_US_Open,
+        ex:Grand_Slam_Singles_2003_Australian_Open,
+        ex:Grand_Slam_Singles_2003_French_Open,
+        ex:Grand_Slam_Singles_2003_Wimbledon,
+        ex:Grand_Slam_Singles_2003_US_Open,
+        ex:Grand_Slam_Singles_2005_Australian_Open,
+        ex:Grand_Slam_Singles_2007_Australian_Open,
+        ex:Grand_Slam_Singles_2008_US_Open,
+        ex:Grand_Slam_Singles_2009_Australian_Open,
+        ex:Grand_Slam_Singles_2010_Australian_Open,
+        ex:Grand_Slam_Singles_2012_Wimbledon,
+        ex:Grand_Slam_Singles_2012_US_Open,
+        ex:Grand_Slam_Singles_2013_French_Open,
+        ex:Grand_Slam_Singles_2013_US_Open,
+        ex:Grand_Slam_Singles_2014_Australian_Open,
+        ex:Grand_Slam_Singles_2014_French_Open,
+        ex:Grand_Slam_Singles_2014_Wimbledon,
+        ex:Grand_Slam_Singles_2014_US_Open,
+        ex:Grand_Slam_Singles_2015_Australian_Open,
+        ex:Grand_Slam_Singles_2015_French_Open,
+        ex:Grand_Slam_Singles_2015_Wimbledon,
+        ex:Grand_Slam_Singles_2015_US_Open,
+        ex:Grand_Slam_Singles_2017_Australian_Open ;
+    ex:hasWonInDoubles ex:Grand_Slam_Womens_Doubles_1999_French_Open,
+        ex:Grand_Slam_Womens_Doubles_1999_US_Open,
+        ex:Grand_Slam_Womens_Doubles_2000_Wimbledon,
+        ex:Grand_Slam_Womens_Doubles_2001_Australian_Open,
+        ex:Grand_Slam_Womens_Doubles_2001_French_Open,
+        ex:Grand_Slam_Womens_Doubles_2002_Wimbledon,
+        ex:Grand_Slam_Womens_Doubles_2002_US_Open,
+        ex:Grand_Slam_Womens_Doubles_2003_Australian_Open,
+        ex:Grand_Slam_Womens_Doubles_2008_Wimbledon,
+        ex:Grand_Slam_Womens_Doubles_2009_Australian_Open,
+        ex:Grand_Slam_Womens_Doubles_2009_Wimbledon,
+        ex:Grand_Slam_Womens_Doubles_2009_US_Open,
+        ex:Grand_Slam_Womens_Doubles_2010_Australian_Open,
+        ex:Grand_Slam_Womens_Doubles_2010_French_Open,
+        ex:Grand_Slam_Womens_Doubles_2010_Wimbledon ;
+    ex:hasWonInMixedDoubles ex:Grand_Slam_Mixed_Doubles_1998_Wimbledon,
+        ex:Grand_Slam_Mixed_Doubles_1998_US_Open ;
+    ex:hasWonOlympicGold ex:Olympic_Gold_2000_Sydney_Womens_Doubles,
+        ex:Olympic_Gold_2008_Beijing_Womens_Doubles,
+        ex:Olympic_Gold_2012_London_Womens_Singles,
+        ex:Olympic_Gold_2012_London_Womens_Doubles,
+        ex:Olympic_Gold_2016_Rio_Womens_Singles,
+        ex:Olympic_Gold_2021_Tokyo_Mixed_Doubles ;
+    ex:hasTotalMajorTitles ""39""^^xsd:int ;
+    ex:hasTotalSinglesTitles ""23""^^xsd:int ;
+    ex:hasTotalWomensDoublesTitles ""14""^^xsd:int ;
+    ex:hasTotalMixedDoublesTitles ""2""^^xsd:int ;
+    ex:hasRanking ex:World_No_1_Singles_Ranking_319_Weeks,
+        ex:World_No_1_Singles_Ranking_186_Consecutive_Weeks,
+        ex:Year_End_No_1_Five_Times ;
+    ex:hasAchievement ex:Career_Grand_Slam,
+        ex:Serena_Slam,
+        ex:Surface_Slam,
+        ex:Golden_Slam ;
+    ex:hasRetired ""true""^^xsd:boolean ;
+    ex:hasRetirementDate ""2022-08-31""^^xsd:date ;
+    ex:hasWonLaureusSportswomanOfTheYear ""4""^^xsd:int ;
+    ex:hasWonSportsIllustratedSportspersonOfTheYear ""1""^^xsd:int ;
+    ex:hasHighestAnnualEarnings ""29000000""^^xsd:int ;
+    ex:hasHighestAllTimeEarnings ""29000000""^^xsd:int .
+
+ex:TennisPlayer rdfs:subClassOf ex:Person .
+ex:Grand_Slam_Singles rdfs:subClassOf ex:TennisTournament .
+ex:Grand_Slam_Singles_1999_US_Open rdf:type ex:Grand_Slam_Singles .
+ex:Grand_Slam_Singles_2002_French_Open rdf:type ex:Grand_Slam_Singles .
+ex:Grand_Slam_Singles_2002_Wimbledon rdf:type ex:Grand_Slam_Singles .
+ex:Grand_Slam_Singles_2002_US_Open rdf:type ex:Grand_Slam_Singles .
+ex:Grand_Slam_Singles_2003_Australian_Open rdf:type ex:Grand_Slam_Singles .
+ex:Grand_Slam_Singles_2003_French_Open rdf:type ex:Grand_Slam_Singles .
+ex:Grand_Slam_Singles_2003_Wimbledon rdf:type ex:Grand_Slam_Singles .
+ex:Grand_Slam_Singles_2003_US_Open rdf:type ex:Grand_Slam_Singles .
+ex:Grand_Slam_Singles_2005_Australian_Open rdf:type ex:Grand_Slam_Singles .
+ex:Grand_Slam_Singles_2007_Australian_Open rdf:type ex:Grand_Slam_Singles .
+ex:Grand_Slam_Singles_2008_US_Open rdf:type ex:Grand_Slam_Singles .
+ex:Grand_Slam_Singles_2009_Australian_Open rdf:type ex:Grand_Slam_Singles .
+ex:Grand_Slam_Singles_2010_Australian_Open rdf:type ex:Grand_Slam_Singles .
+ex:Grand_Slam_Singles_2012_Wimbledon rdf:type ex:Grand_Slam_Singles .
+ex:Grand_Slam_Singles_2012_US_Open rdf:type ex:Grand_Slam_Singles .
+ex:Grand_Slam_Singles_2013_French_Open rdf:type ex:Grand_Slam_Singles .
+ex:Grand_Slam_Singles_2013_US_Open rdf:type ex:Grand_Slam_Singles .
+ex:Grand_Slam_Singles_2014_Australian_Open rdf:type ex:Grand_Slam_Singles .
+ex:Grand_Slam_Singles_2014_French_Open rdf:type ex:Grand_Slam_Singles .
+ex:Grand_Slam_Singles_2014_Wimbledon rdf:type ex:Grand_Slam_Singles .
+ex:Grand_Slam_Singles_2014_US_Open rdf:type ex:Grand_Slam_Singles .
+ex:Grand_Slam_Singles_2015_Australian_Open rdf:type ex:Grand_Slam_Singles .
+ex:Grand_Slam_Singles_2015_French_Open rdf:type ex:Grand_Slam_Singles .
+ex:Grand_Slam_Singles_2015_Wimbledon rdf:type ex:Grand_Slam_Singles .
+ex:Grand_Slam_Singles_2015_US_Open rdf:type ex:Grand_Slam_Singles .
+ex:Grand_Slam_Singles_2017_Australian_Open rdf:type ex:Grand_Slam_Singles .
+ex:Grand_Slam_Womens_Doubles rdfs:subClassOf ex:TennisTournament .
+ex:Grand_Slam_Womens_Doubles_1999_French_Open rdf:type ex:Grand_Slam_Womens_Doubles .
+ex:Grand_Slam_Womens_Doubles_1999_US_Open rdf:type ex:Grand_Slam_Womens_Doubles .
+ex:Grand_Slam_Womens_Doubles_2000_Wimbledon rdf:type ex:Grand_Slam_Womens_Doubles .
+ex:Grand_Slam_Womens_Doubles_2001_Australian_Open rdf:type ex:Grand_Slam_Womens_Doubles .
+ex:Grand_Slam_Womens_Doubles_2001_French_Open rdf:type ex:Grand_Slam_Womens_Doubles .
+ex:Grand_Slam_Womens_Doubles_2002_Wimbledon rdf:type ex:Grand_Slam_Womens_Doubles .
+ex:Grand_Slam_Womens_Doubles_2002_US_Open rdf:type ex:Grand_Slam_Womens_Doubles .
+ex:Grand_Slam_Womens_Doubles_2003_Australian_Open rdf:type ex:Grand_Slam_Womens_Doubles .
+ex:Grand_Slam_Womens_Doubles_2008_Wimbledon rdf:type ex:Grand_Slam_Womens_Doubles .
+ex:Grand_Slam_Womens_Doubles_2009_Australian_Open rdf:type ex:Grand_Slam_Womens_Doubles .
+ex:Grand_Slam_Womens_Doubles_2009_Wimbledon rdf:type ex:Grand_Slam_Womens_Doubles .
+ex:Grand_Slam_Womens_Doubles_2009_US_Open rdf:type ex:Grand_Slam_Womens_Doubles .
+ex:Grand_Slam_Womens_Doubles_2010_Australian_Open rdf:type ex:Grand_Slam_Womens_Doubles .
+ex:Grand_Slam_Womens_Doubles_2010_French_Open rdf:type ex:Grand_Slam_Womens_Doubles .
+ex:Grand_Slam_Womens_Doubles_2010_Wimbledon rdf:type ex:Grand_Slam_Womens_Doubles .
+ex:Grand_Slam_Mixed_Doubles rdfs:subClassOf ex:TennisTournament .
+ex:Grand_Slam_Mixed_Doubles_1998_Wimbledon rdf:type ex:Grand_Slam_Mixed_Doubles .
+ex:Grand_Slam_Mixed_Doubles_1998_US_Open rdf:type ex:Grand_Slam_Mixed_Doubles .
+ex:Olympic_Gold rdfs:subClassOf ex:OlympicMedal .
+ex:Olympic_Gold_2000_Sydney_Womens_Doubles rdf:type ex:Olympic_Gold .
+ex:Olympic_Gold_2008_Beijing_Womens_Doubles rdf:type ex:Olympic_Gold .
+ex:Olympic_Gold_2012_London_Womens_Singles rdf:type ex:Olympic_Gold .
+ex:Olympic_Gold_2012_London_Womens_Doubles rdf:type ex:Olympic_Gold .
+ex:Olympic_Gold_2016_Rio_Womens_Singles rdf:type ex:Olympic_Gold .
+ex:Olympic_Gold_2021_Tokyo_Mixed_Doubles rdf:type ex:Olympic_Gold .
+ex:World_No_1_Singles_Ranking rdf:type ex:TennisRanking .
+ex:World_No_1_Singles_Ranking_319_Weeks rdf:type ex:World_No_1_Singles_Ranking .
+ex:World_No_1_Singles_Ranking_186_Consecutive_Weeks rdf:type ex:World_No_1_Singles_Ranking .
+ex:Year_End_No_1 rdf:type ex:TennisRanking .
+ex:Year_End_No_1_Five_Times rdf:type ex:Year_End_No_1 .
+ex:Serena_Slam rdfs:subClassOf ex:TennisAchievement .
+ex:Career_Grand_Slam rdfs:subClassOf ex:TennisAchievement .
+ex:Surface_Slam rdfs:subClassOf ex:TennisAchievement .
+ex:Golden_Slam rdfs:subClassOf ex:TennisAchievement .","@prefix ex: <http://example.com/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+ex:Serena_Williams rdf:type ex:TennisPlayer .
+ex:Serena_Williams ex:hasName ""Serena Jameka Williams"" .
+ex:Serena_Williams ex:wasBornOn ""1981-09-26""^^xsd:date .
+ex:Serena_Williams ex:isFrom ex:United_States .
+ex:Serena_Williams ex:hasRanking ""1"" .
+ex:Serena_Williams ex:hasRankingType ""singles"" .
+ex:Serena_Williams ex:hasRankingWeeks ""319"" .
+ex:Serena_Williams ex:hasRankingWeeksConsec ""186"" .
+ex:Serena_Williams ex:hasYearEndRanking ""1"" .
+ex:Serena_Williams ex:hasYearEndRankingTimes ""5"" .
+ex:Serena_Williams ex:hasWonTournament ex:US_Open_1999 .
+ex:Serena_Williams ex:hasWonTournament ex:Australian_Open_2003 .
+ex:Serena_Williams ex:hasWonTournament ex:French_Open_2002 .
+ex:Serena_Williams ex:hasWonTournament ex:Wimbledon_2002 .
+ex:Serena_Williams ex:hasWonTournament ex:US_Open_2002 .
+ex:Serena_Williams ex:hasWonTournament ex:Australian_Open_2010 .
+ex:Serena_Williams ex:hasWonTournament ex:French_Open_2013 .
+ex:Serena_Williams ex:hasWonTournament ex:Wimbledon_2015 .
+ex:Serena_Williams ex:hasWonTournament ex:US_Open_2014 .
+ex:Serena_Williams ex:hasWonTournament ex:Australian_Open_2015 .
+ex:Serena_Williams ex:hasWonTournament ex:French_Open_2015 .
+ex:Serena_Williams ex:hasWonTournament ex:Wimbledon_2016 .
+ex:Serena_Williams ex:hasWonTournament ex:Australian_Open_2017 .
+ex:Serena_Williams ex:hasWonTournament ex:Australian_Open_2010_Doubles .
+ex:Serena_Williams ex:hasWonTournament ex:Wimbledon_2012_Doubles .
+ex:Serena_Williams ex:hasWonTournament ex:US_Open_2009_Doubles .
+ex:Serena_Williams ex:hasWonTournament ex:French_Open_2010_Doubles .
+ex:Serena_Williams ex:hasWonOlympicMedal ex:Olympic_Games_2000_Gold .
+ex:Serena_Williams ex:hasWonOlympicMedal ex:Olympic_Games_2008_Gold .
+ex:Serena_Williams ex:hasWonOlympicMedal ex:Olympic_Games_2012_Gold .
+ex:Serena_Williams ex:hasWonOlympicMedal ex:Olympic_Games_2012_Doubles_Gold .
+ex:Serena_Williams ex:hasWonOlympicMedal ex:Olympic_Games_2016_Gold .
+ex:Serena_Williams ex:hasWonOlympicMedal ex:Olympic_Games_2008_Doubles_Gold .
+ex:Serena_Williams ex:hasWonOlympicMedal ex:Olympic_Games_2012_Doubles_Gold .
+ex:Serena_Williams ex:hasWonOlympicMedal ex:Olympic_Games_2020_Doubles .
+ex:Serena_Williams ex:hasWonTournament ex:Wimbledon_1998_Mixed_Doubles .
+ex:Serena_Williams ex:hasWonTournament ex:US_Open_1998_Mixed_Doubles .
+ex:Serena_Williams ex:hasWonTournament ex:Wimbledon_1999_Doubles .
+ex:Serena_Williams ex:hasWonTournament ex:French_Open_1999_Doubles .
+ex:Serena_Williams ex:hasWonTournament ex:US_Open_1999_Doubles .
+ex:Serena_Williams ex:hasWonTournament ex:Wimbledon_2000_Doubles .
+ex:Serena_Williams ex:hasWonTournament ex:French_Open_2001_Doubles .
+ex:Serena_Williams ex:hasWonTournament ex:US_Open_2001_Doubles .
+ex:Serena_Williams ex:hasWonTournament ex:Wimbledon_2002_Doubles .
+ex:Serena_Williams ex:hasWonTournament ex:French_Open_2003_Doubles .
+ex:Serena_Williams ex:hasWonTournament ex:US_Open_2003_Doubles .
+ex:Serena_Williams ex:hasWonTournament ex:Australian_Open_2009_Doubles .
+ex:Serena_Williams ex:hasWonTournament ex:Wimbledon_2009_Doubles .
+ex:Serena_Williams ex:hasWonTournament ex:US_Open_2009_Doubles .
+ex:Serena_Williams ex:hasWonTournament ex:Australian_Open_2010_Doubles .
+ex:Serena_Williams ex:hasWonTournament ex:Wimbledon_2010_Doubles .
+ex:Serena_Williams ex:hasWonTournament ex:US_Open_2010_Doubles .
+ex:Serena_Williams ex:hasWonTournament ex:Australian_Open_2010_Mixed_Doubles .
+ex:Serena_Williams ex:hasWonTournament ex:Wimbledon_2012_Mixed_Doubles .
+ex:Serena_Williams ex:hasWonTournament ex:US_Open_2012_Doubles .
+ex:Serena_Williams ex:hasWonTournament ex:Wimbledon_2012_Doubles .
+ex:Serena_Williams ex:hasWonTournament ex:French_Open_2013_Doubles .
+ex:Serena_Williams ex:hasWonTournament ex:US_Open_2013_Doubles .
+ex:Serena_Williams ex:hasWonTournament ex:Australian_Open_2015_Doubles .
+ex:Serena_Williams ex:hasWonTournament ex:Wimbledon_2016_Doubles .
+ex:Serena_Williams ex:hasWonTournament ex:Wimbledon_2012 .
+ex:Serena_Williams ex:hasWonTournament ex:US_Open_2012 .
+ex:Serena_Williams ex:hasWonTournament ex:French_Open_2013 .
+ex:Serena_Williams ex:hasWonTournament ex:US_Open_2013 .
+ex:Serena_Williams ex:hasWonTournament ex:Australian_Open_2015 .
+ex:Serena_Williams ex:hasWonTournament ex:Wimbledon_2015 .
+ex:Serena_Williams ex:hasWonTournament ex:US_Open_2014 .
+ex:Serena_Williams ex:hasWonTournament ex:Australian_Open_2015 .
+ex:Serena_Williams ex:hasWonTournament ex:French_Open_2015 .
+ex:Serena_Williams ex:hasWonTournament ex:Wimbledon_2016 .
+ex:Serena_Williams ex:hasWonTournament ex:Australian_Open_2017 .
+ex:Serena_Williams ex:hasWonTournament ex:Wimbledon_2012_Doubles .
+ex:Serena_Williams ex:hasWonTournament ex:US_Open_2012_Doubles .
+ex:Serena_Williams ex:hasWonTournament ex:Wimbledon_2016_Doubles .
+ex:Serena_Williams ex:hasWonTournament ex:Australian_Open_2015_Doubles .
+ex:Serena_Williams ex:hasWonTournament ex:US_Open_2013_Doubles .
+ex:Serena_Williams ex:hasWonTournament ex:French_Open_2013_Doubles .
+ex:Serena_Williams ex:hasWonTournament ex:Wimbledon_2012_Mixed_Doubles .
+ex:Serena_Williams ex:hasWonTournament ex:Australian_Open_2010_Mixed_Doubles .
+ex:Serena_Williams ex:hasWonTournament ex:US_Open_1998_Mixed_Doubles .
+ex:Serena_Williams ex:hasWonTournament ex:Wimbledon_1998_Mixed_Doubles .
+ex:Serena_Williams ex:hasWonTournament ex:French_Open_1999_Doubles .
+ex:Serena_Williams ex:hasWonTournament ex:US_Open_1999_Doubles .
+ex:Serena_Williams ex:hasWonTournament ex:Wimbledon_1999_Doubles .
+ex:Serena_Williams ex:hasWonTournament ex:French_Open_2001_Doubles .
+ex:Serena_Williams ex:hasWonTournament ex:US_Open_2001_Doubles .
+ex:Serena_Williams ex:hasWonTournament ex:Wimbledon_2000_Doubles .
+ex:Serena_Williams ex:hasWonTournament ex:French_Open_2003_Doubles .
+ex:Serena_Williams ex:hasWonTournament ex:US_Open_2003_Doubles .
+ex:Serena_Williams ex:hasWonTournament ex:Australian_Open_2009_Doubles .
+ex:Serena_Williams ex:hasWonTournament ex:Wimbledon_2009_Doubles .
+ex:Serena_Williams ex:hasWonTournament ex:US_Open_2009_Doubles .
+ex:Serena_Williams ex:hasWonTournament ex:Australian_Open_2010_Doubles .
+ex:Serena_Williams ex:hasWonTournament ex:Wimbledon_2010_Doubles .
+ex:Serena_Williams ex:hasWonTournament ex:US_Open_2010_Doubles .
+ex:Serena_Williams ex:hasWonTournament ex:US_Open_2022 .
+ex:Serena_Williams ex:hasWonTournament ex:Wimbledon_2022 .
+ex:Serena_Williams ex:hasWonTournament ex:Australian_Open_2022 .
+ex:Serena_Williams ex:hasWonTournament ex:French_Open_2022 .
+ex:Serena_Williams ex:hasWonTournament ex:Wimbledon_2016_Doubles .
+ex:Serena_Williams ex:hasWonTournament ex:Australian_Open_2015_Doubles .
+ex:Serena_Williams ex:hasWonTournament ex:French_Open_2015_Doubles .
+ex:Serena_Williams ex:hasWonTournament ex:US_Open_2013_Doubles .
+ex:Serena_Williams ex:hasWonTournament ex:Wimbledon_2012_Doubles .
+ex:Serena_Williams ex:hasWonTournament ex:US_Open_2012_Doubles .
+ex:Serena_Williams ex:hasWonTournament ex:Wimbledon_2012_Mixed_Doubles .
+ex:Serena_Williams ex:hasWonTournament ex:Australian_Open_2010_Mixed_Doubles .
+ex:Serena_Williams ex:hasWonTournament ex:US_Open_1998_Mixed_Doubles .
+ex:Serena_Williams ex:hasWonTournament ex:Wimbledon_1998_Mixed_Doubles .
+ex:Serena_Williams ex:hasWonTournament ex:French_Open_1999_Doubles .
+ex:Serena_Williams ex:hasWonTournament ex:US_Open_1999_Doubles .
+ex:Serena_Williams ex:hasWonTournament ex:Wimbledon_1999_Doubles .
+ex:Serena_Williams ex:hasWonTournament ex:French_Open_2001_Doubles .
+ex:Serena_Williams ex:hasWonTournament ex:US_Open_2001_Doubles .
+ex:Serena_Williams ex:hasWonTournament ex:Wimbledon_2000_Doubles .
+ex:Serena_Williams ex:hasWonTournament ex:French_Open_2003_Doubles .
+ex:Serena_Williams ex:hasWonTournament ex:US_Open_2003_Doubles .
+ex:Serena_Williams ex:hasWonTournament ex:Australian_Open_2009_Doubles .
+ex:Serena_Williams ex:hasWonTournament ex:Wimbledon_2009_Doubles .
+ex:Serena_Williams ex:hasWonTournament ex:US_Open_2009_Doubles .
+ex:Serena_Williams ex:hasWonTournament ex:Australian_Open_2010_Doubles .
+ex:Serena_Williams ex:hasWonTournament ex:Wimbledon_2010_Doubles .
+ex:Serena_Williams ex:hasWonTournament ex:US_Open_2010_Doubles .
+ex:Serena_Williams ex:hasWonTournament ex:Australian_Open_2010_Mixed_Doubles .
+ex:Serena_Williams ex:hasWonTournament ex:Wimbledon_2012_Mixed_Doubles .
+ex:Serena_Williams ex:hasWonTournament ex:US_Open_2012_Doubles .
+ex:Serena_Williams ex:hasWonTournament ex:Wimbledon_2012_Doubles .
+ex:Serena_Williams ex:hasWonTournament ex:French_Open_2013_Doubles .
+ex:Serena_Williams ex:hasWonTournament ex:US_Open_2013_Doubles .
+ex:Serena_Williams ex:hasWonTournament ex:Australian_Open_2015_Doubles .
+ex:Serena_Williams ex:hasWonTournament ex:Wimbledon_2016_Doubles .
+ex:Serena_Williams ex:hasWonTournament ex:Wimbledon_2012 .
+ex:Serena_Williams ex:hasWonTournament ex:US_Open_2012 .
+ex:Serena_Williams ex:hasWonTournament ex:French_Open_2013 .
+ex:Serena_Williams ex:hasWonTournament ex:US_Open_2013 .
+ex:Serena_Williams ex:hasWonTournament ex:Australian_Open_2015 .
+ex:Serena_Williams ex:hasWonTournament ex:"
+8,Joe_Biden,"@prefix ex: <http://example.com/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Joe_Biden a ex:Person ;
+    ex:hasName ""Joseph Robinette Biden Jr."" ;
+    ex:hasBirthDate ""1942-11-20""^^xsd:date ;
+    ex:isPolitician true ;
+    ex:isPresidentOf ex:United_States ;
+    ex:isMemberOf ex:Democratic_Party ;
+    ex:hasVicePresident ex:Kamala_Harris ;
+    ex:hasOccupation ex:Politician ;
+    ex:hasEducation ex:Syracuse_University ;
+    ex:hasResidence ex:Delaware ;
+    ex:hasCareer ex:New_Castle_County_Council ;
+    ex:hasCareer ex:United_States_Senate ;
+    ex:hasCommittee ex:Senate_Foreign_Relations_Committee ;
+    ex:hasCommittee ex:Senate_Judiciary_Committee ;
+    ex:hasLegislation ex:Violent_Crime_Control_and_Law_Enforcement_Act ;
+    ex:hasLegislation ex:Violence_Against_Women_Act ;
+    ex:hasConfirmationHearing ex:Robert_Bork ;
+    ex:hasConfirmationHearing ex:Clarence_Thomas ;
+    ex:hasPresidentialCampaign ex:1988 ;
+    ex:hasPresidentialCampaign ex:2008 ;
+    ex:hasSigned ex:American_Rescue_Plan_Act ;
+    ex:hasProposed ex:American_Jobs_Plan ;
+    ex:hasProposed ex:American_Families_Plan ;
+    ex:hasAppointed ex:Ketanji_Brown_Jackson ;
+    ex:hasRespondedTo ex:2022_Russian_invasion_of_Ukraine ;
+    ex:hasRestored ex:Paris_Agreement ;
+    ex:hasWithdrawnFrom ex:Afghanistan ;
+    ex:hasSanctioned ex:Russia ;
+    ex:hasForeignAidTo ex:Ukraine . 
+
+ex:United_States a ex:Country .
+
+ex:Democratic_Party a ex:PoliticalParty .
+
+ex:Kamala_Harris a ex:Person ;
+    ex:hasName ""Kamala Harris"" .
+
+ex:Politician a ex:Occupation .
+
+ex:Syracuse_University a ex:University .
+
+ex:Delaware a ex:State .
+
+ex:New_Castle_County_Council a ex:PoliticalOrganization .
+
+ex:United_States_Senate a ex:PoliticalOrganization .
+
+ex:Senate_Foreign_Relations_Committee a ex:PoliticalOrganization .
+
+ex:Senate_Judiciary_Committee a ex:PoliticalOrganization .
+
+ex:Violent_Crime_Control_and_Law_Enforcement_Act a ex:Legislation .
+
+ex:Violence_Against_Women_Act a ex:Legislation .
+
+ex:Robert_Bork a ex:Person .
+
+ex:Clarence_Thomas a ex:Person .
+
+ex:1988 a ex:PresidentialCampaign .
+
+ex:2008 a ex:PresidentialCampaign .
+
+ex:American_Rescue_Plan_Act a ex:Legislation .
+
+ex:American_Jobs_Plan a ex:Legislation .
+
+ex:American_Families_Plan a ex:Legislation .
+
+ex:Ketanji_Brown_Jackson a ex:Person .
+
+ex:2022_Russian_invasion_of_Ukraine a ex:Event .
+
+ex:Paris_Agreement a ex:InternationalAgreement .
+
+ex:Afghanistan a ex:Country .
+
+ex:Russia a ex:Country .
+
+ex:Ukraine a ex:Country .","@prefix ex: <http://example.com/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Joe_Biden rdf:type ex:Person ;
+    ex:birthDate ""1942-11-20""^^xsd:date ;
+    ex:politicalParty ""Democratic Party"" ;
+    ex:presidentOf ex:United_States ;
+    ex:vicePresidentOf ex:Barack_Obama ;
+    ex:servedIn ex:United_States_Senate ;
+    ex:represented ex:Delaware ;
+    ex:hasEducation ex:Syracuse_University, ex:University_of_Delaware ;
+    ex:wasChairOf ex:Senate_Foreign_Relations_Committee, ex:Senate_Judiciary_Committee ;
+    ex:ledEffortTo ex:Violent_Crime_Control_and_Law_Enforcement_Act, ex:Violence_Against_Women_Act ;
+    ex:oversawConfirmationHearingsFor ex:Robert_Bork, ex:Clarence_Thomas ;
+    ex:ranFor ex:Democratic_presidential_nomination ;
+    ex:facedOppositionIn ex:Senate ;
+    ex:appointed ex:Ketanji_Brown_Jackson ;
+    ex:restored ex:Paris_Agreement ;
+    ex:withdrew ex:US_troops_from_Afghanistan ;
+    ex:respondedTo ex:2022_Russian_invasion_of_Ukraine ;
+    ex:signed ex:American_Rescue_Plan_Act, ex:Infrastructure_Investment_and_Jobs_Act, ex:Inflation_Reduction_Act_of_2022 ;
+    ex:hasRunningMate ex:Kamala_Harris ;
+    ex:defeated ex:Donald_Trump .
+
+ex:United_States rdf:type ex:Country .
+
+ex:Barack_Obama rdf:type ex:President .
+
+ex:United_States_Senate rdf:type ex:Organization .
+
+ex:Delaware rdf:type ex:State .
+
+ex:Syracuse_University rdf:type ex:Education .
+
+ex:University_of_Delaware rdf:type ex:Education .
+
+ex:Senate_Foreign_Relations_Committee rdf:type ex:Committee .
+
+ex:Senate_Judiciary_Committee rdf:type ex:Committee .
+
+ex:Violent_Crime_Control_and_Law_Enforcement_Act rdf:type ex:Law .
+
+ex:Violence_Against_Women_Act rdf:type ex:Law .
+
+ex:Robert_Bork rdf:type ex:Person .
+
+ex:Clarence_Thomas rdf:type ex:Person .
+
+ex:Democratic_presidential_nomination rdf:type ex:Election .
+
+ex:Senate rdf:type ex:Organization .
+
+ex:Ketanji_Brown_Jackson rdf:type ex:Person .
+
+ex:Paris_Agreement rdf:type ex:Treaty .
+
+ex:US_troops_from_Afghanistan rdf:type ex:Withdrawal .
+
+ex:2022_Russian_invasion_of_Ukraine rdf:type ex:Invasion .
+
+ex:American_Rescue_Plan_Act rdf:type ex:Law .
+
+ex:Infrastructure_Investment_and_Jobs_Act rdf:type ex:Law .
+
+ex:Inflation_Reduction_Act_of_2022 rdf:type ex:Law .
+
+ex:Kamala_Harris rdf:type ex:Person .
+
+ex:Donald_Trump rdf:type ex:Person .","@prefix ex: <http://example.com/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Joe_Biden a ex:Person ;
+    ex:hasName ""Joe Biden""@en ;
+    ex:hasBirthDate ""1942-11-20""^^xsd:date ;
+    ex:isPresidentOf ex:United_States ;
+    ex:isMemberOf ex:Democratic_Party ;
+    ex:hasVicePresident ex:Kamala_Harris ;
+    ex:hasOccupation ex:Politician .
+
+ex:United_States a ex:Country .
+
+ex:Democratic_Party a ex:PoliticalParty .
+
+ex:Kamala_Harris a ex:Person ;
+    ex:hasName ""Kamala Harris""@en ;
+    ex:hasOccupation ex:Politician .
+
+ex:American_Rescue_Plan_Act a ex:Legislation ;
+    ex:wasSignedBy ex:Joe_Biden .
+
+ex:Infrastructure_Investment_and_Jobs_Act a ex:Legislation ;
+    ex:wasIncorporatedInto ex:American_Jobs_Plan .
+
+ex:American_Families_Plan a ex:Legislation ;
+    ex:wasMergedInto ex:Build_Back_Better_Act .
+
+ex:Build_Back_Better_Act a ex:Legislation ;
+    ex:wasProposedBy ex:Joe_Biden .
+
+ex:Inflation_Reduction_Act_of_2022 a ex:Legislation ;
+    ex:wasComprehensivelyReworkedFrom ex:Build_Back_Better_Act .
+
+ex:Ketanji_Brown_Jackson a ex:Person ;
+    ex:wasAppointedTo ex:Supreme_Court .
+
+ex:Supreme_Court a ex:Court .
+
+ex:Paris_Agreement a ex:InternationalAgreement ;
+    ex:wasRestoredBy ex:Joe_Biden .
+
+ex:Afghanistan a ex:Country .
+
+ex:Taliban a ex:Organization .
+
+ex:Russian_Invasion_of_Ukraine a ex:Conflict .
+
+ex:Ukraine a ex:Country .
+
+ex:hasWithdrawal ex:Afghanistan ;
+    ex:hasSanction ex:Russia ;
+    ex:hasAuthorized ex:Ukraine .","@prefix ex: <http://example.com/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+ex:Joe_Biden rdf:type ex:Person ;
+    ex:hasName ""Joe Biden""^^xsd:string ;
+    ex:hasBirthday ""1942-11-20""^^xsd:date ;
+    ex:hasNationality ""American""^^xsd:string ;
+    ex:hasOccupation ""politician""^^xsd:string ;
+    ex:isPresidentOf ex:United_States ;
+    ex:hasPoliticalParty ""Democratic Party""^^xsd:string ;
+    ex:hasVicePresident ex:Kamala_Harris ;
+    ex:hasEducation [
+        ex:hasDegree ""law degree""^^xsd:string ;
+        ex:hasAttended ex:Syracuse_University,
+            ex:University_of_Delaware
+    ] ;
+    ex:hasWorkHistory [
+        ex:hasTitle ""chair""^^xsd:string ;
+        ex:hasOrganization ""Senate Foreign Relations Committee""^^xsd:string ;
+        ex:hasDuration ""12 years""^^xsd:string
+    ], [
+        ex:hasTitle ""chair""^^xsd:string ;
+        ex:hasOrganization ""Senate Judiciary Committee""^^xsd:string ;
+        ex:hasDuration ""8 years""^^xsd:string
+    ], [
+        ex:hasTitle ""senator""^^xsd:string ;
+        ex:hasOrganization ""United States Senate""^^xsd:string ;
+        ex:hasDuration ""36 years""^^xsd:string
+    ] ;
+    ex:hasResidence [
+        ex:hasLocation ""Scranton, Pennsylvania""^^xsd:string ;
+        ex:hasDuration ""10 years""^^xsd:string
+    ], [
+        ex:hasLocation ""Delaware""^^xsd:string ;
+        ex:hasDuration ""over 50 years""^^xsd:string
+    ] ;
+    ex:hasFamily [
+        ex:hasRelative ""father""^^xsd:string ;
+        ex:hasName ""Joseph Robinette Biden Sr.""^^xsd:string
+    ], [
+        ex:hasRelative ""mother""^^xsd:string ;
+        ex:hasName ""Catherine Eugenia Biden""^^xsd:string
+    ] ;
+    ex:hasAward ex:Presidential_Medal_of_Freedom ;
+    ex:hasAccomplishment ""signed the American Rescue Plan Act""^^xsd:string ;
+    ex:hasAccomplishment ""proposed the American Jobs Plan""^^xsd:string ;
+    ex:hasAccomplishment ""proposed the American Families Plan""^^xsd:string ;
+    ex:hasAccomplishment ""appointed Ketanji Brown Jackson to the Supreme Court""^^xsd:string ;
+    ex:hasAccomplishment ""restored the U.S. into the Paris Agreement on climate change""^^xsd:string ;
+    ex:hasAccomplishment ""completed the withdrawal of U.S. troops from Afghanistan""^^xsd:string ;
+    ex:hasResponse ""imposed sanctions on Russia and authorized foreign aid and weapons shipments to Ukraine""^^xsd:string .
+
+ex:United_States rdf:type ex:Country ;
+    ex:hasName ""United States""^^xsd:string .
+
+ex:Kamala_Harris rdf:type ex:Person ;
+    ex:hasName ""Kamala Harris""^^xsd:string . 
+
+ex:Syracuse_University rdf:type ex:University ;
+    ex:hasName ""Syracuse University""^^xsd:string .
+
+ex:University_of_Delaware rdf:type ex:University ;
+    ex:hasName ""University of Delaware""^^xsd:string .
+
+ex:Presidential_Medal_of_Freedom rdf:type ex:Award ;
+    ex:hasName ""Presidential Medal of Freedom""^^xsd:string .","@prefix ex: <http://example.com/> .
+
+ex:Joe_Biden a ex:Person ;
+    ex:hasName ""Joseph Robinette Biden Jr."" ;
+    ex:birthDate ""1942-11-20""^^ex:Date ;
+    ex:nationality ""American"" ;
+    ex:occupation ""politician"" ;
+    ex:isPresidentOf ex:United_States ;
+    ex:isMemberOf ex:Democratic_Party ;
+    ex:servedAs ex:Vice_President ;
+    ex:servedUnder ex:Barack_Obama ;
+    ex:represented ex:Delaware ;
+    ex:studiedAt ex:University_of_Delaware ;
+    ex:earnedDegreeFrom ex:Syracuse_University ;
+    ex:wasElectedTo ex:United_States_Senate ;
+    ex:wasChairOf ex:Senate_Foreign_Relations_Committee ;
+    ex:wasChairOf ex:Senate_Judiciary_Committee ;
+    ex:ledEffortToPass ex:Violent_Crime_Control_and_Law_Enforcement_Act ;
+    ex:ledEffortToPass ex:Violence_Against_Women_Act ;
+    ex:oversawConfirmationHearings ex:Robert_Bork ;
+    ex:oversawConfirmationHearings ex:Clarence_Thomas ;
+    ex:ranFor ex:Democratic_Presidential_Nomination ;
+    ex:servedAsCounselorTo ex:Barack_Obama ;
+    ex:defeated ex:Donald_Trump ;
+    ex:isOldestPresident ;
+    ex:hasFemaleVicePresident ;
+    ex:signed ex:American_Rescue_Plan_Act ;
+    ex:proposed ex:American_Jobs_Plan ;
+    ex:proposed ex:American_Families_Plan ;
+    ex:appointed ex:Ketanji_Brown_Jackson ;
+    ex:restored ex:Paris_Agreement ;
+    ex:withdrewTroopsFrom ex:Afghanistan ;
+    ex:imposedSanctionsOn ex:Russia ;
+    ex:authorizedForeignAidTo ex:Ukraine ;
+    ex:authorizedWeaponsShipmentsTo ex:Ukraine ."
+9,Daniel_Craig,"@prefix ex: <http://example.com/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:daniel_craig rdf:type ex:Actor ;
+    ex:hasName ""Daniel Wroughton Craig"" ;
+    ex:hasBirthDate ""1968-03-02""^^xsd:date ;
+    ex:hasNationality ""English-American"" ;
+    ex:hasCareerDescription ""Daniel Wroughton Craig is an English-American actor who gained international fame playing the secret agent James Bond in the film series, beginning with Casino Royale (2006) and in four further instalments, up to No Time to Die (2021). After training at the National Youth Theatre in London and graduating from the Guildhall School of Music and Drama in 1991, Craig began his career on stage. He made his film debut in the drama The Power of One (1992) and the family film A Kid in King Arthur's Court (1995), with his breakthrough role coming in the drama serial Our Friends in the North (1996). He gained prominence for his supporting roles in films such as Elizabeth (1998), Lara Croft: Tomb Raider (2001), Road to Perdition (2002), Layer Cake (2004), and Munich (2005). In 2006, he played James Bond in Casino Royale, a reboot of the Bond franchise which was favourably received by critics and earned Craig a nomination for the BAFTA Award for Best Actor in a Leading Role. His non-Bond appearances since then include roles in the fantasy film The Golden Compass (2007), the drama Defiance (2008), the science fiction Western Cowboys & Aliens (2011), the mystery thriller The Girl with the Dragon Tattoo (2011), the heist film Logan Lucky (2017), and the mystery comedy Knives Out (2019), the last earning him a Golden Globe Award nomination. In 2011, he made his Broadway debut in the revival of Harold Pinter's Betrayal opposite his wife, the actress Rachel Weisz. In 2016, he starred in the New York Theatre Workshop production of Othello. In 2022, he returned to Broadway in the title role of Macbeth with Ruth Negga."" .","@prefix ex: <http://example.com/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+ex:Daniel_Craig rdf:type ex:Actor ;
+    ex:hasBirthDate ""1968-03-02""^^xsd:date ;
+    ex:hasNationality ""English-American"" ;
+    ex:hasCareer ex:James_Bond ;
+    ex:hasCareer ex:Our_Friends_in_the_North ;
+    ex:hasCareer ex:Elizabeth ;
+    ex:hasCareer ex:Lara_Croft_Tomb_Raider ;
+    ex:hasCareer ex:Road_to_Perdition ;
+    ex:hasCareer ex:Layer_Cake ;
+    ex:hasCareer ex:Munich ;
+    ex:hasCareer ex:The_Golden_Compass ;
+    ex:hasCareer ex:Defiance ;
+    ex:hasCareer ex:Cowboys_and_Aliens ;
+    ex:hasCareer ex:The_Girl_with_the_Dragon_Tattoo ;
+    ex:hasCareer ex:Logan_Lucky ;
+    ex:hasCareer ex:Knives_Out ;
+    ex:hasBroadwayDebut ex:Betrayal ;
+    ex:hasBroadwayDebut ex:Othello ;
+    ex:hasBroadwayRole ex:Macbeth ;
+    ex:hasSpouse ex:Rachel_Weisz ;
+    rdfs:label ""Daniel Craig"" .
+
+ex:James_Bond rdf:type ex:FilmSeries ;
+    rdfs:label ""James Bond"" .
+
+ex:Our_Friends_in_the_North rdf:type ex:TVSeries ;
+    rdfs:label ""Our Friends in the North"" .
+
+ex:Elizabeth rdf:type ex:Film ;
+    rdfs:label ""Elizabeth"" .
+
+ex:Lara_Croft_Tomb_Raider rdf:type ex:Film ;
+    rdfs:label ""Lara Croft: Tomb Raider"" .
+
+ex:Road_to_Perdition rdf:type ex:Film ;
+    rdfs:label ""Road to Perdition"" .
+
+ex:Layer_Cake rdf:type ex:Film ;
+    rdfs:label ""Layer Cake"" .
+
+ex:Munich rdf:type ex:Film ;
+    rdfs:label ""Munich"" .
+
+ex:The_Golden_Compass rdf:type ex:Film ;
+    rdfs:label ""The Golden Compass"" .
+
+ex:Defiance rdf:type ex:Film ;
+    rdfs:label ""Defiance"" .
+
+ex:Cowboys_and_Aliens rdf:type ex:Film ;
+    rdfs:label ""Cowboys & Aliens"" .
+
+ex:The_Girl_with_the_Dragon_Tattoo rdf:type ex:Film ;
+    rdfs:label ""The Girl with the Dragon Tattoo"" .
+
+ex:Logan_Lucky rdf:type ex:Film ;
+    rdfs:label ""Logan Lucky"" .
+
+ex:Knives_Out rdf:type ex:Film ;
+    rdfs:label ""Knives Out"" .
+
+ex:Betrayal rdf:type ex:Play ;
+    rdfs:label ""Betrayal"" .
+
+ex:Othello rdf:type ex:Play ;
+    rdfs:label ""Othello"" .
+
+ex:Macbeth rdf:type ex:Play ;
+    rdfs:label ""Macbeth"" .
+
+ex:Rachel_Weisz rdf:type ex:Actress ;
+    rdfs:label ""Rachel Weisz"" .","```
+@prefix ex: <http://example.com/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:daniel_craig rdf:type ex:Actor ;
+    ex:name ""Daniel Wroughton Craig"" ;
+    ex:hasBirthDate ""1968-03-02""^^xsd:date ;
+    ex:hasNationality ""English-American"" ;
+    ex:hasCareer ex:stageActor, ex:filmActor, ex:broadwayActor ;
+    ex:hasEducation ex:NationalYouthTheatre, ex:GuildhallSchoolOfMusicAndDrama ;
+    ex:hasRole ex:JamesBond, ex:OurFriendsInTheNorth, ex:Elizabeth, ex:LaraCroftTombRaider,
+        ex:RoadToPerdition, ex:LayerCake, ex:Munich, ex:TheGoldenCompass, ex:Defiance,
+        ex:CowboysAndAliens, ex:TheGirlWithTheDragonTattoo, ex:LoganLucky, ex:KnivesOut,
+        ex:Betrayal, ex:Othello, ex:Macbeth ;
+    ex:hasAward ex:BAFTA, ex:GoldenGlobe ;
+    ex:hasWife ex:RachelWeisz .
+
+ex:stageActor rdf:type ex:Career .
+ex:filmActor rdf:type ex:Career .
+ex:broadwayActor rdf:type ex:Career .
+
+ex:NationalYouthTheatre rdf:type ex:Education .
+ex:GuildhallSchoolOfMusicAndDrama rdf:type ex:Education .
+
+ex:JamesBond rdf:type ex:Role .
+ex:OurFriendsInTheNorth rdf:type ex:Role .
+ex:Elizabeth rdf:type ex:Role .
+ex:LaraCroftTombRaider rdf:type ex:Role .
+ex:RoadToPerdition rdf:type ex:Role .
+ex:LayerCake rdf:type ex:Role .
+ex:Munich rdf:type ex:Role .
+ex:TheGoldenCompass rdf:type ex:Role .
+ex:Defiance rdf:type ex:Role .
+ex:CowboysAndAliens rdf:type ex:Role .
+ex:TheGirlWithTheDragonTattoo rdf:type ex:Role .
+ex:LoganLucky rdf:type ex:Role .
+ex:KnivesOut rdf:type ex:Role .
+ex:Betrayal rdf:type ex:Role .
+ex:Othello rdf:type ex:Role .
+ex:Macbeth rdf:type ex:Role .
+
+ex:BAFTA rdf:type ex:Award .
+ex:GoldenGlobe rdf:type ex:Award .
+```","@prefix ex: <http://example.com/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+ex:Daniel_Craig rdf:type foaf:Person .
+ex:Daniel_Craig foaf:name ""Daniel Wroughton Craig"" .
+ex:Daniel_Craig ex:hasBirthDate ""1968-03-02""^^xsd:date .
+ex:Daniel_Craig ex:hasNationality ""English-American"" .
+ex:Daniel_Craig ex:hasOccupation ""Actor"" .
+ex:Daniel_Craig ex:hasCareerDescription ""Daniel Wroughton Craig is an English-American actor who gained international fame playing the secret agent James Bond in the film series, beginning with Casino Royale (2006) and in four further instalments, up to No Time to Die (2021). After training at the National Youth Theatre in London and graduating from the Guildhall School of Music and Drama in 1991, Craig began his career on stage. He made his film debut in the drama The Power of One (1992) and the family film A Kid in King Arthur's Court (1995), with his breakthrough role coming in the drama serial Our Friends in the North (1996). He gained prominence for his supporting roles in films such as Elizabeth (1998), Lara Croft: Tomb Raider (2001), Road to Perdition (2002), Layer Cake (2004), and Munich (2005). In 2006, he played James Bond in Casino Royale, a reboot of the Bond franchise which was favourably received by critics and earned Craig a nomination for the BAFTA Award for Best Actor in a Leading Role. His non-Bond appearances since then include roles in the fantasy film The Golden Compass (2007), the drama Defiance (2008), the science fiction Western Cowboys & Aliens (2011), the mystery thriller The Girl with the Dragon Tattoo (2011), the heist film Logan Lucky (2017), and the mystery comedy Knives Out (2019), the last earning him a Golden Globe Award nomination. In 2011, he made his Broadway debut in the revival of Harold Pinter's Betrayal opposite his wife, the actress Rachel Weisz. In 2016, he starred in the New York Theatre Workshop production of Othello. In 2022, he returned to Broadway in the title role of Macbeth with Ruth Negga."" . 
+ex:Daniel_Craig ex:hasAward ""Golden Globe Award nomination"" .
+ex:Daniel_Craig ex:hasAward ""BAFTA Award for Best Actor in a Leading Role"" .
+ex:Daniel_Craig ex:hasSpouse ex:Rachel_Weisz .
+ex:Rachel_Weisz rdf:type foaf:Person .
+ex:Rachel_Weisz foaf:name ""Rachel Weisz"" . 
+ex:Rachel_Weisz ex:hasOccupation ""Actress"" . 
+ex:Macbeth rdf:type ex:TheatreProduction .
+ex:Macbeth ex:hasTitle ""Macbeth"" .
+ex:Macbeth ex:hasLeadActor ex:Daniel_Craig .
+ex:Macbeth ex:hasCoActor ""Ruth Negga"" .
+ex:Betrayal rdf:type ex:TheatreProduction .
+ex:Betrayal ex:hasTitle ""Betrayal"" .
+ex:Betrayal ex:hasLeadActor ex:Daniel_Craig . 
+ex:Othello rdf:type ex:TheatreProduction .
+ex:Othello ex:hasTitle ""Othello"" .
+ex:Othello ex:hasLeadActor ex:Daniel_Craig .","@prefix ex: <http://example.com/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix dbr: <http://dbpedia.org/resource/> .
+@prefix dbo: <http://dbpedia.org/ontology/> .
+
+ex:Daniel_Craig rdf:type foaf:Person ;
+    foaf:name ""Daniel Wroughton Craig"" ;
+    foaf:birthday ""1968-03-02""^^xsd:date ;
+    ex:hasNationality ex:English-American ;
+    ex:hasOccupation ex:Actor .
+
+ex:English-American rdf:type ex:Nationality .
+
+ex:Actor rdf:type ex:Occupation .
+
+ex:Daniel_Craig ex:hasPlayed ex:James_Bond ;
+    ex:hasPlayed ex:Betrayal ;
+    ex:hasPlayed ex:Othello ;
+    ex:hasPlayed ex:Macbeth ;
+    ex:hasAppearedIn ex:The_Power_of_One ;
+    ex:hasAppearedIn ex:A_Kid_in_King_Arthur's_Court ;
+    ex:hasAppearedIn ex:Our_Friends_in_the_North ;
+    ex:hasAppearedIn ex:Elizabeth ;
+    ex:hasAppearedIn ex:Lara_Croft:_Tomb_Raider ;
+    ex:hasAppearedIn ex:Road_to_Perdition ;
+    ex:hasAppearedIn ex:Layer_Cake ;
+    ex:hasAppearedIn ex:Munich ;
+    ex:hasAppearedIn ex:The_Golden_Compass ;
+    ex:hasAppearedIn ex:Defiance ;
+    ex:hasAppearedIn ex:Cowboys_&_Aliens ;
+    ex:hasAppearedIn ex:The_Girl_with_the_Dragon_Tattoo ;
+    ex:hasAppearedIn ex:Logan_Lucky ;
+    ex:hasAppearedIn ex:Knives_Out ;
+    ex:hasAward ex:BAFTA_Award_for_Best_Actor_in_a_Leading_Role ;
+    ex:hasAward ex:Golden_Globe_Award .
+
+ex:James_Bond rdf:type ex:Character .
+
+ex:Betrayal rdf:type ex:Theatre_Production ;
+    ex:hasPerformer ex:Rachel_Weisz .
+
+ex:Othello rdf:type ex:Theatre_Production .
+
+ex:Macbeth rdf:type ex:Theatre_Production ;
+    ex:hasPerformer ex:Ruth_Negga .
+
+ex:The_Power_of_One rdf:type ex:Film .
+
+ex:A_Kid_in_King_Arthur's_Court rdf:type ex:Film .
+
+ex:Our_Friends_in_the_North rdf:type ex:Television_Series .
+
+ex:Elizabeth rdf:type ex:Film .
+
+ex:Lara_Croft:_Tomb_Raider rdf:type ex:Film .
+
+ex:Road_to_Perdition rdf:type ex:Film .
+
+ex:Layer_Cake rdf:type ex:Film .
+
+ex:Munich rdf:type ex:Film .
+
+ex:The_Golden_Compass rdf:type ex:Film .
+
+ex:Defiance rdf:type ex:Film .
+
+ex:Cowboys_&_Aliens rdf:type ex:Film .
+
+ex:The_Girl_with_the_Dragon_Tattoo rdf:type ex:Film .
+
+ex:Logan_Lucky rdf:type ex:Film .
+
+ex:Knives_Out rdf:type ex:Film .
+
+ex:BAFTA_Award_for_Best_Actor_in_a_Leading_Role rdf:type ex:Award .
+
+ex:Golden_Globe_Award rdf:type ex:Award ."
