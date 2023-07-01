@@ -1,0 +1,99 @@
+<mxfile host="app.diagrams.net" modified="2023-07-01T10:18:49.691Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="Bc8aBlI0xJWBqsJytts4" version="21.4.0" type="device">
+  <diagram name="Page-1" id="rzxjESCY15wWe4HrOR2P">
+    <mxGraphModel dx="954" dy="616" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="vrQ8XdH6mDczX7N_cH37-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" target="vrQ8XdH6mDczX7N_cH37-4" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="140" y="250" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vrQ8XdH6mDczX7N_cH37-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="vrQ8XdH6mDczX7N_cH37-4" target="vrQ8XdH6mDczX7N_cH37-10" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="635" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vrQ8XdH6mDczX7N_cH37-4" value="Entity labels" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="1" vertex="1">
+          <mxGeometry x="330" y="230" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ssapiaBLm5lQJnrwK6G2-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="vrQ8XdH6mDczX7N_cH37-5" target="ssapiaBLm5lQJnrwK6G2-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vrQ8XdH6mDczX7N_cH37-5" value="&lt;pre style=&quot;box-sizing: unset; font-family: var(--jp-code-font-family); font-size: var(--jp-code-font-size); line-height: var(--jp-code-line-height); color: var(--jp-content-font-color1); border: none; margin: 0px; padding: 0px; overflow: auto; word-break: break-all; overflow-wrap: break-word; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; scroll-behavior: auto !important;&quot;&gt;Unprocessed triples&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="1" vertex="1">
+          <mxGeometry x="660" y="470" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="vrQ8XdH6mDczX7N_cH37-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;" parent="1" source="vrQ8XdH6mDczX7N_cH37-10" target="vrQ8XdH6mDczX7N_cH37-5" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="720" y="270" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vrQ8XdH6mDczX7N_cH37-7" value="Format links into labels" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="165" y="210" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vrQ8XdH6mDczX7N_cH37-8" value="Use labels to extract &lt;br&gt;the abstracts from DBpedia" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="465" y="200" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="vrQ8XdH6mDczX7N_cH37-9" value="Stanford Extracts &lt;br&gt;triples from abstracts" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="550" y="330" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ssapiaBLm5lQJnrwK6G2-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="vrQ8XdH6mDczX7N_cH37-10" target="ssapiaBLm5lQJnrwK6G2-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vrQ8XdH6mDczX7N_cH37-10" value="Abstracts" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="1" vertex="1">
+          <mxGeometry x="660" y="230" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ssapiaBLm5lQJnrwK6G2-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ssapiaBLm5lQJnrwK6G2-2" target="vrQ8XdH6mDczX7N_cH37-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ssapiaBLm5lQJnrwK6G2-2" value="Abstract split into sentence" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="720" y="340" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ssapiaBLm5lQJnrwK6G2-4" value="Split Abstract into sentences" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="760" y="278" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ssapiaBLm5lQJnrwK6G2-6" value="ClauCy extracts &lt;br&gt;triples from sentences" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="790" y="390" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ssapiaBLm5lQJnrwK6G2-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ssapiaBLm5lQJnrwK6G2-7" target="ssapiaBLm5lQJnrwK6G2-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ssapiaBLm5lQJnrwK6G2-7" value="&lt;pre style=&quot;box-sizing: unset; font-family: var(--jp-code-font-family); font-size: var(--jp-code-font-size); line-height: var(--jp-code-line-height); color: var(--jp-content-font-color1); border: none; margin: 0px; padding: 0px; overflow: auto; word-break: break-all; overflow-wrap: break-word; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; scroll-behavior: auto !important;&quot;&gt;Unprocessed triples&lt;/pre&gt;&lt;pre style=&quot;box-sizing: unset; font-family: var(--jp-code-font-family); font-size: var(--jp-code-font-size); line-height: var(--jp-code-line-height); color: var(--jp-content-font-color1); border: none; margin: 0px; padding: 0px; overflow: auto; word-break: break-all; overflow-wrap: break-word; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; scroll-behavior: auto !important;&quot;&gt; about the entities&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="330" y="470" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ssapiaBLm5lQJnrwK6G2-9" value="Remove any triples &lt;br&gt;not about the Entites" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="485" y="443" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ssapiaBLm5lQJnrwK6G2-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ssapiaBLm5lQJnrwK6G2-10" target="ssapiaBLm5lQJnrwK6G2-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ssapiaBLm5lQJnrwK6G2-10" value="&lt;pre style=&quot;box-sizing: unset; font-family: var(--jp-code-font-family); font-size: var(--jp-code-font-size); line-height: var(--jp-code-line-height); color: var(--jp-content-font-color1); border: none; margin: 0px; padding: 0px; overflow: auto; word-break: break-all; overflow-wrap: break-word; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; scroll-behavior: auto !important;&quot;&gt;Processed Triples&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="330" y="600" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ssapiaBLm5lQJnrwK6G2-12" value="Use BERT to find predicate for&lt;br&gt;objects noun chunk" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="420" y="530" width="190" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ssapiaBLm5lQJnrwK6G2-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="ssapiaBLm5lQJnrwK6G2-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="80" y="510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ssapiaBLm5lQJnrwK6G2-13" value="&lt;pre style=&quot;box-sizing: unset; font-family: var(--jp-code-font-family); font-size: var(--jp-code-font-size); line-height: var(--jp-code-line-height); color: var(--jp-content-font-color1); border: none; margin: 0px; padding: 0px; overflow: auto; word-break: break-all; overflow-wrap: break-word; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; scroll-behavior: auto !important;&quot;&gt;Formatted Triples&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="20" y="600" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ssapiaBLm5lQJnrwK6G2-17" value="Turn triples attributes into&lt;br&gt;links and literals" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="160" y="630" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ssapiaBLm5lQJnrwK6G2-19" value="Remove Triples That &lt;br&gt;have invalid links&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="100" y="540" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ssapiaBLm5lQJnrwK6G2-20" value="Final Triples" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="470" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ssapiaBLm5lQJnrwK6G2-21" value="Entity URI Links" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="226" width="120" height="48" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
