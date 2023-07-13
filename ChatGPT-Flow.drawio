@@ -1,1 +1,58 @@
-<mxGraphModel><root><mxCell id="0"/><mxCell id="1" parent="0"/></root></mxGraphModel>
+<mxfile host="app.diagrams.net" modified="2023-07-12T16:18:05.027Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" version="21.5.2" etag="mpCuiym_P0YjnQhjVH0P" type="device">
+  <diagram id="FojTEvXZD0VDC90ySzcO" name="Page-1">
+    <mxGraphModel dx="954" dy="616" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="huZRY0HfNR9McpDKmO3j-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="huZRY0HfNR9McpDKmO3j-1" target="huZRY0HfNR9McpDKmO3j-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="huZRY0HfNR9McpDKmO3j-1" value="Entity URI links&amp;nbsp;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="200" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="huZRY0HfNR9McpDKmO3j-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="huZRY0HfNR9McpDKmO3j-2" target="huZRY0HfNR9McpDKmO3j-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="huZRY0HfNR9McpDKmO3j-2" value="Entity labels" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="200" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="huZRY0HfNR9McpDKmO3j-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="huZRY0HfNR9McpDKmO3j-4" target="huZRY0HfNR9McpDKmO3j-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="huZRY0HfNR9McpDKmO3j-4" value="Abstracts" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="200" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="huZRY0HfNR9McpDKmO3j-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="huZRY0HfNR9McpDKmO3j-6" target="huZRY0HfNR9McpDKmO3j-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="huZRY0HfNR9McpDKmO3j-6" value="String of triples for each entity" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="310" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="huZRY0HfNR9McpDKmO3j-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="huZRY0HfNR9McpDKmO3j-8" target="huZRY0HfNR9McpDKmO3j-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="huZRY0HfNR9McpDKmO3j-8" value="Raw triples" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="310" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="huZRY0HfNR9McpDKmO3j-10" value="Processed triples" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="310" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="huZRY0HfNR9McpDKmO3j-13" value="Format links into labels" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="170" y="180" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="huZRY0HfNR9McpDKmO3j-14" value="Use labels to extract &lt;br&gt;abstracts from DBpedia" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="440" y="170" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="huZRY0HfNR9McpDKmO3j-15" value="ChatGPT query to &lt;br&gt;output triples" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="650" y="250" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="huZRY0HfNR9McpDKmO3j-16" value="Convert strings into &lt;br&gt;triples" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="455" y="285" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="huZRY0HfNR9McpDKmO3j-17" value="Fix prefix and remove&lt;br&gt;poorly formatted triples" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="170" y="285" width="150" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
